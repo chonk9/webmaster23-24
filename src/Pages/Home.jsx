@@ -5,8 +5,7 @@ import Footer from '../Components/footer';
 export default function CleanSolutions() {
   return(
     < Navbar />, 
-    <h>Home Page : )</h>,
-    < Footer />
+    <h>Home Page : )</h>
   );
 
 }
