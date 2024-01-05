@@ -3,9 +3,8 @@ import Navbar from '../Components/navbar';
 import Footer from '../Components/footer';
 
 export default function CleanSolutions() {
-  return(
-    < Navbar />, 
-    <h>Clean Solutions</h>,
+  return(<>
+    <h1>Clean Solutions</h1>,
       <div className = "content">
         <h1 className = "atHomeCS">At Home Solutions</h1>
         <h2 className = "headerCS">What you can do at home</h2 >
@@ -24,6 +23,6 @@ export default function CleanSolutions() {
       </div>
 
     /*< Footer /> */
-  );
+  </>);
 
 }

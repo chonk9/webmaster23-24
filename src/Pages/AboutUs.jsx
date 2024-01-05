@@ -3,10 +3,8 @@ import Navbar from '../Components/navbar';
 import Footer from '../Components/footer';
 
 export default function AboutUs() {
-  return(
-    < Navbar />, 
-    <h>We save you money.</h>
-    /*< Footer /> */
-  );
+  return(<>
+    <h1>We save you money.</h1>
+  </>);
 
 }
