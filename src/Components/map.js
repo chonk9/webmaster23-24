@@ -4,7 +4,7 @@ export default function Map() {
     const [hoveredState, setHoveredState] = useState(null);
 
     return (<>
-        <h1>{hoveredState}</h1>
+        <h1>{hoveredState == null ? 'Hover over a state.' : `Hovering over ${hoveredState}`}</h1>
         <svg viewBox="0 0 360 270">
             <StatePaths setHoveredState={setHoveredState}/>
         </svg>
@@ -12,7 +12,19 @@ export default function Map() {
 }
 
 function State(props) {
-    return (<path data-state={props.name} d={props.path} onMouseEnter={() => {props.setHoveredState(props.name)}} onMouseLeave={() => {props.setHoveredState(null)}} fill="green" strokeWidth="0.1" stroke="black"/>)
+    const [isHovering, setIsHovering] = useState(false);
+
+    function onMouseEnter() {
+        setIsHovering(true);
+        props.setHoveredState(props.name);
+    }
+
+    function onMouseLeave() {
+        setIsHovering(false);
+        props.setHoveredState(null);
+    }
+
+    return (<path class="state-path" data-state={props.name} d={props.path} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} fill={isHovering ? '#3e853d' : '#3fa13d'} strokeWidth="0.1" stroke="black"/>)
 }
 
 function StatePaths(props) {
