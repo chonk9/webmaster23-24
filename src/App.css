@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.bold {
+  font-weight: 600;
+}
+
+.map {
+  width: 75%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 0.6rem;
+}
+
+.state-info-popup {
+  position: absolute;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
