@@ -4,7 +4,7 @@ import Footer from '../Components/footer';
 
 export default function TaxIncentives() {
   return(<>
-    <h>Tax Solutions</h>
+    <h1>Tax Solutions</h1>
   </>);
 
 }

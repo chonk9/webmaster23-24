@@ -22,7 +22,7 @@ export default function CleanSolutions() {
         </h>
       </div>
 
-    /*< Footer /> */
+    < Footer />
   </>);
 
 }

@@ -1,8 +1,8 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
-export default function footer(){
+export default function navbar(){
     const pathname = window.location.pathname
-    return( <nav className="foot">
+    return( <nav className="nav">
         <Link to = "/" className = "site-title">Green Guardians</Link>
         <ul>
             <CustomLink to = "/clean-solutions">Clean Solutions</CustomLink>
