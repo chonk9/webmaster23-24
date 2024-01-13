@@ -20,6 +20,7 @@ export default function CleanSolutions() {
           } />
         </div>
       </div>
+    </div>
 
     < Footer />
   </>);
