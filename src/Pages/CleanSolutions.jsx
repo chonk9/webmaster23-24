@@ -4,7 +4,9 @@ import Footer from '../Components/footer';
 import WindAnimation from '../Components/windAnimation';
 import SunAnimation from '../Components/sunAnimation';
 import TextWrap from '../Components/textWrap.js';
+
 import homeTurbine from '../Images/homeTurbine.jpg'
+import solarPanels from '../Images/solarPanels.webp'
 
 export default function CleanSolutions() {
   return (<>
@@ -22,8 +24,15 @@ export default function CleanSolutions() {
             <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </>}/>
         </div>
+
         <div className="solution">
           <SolutionHeading visual={SunAnimation} solutionName="Solar Energy Systems" />
+          <TextWrap wrappedSide="left" wrappedElt={<>
+            <img src={solarPanels}></img>
+          </>} textElt={<>
+            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+          </>}/>
         </div>
       </div>
     </div>
