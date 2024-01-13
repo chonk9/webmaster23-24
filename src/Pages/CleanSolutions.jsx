@@ -5,7 +5,7 @@ import WindAnimation from '../Components/windAnimation';
 import TextWrap from '../Components/textWrap.js';
 
 export default function CleanSolutions() {
-  return(<>
+  return (<>
     <h1>Clean Solutions</h1>
     <div className="content">
       <div>
@@ -20,8 +20,8 @@ export default function CleanSolutions() {
           } />
         </div>
       </div>
+    </div>
 
-    < Footer />
+    <Footer />
   </>);
-
 }
