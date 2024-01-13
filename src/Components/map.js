@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../ComponentStyles/map.css';
 
 let stateInfo = require('../config/stateInfo.json');
 
@@ -8,7 +9,6 @@ export default function Map() {
     const [selectedCoords, setSelectedCoords] = useState(null);
 
     return (<div class="map">
-        <h1>Select a state to see some information about it.</h1>
         { selectedState !== null &&
             <InfoPopup selectedState={selectedState} selectedCoords={selectedCoords}/>
         }

@@ -1,0 +1,21 @@
+.wind-animation {
+  width: 100%;
+}
+
+.wind-path {
+  animation: blow 2.5s linear infinite;
+  stroke-dasharray: 30 100;
+}
+
+@keyframes blow {
+  0% {
+    stroke-dashoffset: 30;
+  }
+  0%, 50% {
+    opacity: 1;
+  }
+  70%, 100% {
+    stroke-dashoffset: -20;
+    opacity: 0;
+  }
+}
