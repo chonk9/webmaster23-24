@@ -1,3 +1,7 @@
 .wrapped-elt {
     width: 50%;
 }
+
+.wrapped-elt img {
+    width: 100%;
+}

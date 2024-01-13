@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../ComponentStyles/textWrap.css';
 
 export default function TextWrap(props) {
-    let wrappedEltStyle = {float: props.wrappedSide};
+    let wrappedEltStyle = {float: props.wrappedSide, overflow: 'auto'};
 
     if (props.wrappedSide === "right") {
         wrappedEltStyle.marginLeft = '1rem'
@@ -11,7 +11,7 @@ export default function TextWrap(props) {
     }
 
     return (<>
-        <div class="wrapped-elt" style={wrappedEltStyle}>
+        <div className="wrapped-elt" style={wrappedEltStyle}>
             {props.wrappedElt}
         </div>
         {props.textElt}
