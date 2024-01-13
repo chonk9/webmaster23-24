@@ -28,6 +28,12 @@
     animation-delay: calc(var(--progress) * -1s);
 }
 
+.leaf-reveal-content-bottom {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .leaf-img {
     --width: 25%;
     --right-shift: -7%;
