@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/navbar';
+import Footer from './Components/footer';
 import Home from './Pages/Home';
 import CleanSolutions from './Pages/CleanSolutions';
 import TaxIncentives from './Pages/TaxIncentives';
@@ -18,6 +19,8 @@ function App() {
           <Route path = "/about-us" element = {<AboutUs />} />
         </Routes> 
       </div>
+
+      <Footer />
     </>
   )
 }
