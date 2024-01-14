@@ -1,0 +1,31 @@
+@property --ray-length {
+    syntax: '<number>';
+    initial-value: 0;
+    inherits: true;
+}
+
+.sun-animation {
+    animation: oscillate-rays 1s alternate ease-in-out infinite, rotate 4s infinite;
+}
+
+@keyframes oscillate-rays {
+    from {
+        --ray-length: 1;
+    }
+    to {
+        --ray-length: 1.5;
+    }
+}
+
+@keyframes rotate {
+    0%, 60% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(calc(360deg / 8));
+    }
+}
