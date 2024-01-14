@@ -1,10 +1,10 @@
 .leaf-reveal {
     position: relative;
-  
+
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
-    
+
     padding-top: var(--down-scroll);
 }
 
@@ -12,10 +12,9 @@
     --left-shift: 10%;
 
     width: 50%;
-    margin: auto;
 
     padding: 1rem;
-    text-align: right;
+    text-align: left;
 
     position: relative;
     float: left;
