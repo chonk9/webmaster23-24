@@ -1,6 +1,7 @@
 import React from 'react';
 import WindAnimation from '../Components/windAnimation';
 import SunAnimation from '../Components/sunAnimation';
+import CarAnimation from '../Components/carAnimation';
 import TextWrap from '../Components/textWrap.js';
 
 import homeTurbine from '../Images/homeTurbine.jpg'
@@ -12,7 +13,7 @@ export default function CleanSolutions() {
     <h1>Clean Solutions</h1>
     <div className="content">
       <div>
-        <h2>Home Systems</h2>
+        <h2 className="solution-group-title">Home Systems</h2>
         <div className="solution">
           <SolutionHeading visual={WindAnimation} solutionName="Wind Energy Systems" />
         
@@ -33,9 +34,9 @@ export default function CleanSolutions() {
           </>}/>
         </div>
 
-        <h2>Car Systems</h2>
+        <h2 className="solution-group-title">Car Systems</h2>
         <div className="solution">
-          <SolutionHeading visual={SunAnimation} solutionName="Electric Vehicles" />
+          <SolutionHeading visual={CarAnimation} solutionName="Electric Vehicles" />
           <TextWrap wrappedSide="Right" wrappedElt={<>
             <img src={electricVehicle}></img>
           </>} textElt={<>

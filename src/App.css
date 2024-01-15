@@ -85,3 +85,7 @@ p {
 .left-align {
   text-align: left;
 }
+
+.solution-group-title {
+  margin-top: 2rem;
+}

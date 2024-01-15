@@ -1,0 +1,31 @@
+@property --speed-pointer-angle {
+    syntax: '<number>';
+    initial-value: 0;
+    inherits: true;
+}
+
+.speedometer-edge {
+    fill: none;
+}
+
+.speed-pointer {
+    animation: turn-pointer 6s infinite;
+}
+
+@keyframes turn-pointer {
+    0% {
+        --speed-pointer-angle: 120;
+    }
+    10%, 20% {
+        --speed-pointer-angle: 130;
+    }
+    40% {
+        --speed-pointer-angle: 110;
+    }
+    70%, 85% {
+        --speed-pointer-angle: 180;
+    }
+    100% {
+        --speed-pointer-angle: 120;
+    }
+}
