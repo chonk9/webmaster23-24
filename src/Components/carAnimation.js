@@ -10,27 +10,33 @@ export default function CarAnimation(props) {
         const centerY = 5;
 
         const tickCircumference = 240;
-        const tickCount = 12;
+        const tickCount = 61;
+        const majorTickInterval = 5; // Number of ticks from one large tick to another
 
         const tickAngleBetween = tickCircumference / (tickCount - 1);
-        const lineStartDist = 2.8;
-        const lineEndDist = 4;
+        const majorTickStartDist = 2.8;
+        const minorTickStartDist = 3.5;
+        const tickEndDist = 4;
 
+        let tickI = 0;
         for (let angleDeg = 90 + tickCircumference / 2; angleDeg >= 90 - tickCircumference / 2; angleDeg -= tickAngleBetween) {
             let angle = angleDeg * Math.PI / 180;
             
             let newLine = document.createElementNS('http://www.w3.org/2000/svg','line');
 
-            let startPos = [centerX + lineStartDist * Math.cos(angle), centerY - lineStartDist * Math.sin(angle)];
-            let endPos = [centerX + lineEndDist * Math.cos(angle), centerY - lineEndDist * Math.sin(angle)];
+            let startDist = tickI % majorTickInterval === 0 ? majorTickStartDist : minorTickStartDist;
+            let startPos = [centerX + startDist * Math.cos(angle), centerY - startDist * Math.sin(angle)];
+            let endPos = [centerX + tickEndDist * Math.cos(angle), centerY - tickEndDist * Math.sin(angle)];
             
             newLine.setAttribute('x1', startPos[0]);
             newLine.setAttribute('y1', startPos[1]);
             newLine.setAttribute('x2', endPos[0]);
             newLine.setAttribute('y2', endPos[1]);
             newLine.setAttribute('stroke', 'black');
-            newLine.setAttribute('stroke-width', '0.1');
+            newLine.setAttribute('stroke-width', '0.05');
             tickContainer.current.appendChild(newLine);
+
+            tickI ++;
         }
 
         const pointerLength = 3.5;
@@ -51,7 +57,7 @@ export default function CarAnimation(props) {
         <svg className="car-animation" viewBox="0 0 10 10" style={props.style}>
             <circle className="speedometer-edge" cx="5" cy="5" r="4" stroke="black" strokeWidth="0.1"></circle>
             <g className="ticks" ref={tickContainer}></g>
-            <line className="speed-pointer" ref={speedPointer} x1="5" y1="5" x2="5" y2="1.5" stroke="red" strokeWidth="0.1"></line>
+            <line className="speed-pointer" ref={speedPointer} stroke="red" strokeWidth="0.15"></line>
         </svg>
     </>)
 }
