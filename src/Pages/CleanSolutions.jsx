@@ -13,7 +13,7 @@ export default function CleanSolutions() {
     <h1>Clean Solutions</h1>
     <div className="content">
       <div>
-        <h2 className="solution-group-title">Home Systems</h2>
+        <h2 className="page-subheading">Home Systems</h2>
         <div className="solution">
           <SolutionHeading visual={WindAnimation} solutionName="Wind Energy Systems" />
         
@@ -34,7 +34,7 @@ export default function CleanSolutions() {
           </>}/>
         </div>
 
-        <h2 className="solution-group-title">Car Systems</h2>
+        <h2 className="page-subheading">Car Systems</h2>
         <div className="solution">
           <SolutionHeading visual={CarAnimation} solutionName="Electric Vehicles" />
           <TextWrap wrappedSide="Right" wrappedElt={<>
