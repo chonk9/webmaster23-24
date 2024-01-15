@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from '../Components/navbar';
-import Footer from '../Components/footer';
 import WindAnimation from '../Components/windAnimation';
 import SunAnimation from '../Components/sunAnimation';
 import TextWrap from '../Components/textWrap.js';
 
 import homeTurbine from '../Images/homeTurbine.jpg'
 import solarPanels from '../Images/solarPanels.webp'
+import electricVehicle from '../Images/electric-vehicle.jpg'
 
 export default function CleanSolutions() {
   return (<>
@@ -24,7 +23,6 @@ export default function CleanSolutions() {
             <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </>}/>
         </div>
-
         <div className="solution">
           <SolutionHeading visual={SunAnimation} solutionName="Solar Energy Systems" />
           <TextWrap wrappedSide="left" wrappedElt={<>
@@ -34,10 +32,21 @@ export default function CleanSolutions() {
             <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
           </>}/>
         </div>
+
+        <h2>Car Systems</h2>
+        <div className="solution">
+          <SolutionHeading visual={SunAnimation} solutionName="Electric Vehicles" />
+          <TextWrap wrappedSide="Right" wrappedElt={<>
+            <img src={electricVehicle}></img>
+          </>} textElt={<>
+            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+          </>}/>
+        </div>
+
       </div>
     </div>
 
-    <Footer />
   </>);
 }
 
