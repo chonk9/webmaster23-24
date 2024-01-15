@@ -17,7 +17,7 @@ export default function SunAnimation(props) {
 
             let rayLength = parseFloat(getComputedStyle(document.querySelector('.sun-animation')).getPropertyValue('--ray-length'));
             
-            let rays = document.querySelectorAll('.ray');
+            let rays = container.current.querySelectorAll('.ray');
             rays.forEach((ray, rayI) => {
                 let angle = (rayI / rays.length + 1 / (2 * rays.length)) * 2 * Math.PI;
                 
