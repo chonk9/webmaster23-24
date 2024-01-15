@@ -93,6 +93,5 @@ body {
 }
 
 .nav li.active:hover {
-    background-color: #00B4D8; /* combine the active and hover colors */
     background-color: #13aa1b; /* combine the active and hover colors */
 }
