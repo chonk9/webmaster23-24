@@ -41,6 +41,14 @@
   }
 }
 
+.home-container h1 {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 h1 {
   border-bottom: 4px solid green;
 }
@@ -67,10 +75,16 @@ body {
 
 .container {
   text-align: center;
-  width: min(1000px, 100%);
   margin: auto;
   background-color: white;
   padding: 2rem;
+  width: min(1000px, 100%);
+}
+
+.container:has(.home-container) {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 p {

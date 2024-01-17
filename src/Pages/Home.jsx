@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import LeafReveal from "../Components/leafReveal";
+import environmentalHouse from "../Images/environmentalHouse.jpg";
+import TextWrap from "../Components/textWrap";
 // import TextWrap from "../Components/textWrap";
 
 export default function Home() {
@@ -8,8 +10,14 @@ export default function Home() {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <>
+        <div className="home-container">
             <h1>Welcome to Green Guardians!</h1>
+            <TextWrap wrappedSide="left" wrappedElt={
+                <img src={environmentalHouse} />
+            } textElt={
+                <span style={{fontSize: '4rem'}}>[placeholder]</span>
+            }/>
+
             <LeafReveal
                 content={
                     <>
@@ -25,18 +33,11 @@ export default function Home() {
                 }
             />
 
-            <h2>You can make a difference!</h2>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-            <p>[Insert some info]</p>
-        </>
+            <TextWrap wrappedSide="right" wrappedElt={
+                <img src={environmentalHouse} />
+            } textElt={
+                <span style={{fontSize: '4rem'}}>[placeholder]</span>
+            }/>
+        </div>
     );
 }
