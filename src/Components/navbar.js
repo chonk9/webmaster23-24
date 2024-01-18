@@ -8,7 +8,7 @@ export default function navbar() {
                 Green Guardians
             </Link>
             <ul>
-                <CustomLink to="/clean-solutions">Solutions</CustomLink>
+                <CustomLink to="/clean-solutions">Solutions </CustomLink>
                 <CustomLink to="/tax-incentives">Tax</CustomLink>
                 <CustomLink to="/about-us">About Us</CustomLink>
             </ul>

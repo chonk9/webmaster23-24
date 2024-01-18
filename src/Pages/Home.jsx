@@ -14,7 +14,7 @@ export default function Home() {
                 content={
                     <>
                         <h2>Did you know this?</h2>
-                        This is interesting. This is interesting. This is
+                        78% of marine mammals are at risk of choking on plastic.
                         interesting. This is interesting. This is interesting.
                         This is interesting. This is interesting. This is
                         interesting. This is interesting. This is interesting.
