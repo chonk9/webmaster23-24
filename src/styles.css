@@ -13,8 +13,8 @@ body {
 }
 
 .nav {
-    background-color: #9ae19d;
-    color: black;
+    background-color: #0a642f;
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
