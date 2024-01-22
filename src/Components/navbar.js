@@ -6,12 +6,7 @@ import classNames from 'classnames';
 import CleanSolutionsHome from '../Pages/CleanSolutionsHome';
 import CleanSolutionsVehicles from '../Pages/CleanSolutionsVehicles';
 import CleanSolutionsWaste from '../Pages/CleanSolutionsWaste';
-import TaxIncentives from '../Pages/TaxIncentives';
-import AboutUs from '../Pages/AboutUs';
-import React, { useState, useEffect, useCallback, useRef } from "react";
-import classNames from "classnames";
 import "./yunggravy.css";
-import logo from "./logo.png";
 
 export default function Navbar() {
     const [dropdown, setDropdown] = useState(false);
@@ -85,7 +80,7 @@ export default function Navbar() {
           <a href='/' className='logo-link' aria-label='Logo'>
             <img className='logo' src={logo} alt='' height='50' width='100' />
           </a>
-          <ul href = '/'>Green Guardians</ul>
+          <ul href = '/' className="name-of-company">Green Guardians</ul>
           <div className='nav-container'>
             <div className='nav-link-center'>
               <ul className='nav-links'>
@@ -118,7 +113,7 @@ export default function Navbar() {
                       }
                     >
                       <div className='padder'>
-                        <ul>
+                        <ul className = 'big-header'>
                           <li>
                             <a href='/clean-solutions-home' element = {< CleanSolutionsHome />} className='dropdown-links'>
                               Home

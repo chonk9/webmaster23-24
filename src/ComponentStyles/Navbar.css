@@ -225,7 +225,7 @@ ul li{
 }
 
 .dropdown-content {
-    width: 170px;
+    width: 250px;
     height: 0;
     overflow: hidden;
     position: absolute;

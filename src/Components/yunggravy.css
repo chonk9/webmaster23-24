@@ -90,7 +90,7 @@ nav a {
 
 .sidebar {
     z-index: 200;
-    background: #050505;
+    background: #0a652e;
     transform: translateX(100vw);
     position: fixed;
     height: 120%;
@@ -113,7 +113,7 @@ nav a {
     transition-delay: 50ms;
     width: calc(36px + 2rem + 10px);
     height: 150vh;
-    background: #050505;
+    background: #0a652e;
     z-index: 100;
 }
 
@@ -212,7 +212,7 @@ nav a {
 }
 
 .burger.active-burger div {
-    background-color: #de3939;
+    background-color: white;
 }
 
 .burger.active-burger .line1 {
@@ -238,28 +238,44 @@ nav a {
     overflow: hidden;
     position: absolute;
     top: 70px;
-    background-color: #050505;
+    background-color: #0a652e;
     box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
     transition: height 0.5s ease;
 }
 
 .dropdown-content .padder {
-    padding: 1rem;
-    padding-right: 0;
+    padding-right: 10;
+    padding-left: 10;
+    padding-bottom: 10;
+    padding-top: 10;
 }
 
 .padder a {
     width: 100%;
     display: inline-block;
+    padding-left: 0;
 }
 
 .dropdown-content.dropdown-active {
     height: auto;
     display: block;
+    padding-left: 0; 
 }
 
 .dropdown-btn {
     display: flex;
     align-items: center;
     user-select: none;
+    padding-left: 0;
+}
+
+.big-header{
+    padding-left: 0;
+}
+
+.name-of-company{
+    color: white;
+    padding-left: 0;
+    display: inline-block;
+    font-size: 1.5rem;
 }
