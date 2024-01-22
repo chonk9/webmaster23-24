@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../Images/testLogo.png'
+import logo from '../Images/logo.png'
 
 export default function Footer( {currentYear} ) {
     return(
@@ -14,7 +14,14 @@ export default function Footer( {currentYear} ) {
                 />
             </a>
 
-            
+            <ul className="sitemap-container">
+                <li className="sitemap">
+                    <p>Information</p>
+                    <ul>
+                        
+                    </ul>
+                </li>
+            </ul>
 
         </footer>
     )
