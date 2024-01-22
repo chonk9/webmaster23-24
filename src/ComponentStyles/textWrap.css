@@ -5,3 +5,15 @@
 .wrapped-elt img {
     width: 100%;
 }
+
+.fun-bold {
+    font-weight: 900;
+    color: green;
+    transition: color 0.5s;
+}
+
+.fun-bold:hover {
+    border-bottom: 3px solid blue;
+    color: blue;
+    transition: color 0.5s, border-bottom 0.2s;
+}

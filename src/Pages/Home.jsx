@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import LeafReveal from "../Components/leafReveal";
 import environmentalHouse from "../Images/environmentalHouse.jpg";
 import TextWrap from "../Components/textWrap";
@@ -13,10 +14,17 @@ export default function Home() {
         <div className="home-container">
             <h1>Welcome to Green Guardians!</h1>
             <TextWrap wrappedSide="left" wrappedElt={
-                <img src={environmentalHouse} />
-            } textElt={
-                <span style={{fontSize: '4rem'}}>[placeholder]</span>
-            }/>
+                <img src={environmentalHouse} className="left-side-image" />
+            } textElt={<>
+                <span class="side-heading">Clean Solutions</span>
+                <p>
+                    Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable to the Earth</span> in a way that's <span className="fun-bold">sustainable to your finances</span>.
+                </p>
+                <p>
+                    You probably don't realize how many green options there are for your house and even your cars!
+                </p>
+                <Link to='/clean-solutions'><button style={{marginTop: '1rem'}}>Learn about our clean solutions</button></Link>
+            </>}/>
 
             <LeafReveal
                 content={
@@ -34,7 +42,7 @@ export default function Home() {
             />
 
             <TextWrap wrappedSide="right" wrappedElt={
-                <img src={environmentalHouse} />
+                <img src={environmentalHouse} className="right-side-image" />
             } textElt={
                 <span style={{fontSize: '4rem'}}>[placeholder]</span>
             }/>

@@ -13,8 +13,8 @@ body {
 }
 
 .nav {
-    background-color: #9ae19d;
-    color: black;
+    background-color: #0a642f;
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
@@ -34,6 +34,11 @@ body {
     display: flex;
     align-items: center;
     transition: 0.1s ease-in-out;
+}
+
+.nav li, .site-title {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav a {
