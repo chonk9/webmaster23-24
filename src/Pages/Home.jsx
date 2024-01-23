@@ -23,7 +23,7 @@ export default function Home() {
                 <p>
                     You probably don't realize how many green options there are for your house and even your cars!
                 </p>
-                <Link to='/clean-solutions'><button style={{marginTop: '1rem'}}>Learn about our clean solutions</button></Link>
+                <Link to='/clean-solutions-home'><button style={{marginTop: '1rem'}}>Learn about our clean solutions</button></Link>
             </>}/>
 
             <LeafReveal

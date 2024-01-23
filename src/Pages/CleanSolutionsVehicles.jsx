@@ -19,17 +19,17 @@ export default function CleanSolutionsVehicles() {
           <TextWrap wrappedSide="Right" wrappedElt={<>
             <img src={electricVehicle}></img>
           </>} textElt={<>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p><b>Electric Vehicles or 'EVs'</b> use electricity as a power source.
+            This can be done with solar panels, by converting fuel into energy with fuel cells or generators, or with a charged battery.</p>
+            <p>The advantage with EVs is that they can get energy from a variety of sources instead of just fossil fuels like with traditional vehicles.
+              In addition, EVs can also gain energy back by recovering energy from breaking.
+            </p>
           </>}/>
         </div>
-      </div>
 
-      <div>
-        <h2 className="page-subheading">Vehicle Systems</h2>
         <div className="solution">
-          <SolutionHeading visual={CarAnimation} solutionName="Electric Vehicles" />
-          <TextWrap wrappedSide="Right" wrappedElt={<>
+          <SolutionHeading visual={CarAnimation} solutionName="Floor Mats & Accessories" />
+          <TextWrap wrappedSide="Left" wrappedElt={<>
             <img src={electricVehicle}></img>
           </>} textElt={<>
             <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
@@ -37,9 +37,8 @@ export default function CleanSolutionsVehicles() {
           </>}/>
         </div>
 
-        
-
       </div>
+
 
     </div>
 

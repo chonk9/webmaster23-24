@@ -192,10 +192,11 @@ nav a {
     transition: transform 0.3s, opacity 0.1s ease-in-out;
     opacity: 1;
     cursor: pointer;
-    width: 36px;
+    width: 30px;
     height: 36px;
     background: transparent;
     border-style: none;
+    padding-top: 5.02px;
 }
 
 .burger:hover {

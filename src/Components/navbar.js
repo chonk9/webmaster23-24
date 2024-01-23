@@ -60,13 +60,13 @@ export default function Navbar() {
         <div className={classNames('sidebar', { active: sidebar })}>
           <ul className='sidebar-links'>
             <li>
-              <a href= '/clean-solutions'>About</a>
+              <a href= '/about-us'>About</a>
             </li>
             <li>
               <hr />
             </li>
             <li>
-              <a href='/clean-solutions'>Sources</a>
+              <a href='/sources'>Sources</a>
             </li>
           </ul>
         </div>

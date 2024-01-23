@@ -20,8 +20,11 @@ export default function CleanSolutionsHome() {
           <TextWrap wrappedSide="right" wrappedElt={<>
             <img src={homeTurbine}></img>
           </>} textElt={<>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p><b>Wind power</b> is created by converting the energy in wind to useable energy. 
+            This can be done by using sails, windmills, and more recently, wind turbines.</p>
+            <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
+              and energy storage to create a reliable stream of energy.</p>
+            <p>Check the map to see if your area is suitiable for a wind farm.</p>
           </>}/>
         </div>
         <div className="solution">
@@ -29,8 +32,12 @@ export default function CleanSolutionsHome() {
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={solarPanels}></img>
           </>} textElt={<>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
-            <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+            <p><b>Solar power</b> converts sunlight into energy via photovoltaic panels or concentration. 
+              In the long-term it is relatively constant; 
+              however, depending on your latitude, energy generation may fluctuate depending on the season.
+              In addition clouds coverage will affect power generation.</p>
+            <p>Energy storage or a more reliable source of energy may be needed to supplment solar power.</p>
+            <p>Some places may give tax credit if you switch to solar so check out the map for more information.</p>
           </>}/>
         </div>
 

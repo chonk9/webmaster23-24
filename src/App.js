@@ -7,6 +7,7 @@ import TaxIncentives from './Pages/TaxIncentives';
 import AboutUs from './Pages/AboutUs';
 import CleanSolutionsVehicles from './Pages/CleanSolutionsVehicles';
 import CleanSolutionsWaste from './Pages/CleanSolutionsWaste';
+import Sources from './Pages/Sources';
 import {Route, Routes} from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path = "/clean-solutions-waste" element = {< CleanSolutionsWaste />} />
           <Route path = "/tax-incentives" element = {< TaxIncentives />} />
           <Route path = "/about-us" element = {<AboutUs />} />
+          <Route path = "/sources" element = {<Sources />} />
         </Routes> 
       </div>
 
