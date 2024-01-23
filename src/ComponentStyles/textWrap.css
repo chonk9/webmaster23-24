@@ -28,3 +28,7 @@
 .wrapped-elt img {
     width: 100%;
 }
+
+.text-wrap-container {
+    margin-bottom: 1.3rem;
+}

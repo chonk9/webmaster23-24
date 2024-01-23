@@ -11,7 +11,7 @@ export default function TextWrap(props) {
     }
 
     return (
-        <div style={{ marginBottom: "1rem" }}>
+        <div className="text-wrap-container">
             <div className="wrapped-elt" style={wrappedEltStyle} data-wrap-direction={props.wrappedSide}>
                 {props.wrappedElt}
             </div>
