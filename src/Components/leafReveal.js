@@ -6,12 +6,15 @@ export default function LeafReveal(props) {
     const container = useRef(null);
 
     useEffect(() => {
+        const navStyle = getComputedStyle(document.querySelector('nav'));
+        const navHeight = navStyle.height.replace('px', '');
+
         document.addEventListener('scroll', () => {
             if (!container.current) { // Don't run on other pages
                 return;
             }
 
-            let startY = container.current.offsetTop - 20;
+            let startY = container.current.offsetTop - 20 - navHeight ?? 0;
             
             let progress = 0;
             let totalScroll = 1000; // Amount to scroll until finished animation
