@@ -180,3 +180,16 @@ button:hover {
         transform: rotate(0deg);
     }
 }
+
+.fun-bold {
+    font-weight: 900;
+    color: green;
+    border-bottom: 0 solid blue;
+    transition: color 0.5s, border-bottom 0.1s;
+}
+
+.fun-bold:hover {
+    border-bottom: 3px solid blue;
+    color: blue;
+    transition: color 0.5s, border-bottom 0.2s;
+}
