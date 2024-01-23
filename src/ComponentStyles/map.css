@@ -11,3 +11,11 @@
     border-radius: 0.3rem;
     padding: 0.5rem;
 }
+
+.state-path[data-state="Alaska"] {
+    transform: scale(0.7) translate(22%, 25%);
+}
+
+.state-path[data-state="Hawaii"] {
+    transform: translate(20%, -2%);
+}
