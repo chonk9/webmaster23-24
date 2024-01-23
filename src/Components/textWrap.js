@@ -11,12 +11,12 @@ export default function TextWrap(props) {
     }
 
     return (
-        <>
-            <div className="wrapped-elt" style={wrappedEltStyle}>
+        <div style={{ marginBottom: "1rem" }}>
+            <div className="wrapped-elt" style={wrappedEltStyle} data-wrap-direction={props.wrappedSide}>
                 {props.wrappedElt}
             </div>
             {props.textElt}
             <div style={{ clear: "both" }}></div>
-        </>
+        </div>
     );
 }
