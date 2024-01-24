@@ -12,6 +12,7 @@ export default function Footer({ currentYear }) {
           alt=''
           height='100'
           width='100'
+          style={{verticalAlign: 'middle'}}
         />
         Green Guardians
       </a>

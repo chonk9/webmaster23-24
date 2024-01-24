@@ -1,10 +1,12 @@
 import React from 'react'
 import Accordion from '../Components/Accordion.js';
+import '../ComponentStyles/sources.css';
+
 export default function AboutUs() {
   return(<>
     <h1>Works Cited</h1>
     <div classname='content'>
-      <h1>Sources</h1>
+      <h2>Sources</h2>
       <div id='sources'>
         <Accordion title='Information'>
         <a href='https://www.whitehouse.gov/cleanenergy/'>
