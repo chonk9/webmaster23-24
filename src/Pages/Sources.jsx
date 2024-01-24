@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div classname='content'>
       <h1>Sources</h1>
       <div id='sources'>
-        <Accordion title='Home Page Videos'>
+        <Accordion title='Information'>
         <a href='https://www.whitehouse.gov/cleanenergy/'>
             https://www.whitehouse.gov/cleanenergy/
             </a>
