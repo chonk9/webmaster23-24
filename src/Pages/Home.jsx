@@ -30,13 +30,10 @@ export default function Home() {
                 content={
                     <>
                         <h2>Did you know this?</h2>
-                        78% of marine mammals are at risk of choking on plastic.
-                        interesting. This is interesting. This is interesting.
-                        This is interesting. This is interesting. This is
-                        interesting. This is interesting. This is interesting.
-                        This is interesting. This is interesting. This is
-                        interesting. This is interesting. This is interesting.
-                        This is interesting. This is interesting.
+                        <p>
+                            All US States have many incentives encouraging green energy systems!
+                        </p>
+                        <Link to='/tax-incentives'><button style={{display: 'block', margin: 'auto'}}>Learn about your state's Tax Incentives</button></Link>
                     </>
                 }
             />
@@ -44,7 +41,7 @@ export default function Home() {
             <TextWrap wrappedSide="right" wrappedElt={
                 <img src={environmentalHouse} className="right-side-image" />
             } textElt={
-                <span style={{fontSize: '4rem'}}>[placeholder]</span>
+                <span class="side-heading">Tax Incentives</span>
             }/>
         </div>
     );
