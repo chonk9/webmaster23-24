@@ -17,7 +17,7 @@ export default function Footer({ currentYear }) {
       </a>
       <ul className='sitemap-container'>
         <li className='sitemap'>
-          <p>INFORMATION</p>
+          <p class="bold">Information</p>
           <ul>
             <li>
               <a href='/'>Home</a>
@@ -40,7 +40,7 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Solutions</p>
+          <p class="bold">Solutions</p>
           <ul>
             <li>
               <a href='/clean-solutions-home'>Home Solutions</a>
@@ -54,7 +54,7 @@ export default function Footer({ currentYear }) {
           </ul>
         </li>
         <li className='sitemap'>
-          <p>Contact Us!</p>
+          <p class="bold">Contact Us!</p>
           <ul>
             <li>
               <a
