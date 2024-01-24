@@ -7,15 +7,15 @@ export default function AboutUs() {
       <h1>Sources</h1>
       <div id='sources'>
         <Accordion title='Home Page Videos'>
-        <a href='https://pixabay.com/videos/world-earth-nasa-planet-globe-2/'>
-              https://pixabay.com/videos/world-earth-nasa-planet-globe-2/
+        <a href='https://www.whitehouse.gov/cleanenergy/'>
+            https://www.whitehouse.gov/cleanenergy/
             </a>
             <p>
               (Public Domain)
               <br />
             </p>
-            <a href='https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/'>
-              https://pixabay.com/photos/cape-canaveral-florida-space-shuttle-79355/
+            <a href='https://www.dsireusa.org/'>
+              https://www.dsireusa.org/
             </a>
             <p>(Public Domain)</p>
         </Accordion>
