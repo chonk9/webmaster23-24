@@ -40,7 +40,8 @@ export default function CleanSolutionsWaste() {
             Placeholder
           </>}/>
         </div>
-
+        
+        <div className="solution">
           <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={solarPanels}></img>
