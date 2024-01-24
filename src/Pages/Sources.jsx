@@ -5,20 +5,29 @@ export default function AboutUs() {
     <h1>Sources.</h1>
     
     <div className = 'source-material'>
-
+      <h2>Research Citations</h2>
       <div className = 'research'>
         <li>
-          Research1
-          Resarch2
-          Research3
+          Research
+        </li>
+        <li>
+          Research
+        </li>
+        <li>
+          Research
         </li>
       </div>
 
       <div className = 'assets'>
+        <h2>Asset Citations</h2>
         <li>
-          Asset1
-          Asset2
-          Asset3
+          Asset
+        </li>
+        <li>
+          Asset
+        </li>
+        <li>
+          Asset
         </li>
       </div>
 
