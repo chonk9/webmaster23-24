@@ -89,7 +89,7 @@ export default function Footer({ currentYear }) {
             </a>
           </li>
           <li className='copyright'>
-            <p>©{currentYear} Green Guardians</p>
+            <p>© Green Guardians</p>
           </li>
         </ul>
       </div>
