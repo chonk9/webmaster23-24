@@ -1,12 +1,21 @@
 import React from 'react';
 import WindAnimation from '../Components/windAnimation.js';
 import SunAnimation from '../Components/sunAnimation.js';
-import CarAnimation from '../Components/carAnimation.js';
+import RecycleIcon from '../Images/RecycleIcon.png'
+import CompostBin from '../Images/CompostBin.png'
 import TextWrap from '../Components/textWrap.js';
 
 import homeTurbine from '../Images/homeTurbine.jpg'
 import solarPanels from '../Images/solarPanels.webp'
 import electricVehicle from '../Images/electric-vehicle.jpg'
+
+function recycleIconComponent() {
+  return <img src={RecycleIcon} style={{width: '70px'}} />
+}
+
+function compostIconComponent() {
+  return <img src={CompostBin} style={{width: '70px'}} />
+}
 
 export default function CleanSolutionsWaste() {
   return (<>
@@ -15,7 +24,7 @@ export default function CleanSolutionsWaste() {
       <div>
         <h2 className="page-subheading">Waste Systems</h2>
         <div className="solution">
-          <SolutionHeading visual={WindAnimation} solutionName="Compost Bins" />
+          <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" />
         
           <TextWrap wrappedSide="right" wrappedElt={<>
             <img src={homeTurbine}></img>
@@ -32,6 +41,13 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
 
+          <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" />
+          <TextWrap wrappedSide="left" wrappedElt={<>
+            <img src={solarPanels}></img>
+          </>} textElt={<>
+            Placeholder
+          </>}/>
+        </div>
       </div>
     </div>
 

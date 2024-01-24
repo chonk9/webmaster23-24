@@ -18,8 +18,8 @@ export default function TaxIncentives() {
       <h2 className="page-subheading">State Level</h2>
       <p>
         Click on a state/territory to see the tax incentives!
-        <Map/>
       </p>
+      <Map/>
     </div>
   </>);
 }
