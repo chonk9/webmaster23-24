@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: left;
-  padding: 14px 8px 0px;
+  padding: 8px;
 }
 
 .accordion-title > * {
@@ -46,7 +46,4 @@
     grid-template-columns: 1fr;
     min-height: 70vh;
   }
-}
-a.cite{
-  color:orange;
 }

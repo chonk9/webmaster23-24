@@ -4,31 +4,18 @@ import '../ComponentStyles/sources.css';
 
 export default function AboutUs() {
   return(<>
-    <h1>Sources</h1>
+    <h1>Works Cited</h1>
     <div classname='content'>
-      <h1>Sources</h1>
+      <h2>Sources</h2>
       <div id='sources'>
         <Accordion title='Information'>
-        <a class="cite" href='https://www.whitehouse.gov/cleanenergy/'>
+        <a href='https://www.whitehouse.gov/cleanenergy/'>
             https://www.whitehouse.gov/cleanenergy/
             </a>
             <p>
               <br />
             </p>
-            <a class="cite" href='https://www.dsireusa.org/'>
-              https://www.dsireusa.org/
-            </a>
-        </Accordion>
-      </div>
-      <div id='Images'>
-        <Accordion title='Images'>
-        <a class="cite" href='https://www.whitehouse.gov/cleanenergy/'>
-            https://www.whitehouse.gov/cleanenergy/
-            </a>
-            <p>
-              <br />
-            </p>
-            <a class="cite" href='https://www.dsireusa.org/'>
+            <a href='https://www.dsireusa.org/'>
               https://www.dsireusa.org/
             </a>
         </Accordion>
