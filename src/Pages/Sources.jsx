@@ -2,22 +2,32 @@ import React from 'react'
 import Accordion from '../Components/Accordion.js';
 export default function AboutUs() {
   return(<>
-    <h1>Works Cited</h1>
+    <h1>Sources</h1>
     <div classname='content'>
-      <h1>Sources</h1>
       <div id='sources'>
         <Accordion title='Information'>
-        <a href='https://www.whitehouse.gov/cleanenergy/'>
+        <a class="cite" href='https://www.whitehouse.gov/cleanenergy/'>
             https://www.whitehouse.gov/cleanenergy/
             </a>
             <p>
-              (Public Domain)
               <br />
             </p>
-            <a href='https://www.dsireusa.org/'>
+            <a class="cite" href='https://www.dsireusa.org/'>
               https://www.dsireusa.org/
             </a>
-            <p>(Public Domain)</p>
+        </Accordion>
+      </div>
+      <div id='Images'>
+        <Accordion title='Images'>
+        <a class="cite" href='https://www.whitehouse.gov/cleanenergy/'>
+            https://www.whitehouse.gov/cleanenergy/
+            </a>
+            <p>
+              <br />
+            </p>
+            <a class="cite" href='https://www.dsireusa.org/'>
+              https://www.dsireusa.org/
+            </a>
         </Accordion>
       </div>
     </div>
