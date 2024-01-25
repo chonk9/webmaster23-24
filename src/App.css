@@ -196,3 +196,7 @@ button:hover {
 a:has(button) {
     text-decoration: none;
 }
+
+hr {
+    border: none;
+}

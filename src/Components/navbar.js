@@ -77,10 +77,10 @@ export default function Navbar() {
         />
         <div className='ghost' />
         <nav>
-          <a href='/' className='logo-link' aria-label='Logo'>
-            <img className='logo' src={logo} alt='' height='50' width='100' />
+          <a href='/' className='logo-link' aria-label='Logo' style={{marginRight: '1rem'}}>
+            <img className='logo' src={logo} alt='' height='50' width='50' style={{width: '70px', height: '70px'}} />
           </a>
-          <ul href = '/' className="name-of-company">Green Guardians</ul>
+          <a href = '/' className="name-of-company">Green Guardians</a>
           <div className='nav-container'>
             <div className='nav-link-center'>
               <ul className='nav-links'>
