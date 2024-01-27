@@ -266,9 +266,7 @@ ul li{
     --bs-bg-opacity: 1;
     background-color: black;
 }
-a:link{
-    color:aqua;
-    }
+
 a:hover{
     color:aqua;
     }

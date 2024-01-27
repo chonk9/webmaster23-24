@@ -38,7 +38,8 @@ export default function CleanSolutionsWaste() {
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={solarPanels}></img>
           </>} textElt={<>
-            Placeholder
+            Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
+            By reducing the need for materials for products by recycling we can lower greenhouse gas emissions by a significant amount.
           </>}/>
         </div>
       </div>
