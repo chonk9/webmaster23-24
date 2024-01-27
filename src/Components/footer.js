@@ -66,6 +66,13 @@ export default function Footer({ currentYear }) {
                 Twitter
               </a>
             </li>
+            <li>
+              <a
+                target = 'blank'
+                href = "mailto: greenguardians2024@gmail.com?">
+                  Email
+                </a>
+            </li>
           </ul>
         </li>
       </ul>

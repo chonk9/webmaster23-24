@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import LeafReveal from "../Components/leafReveal";
-import environmentalHouse from "../Images/environmentalHouse.jpg";
+import environmentalHouse1 from "../Images/environmentalHouse.jpg";
+import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
 // import TextWrap from "../Components/textWrap";
 
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="home-container">
             <h1>Welcome to Green Guardians!</h1>
             <TextWrap wrappedSide="left" wrappedElt={
-                <img src={environmentalHouse} className="left-side-image" />
+                <img src={environmentalHouse1} className="left-side-image" />
             } textElt={<>
                 <span class="side-heading">Clean Solutions</span>
                 <p>
@@ -39,7 +40,7 @@ export default function Home() {
             />
 
             <TextWrap wrappedSide="right" wrappedElt={
-                <img src={environmentalHouse} className="right-side-image" />
+                <img src={environmentalHouse2} className="right-side-image" />
             } textElt={<>
                 <span class="side-heading">Getting Started</span>
                 <p>

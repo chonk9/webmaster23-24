@@ -9,13 +9,17 @@ export default function AboutUs() {
       <h2>Sources</h2>
       <div id='sources'>
         <Accordion title='Information'>
-        <a href='https://www.whitehouse.gov/cleanenergy/'>
+        <a 
+          href='https://www.whitehouse.gov/cleanenergy/'
+          rel='noreferrer'>
             https://www.whitehouse.gov/cleanenergy/
             </a>
             <p>
               <br />
             </p>
-            <a href='https://www.dsireusa.org/'>
+            <a 
+              href='https://www.dsireusa.org/'
+              rel='noreferrer'>
               https://www.dsireusa.org/
             </a>
         </Accordion>
