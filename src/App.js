@@ -9,8 +9,16 @@ import CleanSolutionsVehicles from './Pages/CleanSolutionsVehicles';
 import CleanSolutionsWaste from './Pages/CleanSolutionsWaste';
 import Sources from './Pages/Sources';
 import {Route, Routes} from "react-router-dom";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (  
     <>
       <Navbar />
