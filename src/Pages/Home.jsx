@@ -16,7 +16,7 @@ export default function Home() {
             <TextWrap wrappedSide="left" wrappedElt={
                 <img src={environmentalHouse} className="left-side-image" />
             } textElt={<>
-                <span class="side-heading">Clean Solutions</span>
+                <span className="side-heading">Clean Solutions</span>
                 <p>
                     Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable for the Earth</span> in a way that's <span className="fun-bold">sustainable for your finances</span>.
                 </p>
@@ -33,7 +33,7 @@ export default function Home() {
                         <p>
                             All US States have many incentives encouraging the use of green energy systems!
                         </p>
-                        <Link to='/tax-incentives'><button style={{display: 'block', margin: 'auto'}}>Learn about your state's Tax Incentives</button></Link>
+                        <Link to='/tax-incentives'><button style={{display: 'block', margin: 'auto'}}>See your state's Tax Incentives</button></Link>
                     </>
                 }
             />
@@ -41,12 +41,12 @@ export default function Home() {
             <TextWrap wrappedSide="right" wrappedElt={
                 <img src={environmentalHouse} className="right-side-image" />
             } textElt={<>
-                <span class="side-heading">Getting Started</span>
+                <span className="side-heading">Getting Started</span>
                 <p>
-                    One of the biggest sources of hesitation for people when planning home green energy initiaves is <span class="fun-bold">the cost</span>.
+                    One of the biggest sources of hesitation for people when planning home green energy initiaves is <span className="fun-bold">the cost</span>.
                 </p>
                 <p>
-                    In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span class="fun-bold">Get started today</span> by learning about your choices.
+                    In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span className="fun-bold">Get started today</span> by learning about your choices.
                 </p>
             </>}/>
         </div>
