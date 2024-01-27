@@ -12,7 +12,7 @@ export default function Map() {
         { selectedState !== null &&
             <InfoPopup selectedState={selectedState} selectedCoords={selectedCoords}/>
         }
-        <svg viewBox="45 45 350 190">
+        <svg viewBox="45 45 330 190">
             <StatePaths setHoveredState={setHoveredState} setSelectedState={setSelectedState} setSelectedCoords={setSelectedCoords}/>
         </svg>
     </div>)
