@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, forwardRef } from 'react';
 import '../ComponentStyles/map.css';
 
 let stateInfo = require('../config/stateInfo.json');
@@ -12,7 +12,7 @@ export default function Map() {
 
     return (<div className="map">
         { selectedState !== null &&
-            <InfoPopup popupRef={infoPopup} selectedState={selectedState} selectedCoords={selectedCoords}/>
+            <InfoPopup ref={infoPopup} selectedState={selectedState} selectedCoords={selectedCoords}/>
         }
         <svg viewBox="45 45 330 190">
             <StatePaths infoPopup={infoPopup} setHoveredState={setHoveredState} setSelectedState={setSelectedState} setSelectedCoords={setSelectedCoords}/>
@@ -20,12 +20,12 @@ export default function Map() {
     </div>)
 }
 
-function InfoPopup(props) {
-    return (<div ref={props.popupRef} className="state-info-popup" style={{top: props.selectedCoords[1] + 'px', left: props.selectedCoords[0] + 'px'}}>
+const InfoPopup = forwardRef(function(props, ref) {
+    return (<div ref={ref} className="state-info-popup" style={{top: props.selectedCoords[1] + 'px', left: props.selectedCoords[0] + 'px'}}>
         <div className="bold">{props.selectedState}</div>
         <div dangerouslySetInnerHTML={{__html: Object.keys(stateInfo).includes(props.selectedState) ? stateInfo[props.selectedState].text : ''}}></div>
     </div>)
-}
+});
 
 function State(props) {
     const [isHovering, setIsHovering] = useState(false);
@@ -47,7 +47,9 @@ function State(props) {
         props.setSelectedCoords([e.pageX, e.pageY]);
 
         function clickListener(clickEvent) {
-            if (clickEvent.target !== e.target && !props.infoPopup.current.contains(clickEvent.target)) {
+            if (clickEvent.target === e.target) {
+                document.removeEventListener('mousedown', clickListener);
+            } else if (!props.infoPopup.current.contains(clickEvent.target)) {
                 setIsSelected(false);
                 props.setSelectedState(null);
                 props.setSelectedCoords(null);

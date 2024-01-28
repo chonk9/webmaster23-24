@@ -12,6 +12,12 @@
     padding: 0.5rem;
 }
 
+.state-info-popup li {
+    display: list-item;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
 .state-path[data-state="Alaska"] {
     transform: scale(0.7) translate(22%, 25%);
 }
