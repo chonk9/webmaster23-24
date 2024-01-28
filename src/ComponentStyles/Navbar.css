@@ -48,9 +48,9 @@ nav {
     justify-content: center;
 }
 
-ul li{
+ul li {
     display: flex;
-    list-style: none; 
+    list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -243,7 +243,7 @@ ul li{
 
 .dropdown-content .padder {
     padding: 1rem;
-    padding-right: 0;
+    /* padding-right: 0; */
 }
 
 .padder a {
@@ -267,10 +267,10 @@ ul li{
     background-color: black;
 }
 
-a:hover{
-    color: #99C5B5;
-    }
+a:hover {
+    color: #99c5b5;
+}
 
-a:active{
-    color:green
-    }
+a:active {
+    color: green;
+}
