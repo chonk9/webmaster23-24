@@ -39,10 +39,10 @@ export default function AboutUs() {
           </li><br/>
           <li><a href="https://www.epa.gov/recycle/composting-home" target="_blank" rel="noopener noreferrer">
             https://www.epa.gov/recycle/composting-home</a>
-          </li>
+          </li><br/>
           <li><a href="https://recycleright.org" target="_blank" rel="noopener noreferrer">
           https://recycleright.org</a>
-          </li>
+          </li><br/>
           <li><a href="https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/" target="_blank" rel="noopener noreferrer">
           https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/</a>
           </li>
