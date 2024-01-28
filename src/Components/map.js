@@ -21,7 +21,7 @@ export default function Map() {
 function InfoPopup(props) {
     return (<div className="state-info-popup" style={{top: props.selectedCoords[1] + 'px', left: props.selectedCoords[0] + 'px'}}>
         <div className="bold">{props.selectedState}</div>
-        <div>{Object.keys(stateInfo).includes(props.selectedState) ? stateInfo[props.selectedState].text : 'd'}</div>
+        <div dangerouslySetInnerHTML={{__html: Object.keys(stateInfo).includes(props.selectedState) ? stateInfo[props.selectedState].text : ''}}></div>
     </div>)
 }
 
