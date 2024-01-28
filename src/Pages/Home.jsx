@@ -44,7 +44,7 @@ export default function Home() {
             } textElt={<>
                 <span className="side-heading">Getting Started</span>
                 <p>
-                    One of the biggest sources of hesitation for people when planning home green energy initiaves is <span className="fun-bold">the cost</span>.
+                    One of the biggest sources of hesitation for people when planning home green energy initiatives is <span className="fun-bold">the cost</span>.
                 </p>
                 <p>
                     In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span className="fun-bold">Get started today</span> by learning about your choices.
