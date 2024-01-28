@@ -64,6 +64,12 @@ export default function AboutUs() {
           <li> <a href = 'https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic' target = '_blank' rel="noopener noreferrer" >
           https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic</a>
           </li>
+          <li>
+            "Recycle Right" https://recycleright.org, Accessed 2024.
+          </li>
+          <li>
+            "Composting 101: How to Start Your First Compost Pile" https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/, Publisher: LawnStarter, Accessed 2024.
+          </li>
         </Accordion>
 
         <br/>

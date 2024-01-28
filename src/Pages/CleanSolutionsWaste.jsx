@@ -5,8 +5,8 @@ import RecycleIcon from '../Images/RecycleIcon.png'
 import CompostBin from '../Images/CompostBin.png'
 import TextWrap from '../Components/textWrap.js';
 
-import homeTurbine from '../Images/homeTurbine.jpg'
-import solarPanels from '../Images/solarPanels.webp'
+import compostBin from '../Images/compostbin.jpg'
+import recyclingBin from '../Images/recycling-bin.jpg'
 import electricVehicle from '../Images/electric-vehicle.jpg'
 
 function recycleIconComponent() {
@@ -27,11 +27,11 @@ export default function CleanSolutionsWaste() {
           <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" />
         
           <TextWrap wrappedSide="right" wrappedElt={<>
-            <img src={homeTurbine}></img>
+            <img src={compostBin}></img>
           </>} textElt={<>
             Composting is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
             The compost that forms is very good for growing plants when done correctly.
-            Food makes up <b>24%</b> of US landfills.
+            Food waste makes up <b>24%</b> of US landfills.
             Composting food would allow this food to be utilized more and reduce emissions, water, and resource usage.
             <br/>
             For more information go to <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'>https://www.epa.gov/recycle/composting-home</a>
@@ -41,7 +41,7 @@ export default function CleanSolutionsWaste() {
         <div className="solution">
           <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" />
           <TextWrap wrappedSide="left" wrappedElt={<>
-            <img src={solarPanels}></img>
+            <img src={recyclingBin}></img>
           </>} textElt={<>
             Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
             We can reduce these emissions by a significant amount when recycling them.
