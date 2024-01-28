@@ -17,6 +17,12 @@ export default function AboutUs() {
     </p>
     <h2>At Green Guardians, we're all about clean energy. It's going to be a big part of our future, and we're here to help you.</h2>
 
+    <br></br>
+
+    <h2>Meet the team!</h2>
+    
+    <p>Member</p>
+
   </>);
 
 }
