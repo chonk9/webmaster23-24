@@ -4,7 +4,7 @@ import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
 import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
-// import TextWrap from "../Components/textWrap";
+import HomeSolutions from "../Pages/CleanSolutionsHome"
 
 export default function Home() {
     useEffect(() => {
@@ -19,7 +19,7 @@ export default function Home() {
             } textElt={<>
                 <span className="side-heading">Clean Solutions</span>
                 <p>
-                    Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable for the Earth</span> in a way that's <span className="fun-bold">sustainable for your finances</span>.
+                    Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable for the Earth</span> and <span className="fun-bold">sustainable for your finances</span>.
                 </p>
                 <p>
                     You probably don't realize how many green options there are for your house, cars, and even your waste!

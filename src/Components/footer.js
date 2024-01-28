@@ -68,7 +68,7 @@ export default function Footer({ currentYear }) {
             </li>
             <li>
               <a
-                target = 'blank'
+                target = '_blank'
                 href = "mailto: greenguardians2024@gmail.com?">
                   Email
                 </a>
