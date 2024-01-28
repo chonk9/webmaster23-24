@@ -1,5 +1,27 @@
 import React from 'react'
 import Map from '../Components/map';
+import Accordion from '../Components/Accordion.js';
+import "../ComponentStyles/TaxIncentives.css"
+
+const finIncentive = "Financial Incentive"
+
+const data = [
+  {nameOfProgram : "Low Income Home Energy Assistance Program (LIHEAP)", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.benefits.gov/benefit/623"},
+  {nameOfProgram : "Residential Energy Efficiency Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.energystar.gov/about/federal_tax_credits"},
+  {nameOfProgram : "Plug-In Electric Drive Vehicle Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/credits-for-new-electric-vehicles-purchased-in-2022-or-before"},
+  {nameOfProgram : "Previously-Owned Clean Vehicle Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/used-clean-vehicle-credit"},
+  {nameOfProgram : "Alternative Fuel Vehicle Refueling Property Tax Credit (Personal)", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/alternative-fuel-vehicle-refueling-property-credit"},
+  {nameOfProgram : "Residential Renewable Energy Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/residential-clean-energy-credit"},
+  {nameOfProgram : "Residential Energy Conservation Subsidy Exclusion (Personal)", typeCategory : {finIncentive}, incentiveType : "Personal Tax Exemption", moreInformation : ""},
+  {nameOfProgram : "USDA - High Energy Cost Grant Program", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.rd.usda.gov/programs-services/electric-programs/high-energy-cost-grants"},
+  {nameOfProgram : "Weatherization Assistance Program (WAP)", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.energy.gov/scep/wap/weatherization-assistance-program"},
+  {nameOfProgram : "Energy-Efficient Mortgages", typeCategory : {finIncentive}, incentiveType : "Loan Program", moreInformation : "https://www.energystar.gov/newhomes/mortgage_lending_programs/energy_efficient_mortgages"},
+  {nameOfProgram : "Fannie Mae Green Financing – Loan Program", typeCategory : {finIncentive}, incentiveType : "Loan Program", moreInformation : "https://multifamily.fanniemae.com/financing-options/specialty-financing/green-financing/green-financing-loans"},
+  {nameOfProgram : "Office of Indian Energy Policy and Programs - Funding Opportunities", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.energy.gov/indianenergy/current-funding-opportunities"},
+  {nameOfProgram : "USDA - Rural Energy for America Program (REAP) Loan Guarantees", typeCategory : {finIncentive}, incentiveType : "Loan Program", moreInformation : "https://www.rd.usda.gov/programs-services/energy-programs/rural-energy-america-program-renewable-energy-systems-energy-efficiency-improvement-guaranteed-loans"},
+  {nameOfProgram : "USDA - Rural Energy for America Program (REAP) Grants", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.rd.usda.gov/inflation-reduction-act/rural-energy-america-program-reap"},
+  {nameOfProgram : "USDA - Rural Energy for America Program (REAP) Energy Audit and Renewable Energy Development Assistance (EA/REDA) Program", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.rd.usda.gov/programs-services/energy-programs/rural-energy-america-program-energy-audit-renewable-energy-development-assistance-grants"}
+]
 
 export default function TaxIncentives() {
   return(<>
@@ -12,6 +34,34 @@ export default function TaxIncentives() {
         water heaters, AC systems, and electric panel upgrades. You can claim these credits through&nbsp;
         <a target='_blank' href='https://www.irs.gov/pub/irs-pdf/f5695.pdf' rel='noreferrer'>IRS Form 5695</a>.
       </p>
+    </div>
+    <div id = 'dropdown'>
+      <Accordion title = "National Table Dropdown">
+        <div className="nationalTable">
+          <table>
+            <thead>
+              <tr>
+                <th>Name Of Program</th>
+                <th>Type/Category</th>
+                <th>Incentive Type</th>
+                <th>More Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((value, key) => {
+                return (
+                  <tr key={key}>
+                    <td>{value.nameOfProgram}</td>
+                    <td>{finIncentive}</td>
+                    <td>{value.incentiveType}</td>
+                    <td>{value.moreInformation}</td>
+                    </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </Accordion>
     </div>
 
     <div>
