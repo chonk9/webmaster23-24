@@ -39,7 +39,11 @@ export default function CleanSolutionsWaste() {
             <img src={solarPanels}></img>
           </>} textElt={<>
             Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
-            By reducing the need for materials for products by recycling we can lower greenhouse gas emissions by a significant amount.
+            We can reduce these emissions by a significant amount when recycling them.
+            Electronics require a lot of specialized parts to make and the manufacturing of the materials contribute a lot of carbon.
+            By recycling them, you save a lot of materials like glass, precious metals, and plastic.
+            <br/>
+            For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' rel='noreferer'>https://www.epa.gov/recycle/electronics-donation-and-recycling</a>
           </>}/>
         </div>
       </div>

@@ -22,6 +22,11 @@ export default function AboutUs() {
               rel='noreferrer'>
               https://www.dsireusa.org/
             </a>
+            <a 
+              href='https://www.epa.gov/recycle/electronics-donation-and-recycling'
+              rel='noreferrer'>
+              https://www.epa.gov/recycle/electronics-donation-and-recycling
+            </a>
         </Accordion>
       </div>
     </div>
