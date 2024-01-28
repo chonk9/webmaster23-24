@@ -3,10 +3,11 @@ footer {
   grid-template-columns: auto 1fr auto;
   background-color: var(--black);
   color: var(--cream);
-  padding: 20px;
+  padding: 20 px;
   justify-content: space-between;
   background-color: #0a652e;
   color: white;
+  margin-top:225px;
 }
 
 .sitemap ul {

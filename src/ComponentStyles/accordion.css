@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: left;
-  padding: 8px;
+  padding: 2px;
 }
 
 .accordion-title > * {
@@ -19,11 +19,11 @@
 }
 
 .accordion-content {
-  background-color: white;
+  background-color: rgb(216, 236, 255);
   text-align: left;
   display: block;
   overflow: hidden;
-  transition: height 0.35s ease;
+  transition: height 0.5s ease;
 }
 
 .accordion-content * {
@@ -31,7 +31,7 @@
 }
 
 .accordion-content .padder {
-  padding: 10px;
+  padding: 6px;
 }
 
 .accordion-content p {
