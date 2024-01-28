@@ -10,9 +10,11 @@ export default function AboutUs() {
       <div id='sources'>
         <br></br>
         <Accordion title='Information'>
-          <li><a href="https://www.whitehouse.gov/cleanenergy/" target="_blank" rel="noopener noreferrer">https://www.whitehouse.gov/cleanenergy/</a>
+          <li><a href="https://www.whitehouse.gov/cleanenergy/" target="_blank" rel="noopener noreferrer">
+            https://www.whitehouse.gov/cleanenergy/</a>
           </li><br/>
-          <li><a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer">https://www.dsireusa.org/</a>
+          <li><a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer">
+            https://www.dsireusa.org/</a>
           </li><br/>
           <li><a href="https://www.energy.gov/energysaver/planning-home-renewable-energy-systems" target="_blank" rel="noopener noreferrer">
             https://www.energy.gov/energysaver/planning-home-renewable-energy-systems</a>
@@ -37,6 +39,12 @@ export default function AboutUs() {
           </li><br/>
           <li><a href="https://www.epa.gov/recycle/composting-home" target="_blank" rel="noopener noreferrer">
             https://www.epa.gov/recycle/composting-home</a>
+          </li>
+          <li><a href="https://recycleright.org" target="_blank" rel="noopener noreferrer">
+          https://recycleright.org</a>
+          </li>
+          <li><a href="https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/" target="_blank" rel="noopener noreferrer">
+          https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/</a>
           </li>
         </Accordion>
 
@@ -63,12 +71,6 @@ export default function AboutUs() {
           </li><br/>
           <li> <a href = 'https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic' target = '_blank' rel="noopener noreferrer" >
           https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic</a>
-          </li>
-          <li>
-            "Recycle Right" https://recycleright.org, Accessed 2024.
-          </li>
-          <li>
-            "Composting 101: How to Start Your First Compost Pile" https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/, Publisher: LawnStarter, Accessed 2024.
           </li>
         </Accordion>
 
