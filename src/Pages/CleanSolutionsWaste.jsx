@@ -29,7 +29,12 @@ export default function CleanSolutionsWaste() {
           <TextWrap wrappedSide="right" wrappedElt={<>
             <img src={homeTurbine}></img>
           </>} textElt={<>
-          Placeholder
+            Composting is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
+            The compost that forms is very good for growing plants when done correctly.
+            Food makes up <b>24%</b> of US landfills.
+            Composting food would allow this food to be utilized more and reduce emissions, water, and resource usage.
+            <br/>
+            For more information go to <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'>https://www.epa.gov/recycle/composting-home</a>
           </>}/>
         </div>
         
