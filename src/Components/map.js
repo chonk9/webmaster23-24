@@ -8,7 +8,7 @@ export default function Map() {
     const [selectedState, setSelectedState] = useState(null);
     const [selectedCoords, setSelectedCoords] = useState(null);
 
-    return (<div class="map">
+    return (<div className="map">
         { selectedState !== null &&
             <InfoPopup selectedState={selectedState} selectedCoords={selectedCoords}/>
         }
