@@ -70,6 +70,21 @@ export default function AboutUs() {
             >
             Webmaster Documentation
           </a>
+            <a 
+              href='https://www.epa.gov/recycle/electronics-donation-and-recycling'
+              rel='noreferrer'>
+              https://www.epa.gov/recycle/electronics-donation-and-recycling
+            </a>
+            <a 
+              href='https://www.epa.gov/recycle/composting-home'
+              rel='noreferrer'>
+              https://www.epa.gov/recycle/composting-home
+            </a>
+            <a 
+              href='https://www.epa.gov/sustainable-management-food/composting'
+              rel='noreferrer'>
+              https://www.epa.gov/sustainable-management-food/composting
+            </a>
         </Accordion>
         <br></br>
 
