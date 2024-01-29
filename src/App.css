@@ -50,7 +50,7 @@
 }
 
 h1 {
-    border-bottom: 4px solid green;
+    /* color: rgb(10, 101, 46); */
 }
 
 h1,
@@ -60,10 +60,12 @@ h4,
 h5,
 h6 {
     margin-top: 0;
+    color: rgb(10, 101, 46);
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 h2 {
@@ -89,6 +91,8 @@ path.no-fill {
 }
 
 p {
+    font-weight: 400;
+    color: rgb(8, 74, 35);
     text-align: left;
     margin-top: 0;
 }
@@ -105,50 +109,56 @@ p {
     margin-top: 2rem;
 }
 
-.left-side-image, .right-side-image {
-  border: 16px solid black;
-  position: relative;
-  opacity: 0;
+.left-side-image,
+.right-side-image {
+    border: 16px solid;
+    border-color: rgb(8, 74, 35);
+    position: relative;
+    opacity: 0;
 }
 
 .left-side-image {
-  border-radius: 0 9999px 9999px 0;
-  border-left: 0;
+    border-radius: 0 9999px 9999px 0;
+    border-left: 0;
 
-  left: -100%;
-  animation: come-in-left 1s cubic-bezier(0.33, 1, 0.68, 1) forwards, fade-in 1s linear forwards;
+    left: -100%;
+    animation: come-in-left 1s cubic-bezier(0.33, 1, 0.68, 1) forwards,
+        fade-in 1s linear forwards;
 }
 
 .right-side-image {
-  border-radius: 9999px 0 0 9999px;
-  border-right: 0;
+    border-radius: 9999px 0 0 9999px;
+    border-right: 0;
 
-  right: -100%;
-  animation: come-in-right 1s cubic-bezier(0.33, 1, 0.68, 1) forwards, fade-in 1s linear forwards;
+    right: -100%;
+    animation: come-in-right 1s cubic-bezier(0.33, 1, 0.68, 1) forwards,
+        fade-in 1s linear forwards;
 }
 
 @keyframes come-in-left {
-  to {
-    left: 0;
-  }
+    to {
+        left: 0;
+    }
 }
 
 @keyframes come-in-right {
-  to {
-    right: 0;
-  }
+    to {
+        right: 0;
+    }
 }
 
 @keyframes fade-in {
-  to {
-    opacity: 1;
-  }
+    to {
+        opacity: 1;
+    }
 }
 
 .side-heading {
-  display: block;
-  font-size: 3rem;
-  margin-bottom: 1rem;
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: rgb(8, 74, 35);
 }
 
 button {
@@ -159,6 +169,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: 700;
 }
 
 button:hover {
