@@ -2,7 +2,7 @@
     width: 100%;
     margin: auto;
     border-radius: 0.6rem;
-    background-color: rgb(189, 204, 188);
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%)
 }
 
 .state-info-popup {
