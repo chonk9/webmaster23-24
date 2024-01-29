@@ -9,13 +9,19 @@
     background-color: white;
     border: 2px solid black;
     border-radius: 0.3rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    max-width: 500px;
 }
 
 .state-info-popup li {
     display: list-item;
     text-align: left;
     font-size: 0.7rem;
+    list-style-type: disc;
+}
+
+.state-info-popup ul {
+    padding-left: 0.7rem;
 }
 
 .state-path[data-state="Alaska"] {

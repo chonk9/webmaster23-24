@@ -21,7 +21,44 @@ export default function Map() {
 }
 
 const InfoPopup = forwardRef(function(props, ref) {
-    return (<div ref={ref} className="state-info-popup" style={{top: props.selectedCoords[1] + 'px', left: props.selectedCoords[0] + 'px'}}>
+    useEffect(() => {
+        ref.current.style.left = '0px';
+        
+        let popupWidth = parseFloat(getComputedStyle(ref.current).width.replace('px', ''));
+
+        ref.current.style.top = props.selectedCoords[1] + 'px';
+
+        let overflowingLeft = props.selectedCoords[0] - popupWidth <= 0;
+        let overflowingRight = props.selectedCoords[0] + popupWidth >= window.innerWidth;
+
+        function alignLeft() {
+            ref.current.style.left = props.selectedCoords[0] - popupWidth + 'px';
+        }
+
+        function alignRight() {
+            ref.current.style.left = props.selectedCoords[0] + 'px';
+        }
+
+        function alignCenter() {
+            ref.current.style.left = (window.innerWidth - popupWidth) / 2 + 'px';
+        }
+
+        if (overflowingRight) {
+            if (!overflowingLeft) {
+                alignLeft();
+            } else {
+                alignCenter();
+            }
+        } else {
+            if (!overflowingRight) {
+                alignRight();
+            } else {
+                alignCenter();
+            }
+        }
+    }, []);
+
+    return (<div ref={ref} className="state-info-popup">
         <div className="bold">{props.selectedState}</div>
         <div dangerouslySetInnerHTML={{__html: Object.keys(stateInfo).includes(props.selectedState) ? stateInfo[props.selectedState].text : ''}}></div>
     </div>)
