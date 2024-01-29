@@ -35,7 +35,7 @@ export default function TaxIncentives() {
         <a target='_blank' href='https://www.irs.gov/pub/irs-pdf/f5695.pdf' rel='noreferrer'>IRS Form 5695</a>.
       </p>
     </div>
-    <div id = 'dropdown'>
+    <div class = 'national-table-dropdown'>
       <Accordion title = "National Table Dropdown">
         <div>
           <table className = "nationalTable">
