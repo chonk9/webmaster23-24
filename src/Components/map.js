@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, forwardRef } from 'react';
 import '../ComponentStyles/map.css';
+import { reject } from 'bcrypt/promises';
 
 let stateInfo = require('../config/stateInfo.json');
 
@@ -24,9 +25,15 @@ const InfoPopup = forwardRef(function(props, ref) {
     useEffect(() => {
         ref.current.style.left = '0px';
         
-        let popupWidth = parseFloat(getComputedStyle(ref.current).width.replace('px', ''));
+        let computedStyle = getComputedStyle(ref.current)
+        let popupWidth = parseFloat(computedStyle.width.replace('px', ''));
+        let popupHeight = parseFloat(computedStyle.height.replace('px', ''));
 
-        ref.current.style.top = props.selectedCoords[1] + 'px';
+        if (props.selectedCoords[1] + popupHeight > document.body.scrollHeight) {
+            ref.current.style.top = document.body.scrollHeight - popupHeight + 'px';
+        } else {
+            ref.current.style.top = props.selectedCoords[1] + 'px';
+        }
 
         let overflowingLeft = props.selectedCoords[0] - popupWidth <= 0;
         let overflowingRight = props.selectedCoords[0] + popupWidth >= window.innerWidth;
