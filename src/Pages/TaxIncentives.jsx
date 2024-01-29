@@ -67,7 +67,7 @@ export default function TaxIncentives() {
     <div>
       <h2 className="page-subheading">State Level</h2>
       <p>
-        Click on a state/territory to see the tax incentives!
+        Click on a state/territory to see the green incentives!
       </p>
       <Map/>
     </div>
