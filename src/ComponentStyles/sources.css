@@ -1,19 +1,23 @@
 #sources .accordion p {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-} 
+}
 
-#sources a{
-    color:rgb(21, 0, 212);
+#sources a {
+    color: black;
     font-weight: bold;
     text-decoration: none;
     font-size: 18px;
-  }
-  #sources {
+}
+
+#sources a:hover {
+    color: rgb(87, 91, 76);
+}
+#sources {
     margin-top: 10px;
     color: black;
-  }
-body{
-    display:flex;
+}
+body {
+    display: flex;
     flex-direction: column;
 }
