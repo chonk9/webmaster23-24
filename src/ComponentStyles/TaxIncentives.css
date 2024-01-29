@@ -25,7 +25,7 @@ table {
 }
 
 .national-table-dropdown .accordion-content {
-  height: fit-content !important;
+  /* height: fit-content !important; */
 }
 
 .nationalTable td,
