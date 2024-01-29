@@ -32,7 +32,7 @@ export default function Footer({ currentYear }) {
             <li>
               <a
                 target='_blank'
-                href='https://docs.google.com/document/d/e/2PACX-1vQrboS3DrLbHX5K3fQ4lIgNj_WWYRTQfph2ieKPjxb8SOZPs62EYUTXUIwnhXk5ADXEdWYBLC5Z_UQR/pub' //https://drive.google.com/file/d/1jCtR5-p1o4F2Y_4SVklmRieCoTfL-xr8/view?usp=sharing' 
+                href='https://drive.google.com/file/d/1Tpmt1L-KdeBobpTXHE_LaydE_HSHLC8p/view' //https://drive.google.com/file/d/1jCtR5-p1o4F2Y_4SVklmRieCoTfL-xr8/view?usp=sharing' 
                 rel='noreferrer'
               >
                 Documentation

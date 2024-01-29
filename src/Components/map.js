@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, forwardRef } from 'react';
 import '../ComponentStyles/map.css';
-import { reject } from 'bcrypt/promises';
+// import { reject } from 'bcrypt/promises';
 
 let stateInfo = require('../config/stateInfo.json');
 
