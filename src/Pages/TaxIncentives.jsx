@@ -54,7 +54,7 @@ export default function TaxIncentives() {
                     <td>{value.nameOfProgram}</td>
                     <td>{finIncentive}</td>
                     <td>{value.incentiveType}</td>
-                    <td><a href = {value.moreInformation}>{value.moreInformation}</a></td>
+                    <td><a href = {value.moreInformation} target="_blank">{value.moreInformation}</a></td>
                     </tr>
                 );
               })}
