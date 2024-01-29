@@ -2,7 +2,7 @@ import React from 'react'
 import "../ComponentStyles/AboutUs.css"
 
 export default function AboutUs() {
-  return(<>
+  return(<div class="about-us">
     <h1>Working for a cleaner future!</h1>
 
     <p>
@@ -24,6 +24,6 @@ export default function AboutUs() {
     
     <p>Members: 2098-005, 2098-006, 2098-038, 2098-039, 2098-055</p>
 
-  </>);
+  </div>);
 
 }
