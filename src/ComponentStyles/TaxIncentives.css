@@ -4,11 +4,43 @@ table {
   border-collapse: collapse;
 }
 
+.nationalTable {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.nationalTable td {
+  padding: 0.2rem;
+  font-size: 0.7rem;
+}
+
+.nationalTable a {
+  font-size: 0.7rem;
+  width: 100% !important;
+  word-wrap: anywhere;
+}
+
+.nationalTable tr :nth-child(4) {
+  width: 100%;
+}
+
+.nationalTable tr :nth-child(3) {
+  width: 30%;
+}
+
+.nationalTable tr :nth-child(2) {
+  width: 33.33%;
+}
+
+.nationalTable tr :nth-child(1) {
+  width: 25%;
+}
+
 tr {
   width: 500px;
 }
 
-copium {
+.copium {
   width: 1rem;
 }
   
