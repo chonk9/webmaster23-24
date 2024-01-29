@@ -35,7 +35,7 @@ export default function CleanSolutionsWaste() {
             Composting food would allow this food to be utilized more and reduce emissions, water, and resource usage.
             </p>
             <p>
-              For more information see <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
+              For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
             </p>
           </>}/>
         </div>
@@ -52,8 +52,8 @@ export default function CleanSolutionsWaste() {
               By recycling them, you save a lot of materials like glass, precious metals, and plastic.
             </p>
             <p>
-              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
-                and <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' rel='noreferer'><b>https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
+              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
+                and <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
             </p>
           </>}/>
         </div>
