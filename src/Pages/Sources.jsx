@@ -85,7 +85,7 @@ export default function AboutUs() {
         <Accordion title='Webmaster Documentation'>
           <a
             target = '_blank'
-            href = 'https://drive.google.com/file/d/1Tpmt1L-KdeBobpTXHE_LaydE_HSHLC8p/view?usp=sharing'
+            href = 'https://docs.google.com/document/d/1_h7WowiRRRvjDwj-rpYkpdmEklpLRejEt-0l_H5ys-s/edit?usp=sharing'
             >
             Webmaster Documentation
           </a><br/>
