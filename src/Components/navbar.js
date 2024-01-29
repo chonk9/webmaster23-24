@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { ReactComponent as ChevronDown } from '../ComponentStyles/chevron-down.svg';
-import logo from '../Images/logo.png';
-import '../ComponentStyles/Navbar.css';
-import classNames from 'classnames';
-import CleanSolutionsHome from '../Pages/CleanSolutionsHome';
-import CleanSolutionsVehicles from '../Pages/CleanSolutionsVehicles';
-import CleanSolutionsWaste from '../Pages/CleanSolutionsWaste';
+import React, { useState, useEffect, useCallback, useRef } from "react";
+import { ReactComponent as ChevronDown } from "../ComponentStyles/chevron-down.svg";
+import logo from "../Images/logo.png";
+import "../ComponentStyles/Navbar.css";
+import classNames from "classnames";
+import CleanSolutionsHome from "../Pages/CleanSolutionsHome";
+import CleanSolutionsVehicles from "../Pages/CleanSolutionsVehicles";
+import CleanSolutionsWaste from "../Pages/CleanSolutionsWaste";
 import "./yunggravy.css";
 
 export default function Navbar() {
@@ -15,140 +15,176 @@ export default function Navbar() {
     const btnRef = useRef();
     const toggleDropdown = () => setDropdown(!dropdown);
     const toggle = useCallback(() => {
-      // Prevents scrolling when sidebar is open
-      if (sidebar) {
-        window.onscroll = function () {};
-      } else if (!sidebar) {
-        var x = window.scrollX;
-        var y = window.scrollY;
-        window.onscroll = function () {
-          window.scrollTo(x, y);
-        };
-      }
-      setSidebar(!sidebar);
+        // Prevents scrolling when sidebar is open
+        if (sidebar) {
+            window.onscroll = function () {};
+        } else if (!sidebar) {
+            var x = window.scrollX;
+            var y = window.scrollY;
+            window.onscroll = function () {
+                window.scrollTo(x, y);
+            };
+        }
+        setSidebar(!sidebar);
     }, [sidebar]);
     useEffect(() => {
-      // Closes sidebar when escape key is pressed
-      const keyPress = (e) => {
-        if (e.key === 'Escape' && sidebar) toggle();
-      };
-      document.addEventListener('keydown', keyPress, false);
-  
-      return () => {
-        document.removeEventListener('keydown', keyPress, false);
-      };
+        // Closes sidebar when escape key is pressed
+        const keyPress = (e) => {
+            if (e.key === "Escape" && sidebar) toggle();
+        };
+        document.addEventListener("keydown", keyPress, false);
+
+        return () => {
+            document.removeEventListener("keydown", keyPress, false);
+        };
     }, [toggle, sidebar]);
     useEffect(() => {
-      // Closes dropdown when clicking outside of it
-      const closeDropdown = (e) => {
-        if (
-          e.target &&
-          !e.target.contains(btnRef.current) &&
-          e.target.className !== 'dropdown-links'
-        )
-          setDropdown(false);
-      };
-      document.body.addEventListener('click', closeDropdown);
-      return () => document.body.removeEventListener('click', closeDropdown);
+        // Closes dropdown when clicking outside of it
+        const closeDropdown = (e) => {
+            if (
+                e.target &&
+                !e.target.contains(btnRef.current) &&
+                e.target.className !== "dropdown-links"
+            )
+                setDropdown(false);
+        };
+        document.body.addEventListener("click", closeDropdown);
+        return () => document.body.removeEventListener("click", closeDropdown);
     }, [dropdown]);
     return (
-      <>
-        <div
-          className={classNames('tint', { 'active-tint': sidebar })}
-          onClick={toggle}
-        />
-        <div className={classNames('sidebar', { active: sidebar })}>
-          <ul className='sidebar-links'>
-            <li>
-              <a href= '/about-us'>About</a>
-            </li>
-            <li>
-              <hr />
-            </li>
-            <li>
-              <a href='/sources'>Sources</a>
-            </li>
-          </ul>
-        </div>
-        <div
-          className={classNames('sidecover', {
-            'sidecover-active': sidebar,
-          })}
-        />
-        <div className='ghost' />
-        <nav>
-          <a href='/' className='logo-link' aria-label='Logo' style={{marginRight: '1rem'}}>
-            <img className='logo' src={logo} alt='' height='50' width='50' style={{width: '70px', height: '70px'}} />
-          </a>
-          <a href = '/' className="name-of-company">Green Guardians</a>
-          <div className='nav-container'>
-            <div className='nav-link-center'>
-              <ul className='nav-links'>
-                <li>
-                  <a href='/'>Home</a>
-                </li>
-                <li>
-                  <a href='/tax-incentives'>Tax Incentives</a>
-                </li>
-                <li>
-                  <div className='dropdown'>
-                    <a
-                      className='dropdown-btn'
-                      onClick={toggleDropdown}
-                      ref={btnRef}
-                    >
-                      Solutions <ChevronDown />
-                    </a>
-                    <div
-                      className={classNames('dropdown-content', {
-                        'dropdown-active': dropdown,
-                      })}
-                      ref={contentRef}
-                      style={
-                        dropdown
-                          ? {
-                              height: contentRef.current.scrollHeight,
-                            }
-                          : { height: 0 }
-                      }
-                    >
-                      <div className='padder'>
-                        <ul className = 'big-header'>
-                          <li>
-                            <a href='/clean-solutions-home' element = {< CleanSolutionsHome />} className='dropdown-links'>
-                              Home
-                            </a>
-                          </li>
-                          <li>
-                            <a href='/clean-solutions-vehicles' element = {< CleanSolutionsVehicles />} className='dropdown-links'>
-                              Vehicles
-                            </a>
-                          </li>
-                          <li>
-                            <a href='/clean-solutions-waste' element = {< CleanSolutionsWaste />} className='dropdown-links'>
-                              Waste
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+        <>
+            <div
+                className={classNames("tint", { "active-tint": sidebar })}
+                onClick={toggle}
+            />
+            <div className={classNames("sidebar", { active: sidebar })}>
+                <ul className="sidebar-links">
+                    <li>
+                        <a href="/about-us">About</a>
+                    </li>
+                    <li>
+                        <hr />
+                    </li>
+                    <li>
+                        <a href="/sources">Sources</a>
+                    </li>
+                </ul>
             </div>
-            <button
-              className={classNames('burger', {
-                'active-burger': sidebar,
-              })}
-              onClick={toggle}
-              aria-label='Access sidebar'
-            >
-              <div className='line1'></div>
-              <div className='line2'></div>
-              <div className='line3'></div>
-            </button>
-          </div>
-        </nav>
-      </>
+            <div
+                className={classNames("sidecover", {
+                    "sidecover-active": sidebar,
+                })}
+            />
+            <div className="ghost" />
+            <nav>
+                <a
+                    href="/"
+                    className="logo-link"
+                    aria-label="Logo"
+                    style={{ marginRight: "1rem" }}
+                >
+                    <img
+                        className="logo"
+                        src={logo}
+                        alt=""
+                        height="50"
+                        width="50"
+                        style={{ width: "70px", height: "70px" }}
+                    />
+                </a>
+                <a href="/" className="name-of-company">
+                    Green Guardians
+                </a>
+                <div className="nav-container">
+                    <div className="nav-link-center">
+                        <ul className="nav-links">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/tax-incentives">Tax Incentives</a>
+                            </li>
+                            <li>
+                                <div className="dropdown">
+                                    <a
+                                        className="dropdown-btn"
+                                        onClick={toggleDropdown}
+                                        ref={btnRef}
+                                    >
+                                        Solutions <ChevronDown />
+                                    </a>
+                                    <div
+                                        className={classNames(
+                                            "dropdown-content",
+                                            {
+                                                "dropdown-active": dropdown,
+                                            }
+                                        )}
+                                        ref={contentRef}
+                                        style={
+                                            dropdown
+                                                ? {
+                                                      height: contentRef.current
+                                                          .scrollHeight,
+                                                  }
+                                                : { height: 0 }
+                                        }
+                                    >
+                                        <div className="padder">
+                                            <ul className="big-header">
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions-home"
+                                                        element={
+                                                            <CleanSolutionsHome />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Property
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions-vehicles"
+                                                        element={
+                                                            <CleanSolutionsVehicles />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Vehicle
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions-waste"
+                                                        element={
+                                                            <CleanSolutionsWaste />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Waste
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button
+                        className={classNames("burger", {
+                            "active-burger": sidebar,
+                        })}
+                        onClick={toggle}
+                        aria-label="Access sidebar"
+                    >
+                        <div className="line1"></div>
+                        <div className="line2"></div>
+                        <div className="line3"></div>
+                    </button>
+                </div>
+            </nav>
+        </>
     );
-  }
+}
