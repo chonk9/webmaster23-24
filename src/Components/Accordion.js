@@ -14,7 +14,7 @@ export default function Accordion({ title, children }) {
       <div
         ref={content}
         style={
-          { height: (isActive ? content.current.scrollHeight : "0px") }
+          { height: (isActive ? "fit-content" : "0px") }
         }
         className={classNames('accordion-content', {
           'accordion-content-active': isActive,
