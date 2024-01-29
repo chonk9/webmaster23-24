@@ -25,7 +25,7 @@ export default function CleanSolutionsHome() {
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
-            <p>Check the map to see if your area is suitable for a wind farm.</p>
+            <p>Check the map to see if your area incentives for wind power.</p>
           </>}/>
         </div>
         <div className="solution">

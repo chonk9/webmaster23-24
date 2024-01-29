@@ -9,7 +9,7 @@ import SolutionHeading from '../Components/solutionHeading.js';
 import compostBin from '../Images/compostbin.jpg'
 import recyclingBin from '../Images/recycling-bin.jpg'
 import electricVehicle from '../Images/electric-vehicle.jpg'
-
+import '../ComponentStyles/CleanSolutionsWaste.css'
 function recycleIconComponent() {
   return <img src={RecycleIcon} style={{width: '70px'}} />
 }
@@ -36,7 +36,7 @@ export default function CleanSolutionsWaste() {
             Composting food would allow this food to be utilized more and reduce emissions, water, and resource usage.
             </p>
             <p>
-              For more information see <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'>https://www.epa.gov/recycle/composting-home</a>
+              For more information see <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
             </p>
           </>}/>
         </div>
@@ -53,7 +53,8 @@ export default function CleanSolutionsWaste() {
               By recycling them, you save a lot of materials like glass, precious metals, and plastic.
             </p>
             <p>
-              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' rel='noreferer'>https://www.epa.gov/recycle/electronics-donation-and-recycling</a>
+              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
+                and <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' rel='noreferer'><b>https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
             </p>
           </>}/>
         </div>
