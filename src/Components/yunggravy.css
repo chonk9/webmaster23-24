@@ -138,7 +138,7 @@ nav a {
   }
 
   .nav-container {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     flex: 1;
     padding: 20px;
@@ -194,6 +194,7 @@ nav a {
 }
 
 .burger {
+  padding-left: 0;
   transition: transform 0.3s, opacity 0.1s ease-in-out;
   opacity: 1;
   cursor: pointer;
