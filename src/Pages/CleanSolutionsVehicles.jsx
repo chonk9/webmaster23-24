@@ -18,7 +18,6 @@ export default function CleanSolutionsVehicles() {
             <h1>Clean Solutions for Vehicles</h1>
             <div className="content">
                 <div>
-                    <h2 className="page-subheading">Vehicle Systems</h2>
                     <div className="solution">
                         <SolutionHeading
                             visual={CarAnimation}

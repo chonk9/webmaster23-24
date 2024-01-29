@@ -5,13 +5,18 @@ table {
 }
 
 @media (max-width: 800px) {
-  .nationalTable td, .nationalTable td a {
+  .nationalTable td,
+  .nationalTable td a {
     font-size: 0.4rem !important;
   }
-  
+
   .nationalTable th {
     font-size: 0.5rem !important;
   }
+}
+
+.accordion-title p {
+  color: white;
 }
 
 .nationalTable {
@@ -23,7 +28,8 @@ table {
   height: fit-content !important;
 }
 
-.nationalTable td, .nationalTable td a {
+.nationalTable td,
+.nationalTable td a {
   font-size: 0.7rem;
 }
 
@@ -31,7 +37,8 @@ table {
   font-size: 0.8rem;
 }
 
-.nationalTable td, .nationalTable th {
+.nationalTable td,
+.nationalTable th {
   padding: 0.2rem;
   overflow-wrap: break-word;
 }
@@ -64,12 +71,12 @@ tr {
 .copium {
   width: 1rem;
 }
-  
+
 th {
   border-bottom: 1px solid black;
   border: 2px solid black;
 }
-  
+
 td {
   text-align: left;
   border: 2px solid black;
@@ -78,7 +85,7 @@ td {
 .national-table-dropdown .accordion p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-} 
+}
 
 a {
   font-size: 1em;
