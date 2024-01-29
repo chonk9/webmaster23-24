@@ -4,7 +4,6 @@ import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
 import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
-import HomeSolutions from "../Pages/CleanSolutionsHome"
 
 export default function Home() {
     useEffect(() => {

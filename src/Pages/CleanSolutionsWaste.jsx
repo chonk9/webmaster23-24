@@ -23,7 +23,6 @@ export default function CleanSolutionsWaste() {
     <h1>Clean Solutions For Waste</h1>
     <div className="content">
       <div>
-        <h2 className="page-subheading">Waste Systems</h2>
         <div className="solution">
           <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" />
         
