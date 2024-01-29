@@ -17,7 +17,7 @@ export default function Navbar() {
     const toggle = useCallback(() => {
         // Prevents scrolling when sidebar is open
         if (sidebar) {
-            window.onscroll = function () {};
+            window.onscroll = function () { };
         } else if (!sidebar) {
             var x = window.scrollX;
             var y = window.scrollY;
@@ -102,7 +102,7 @@ export default function Navbar() {
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="/tax-incentives">Tax Incentives</a>
+                                <a href="/tax-incentives">Incentives</a>
                             </li>
                             <li>
                                 <div className="dropdown">
@@ -124,9 +124,9 @@ export default function Navbar() {
                                         style={
                                             dropdown
                                                 ? {
-                                                      height: contentRef.current
-                                                          .scrollHeight,
-                                                  }
+                                                    height: contentRef.current
+                                                        .scrollHeight,
+                                                }
                                                 : { height: 0 }
                                         }
                                     >
