@@ -24,6 +24,11 @@ nav a {
   color: #fff;
 }
 
+a:hover {
+  color: lime;
+  transition: 0.5s;
+}
+
 .ghost {
   display: flex;
   height: 96px;
