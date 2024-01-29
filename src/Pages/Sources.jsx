@@ -45,7 +45,10 @@ export default function AboutUs() {
           </li><br/>
           <li><a href="https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/" target="_blank" rel="noopener noreferrer">
           https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/</a>
-          </li>
+          </li><br/>
+          <li><a href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and" target="_blank" rel="noopener noreferrer">
+          https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and</a>
+          </li><br/>
         </Accordion>
 
         <br/>
@@ -71,6 +74,9 @@ export default function AboutUs() {
           </li><br/>
           <li> <a href = 'https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic' target = '_blank' rel="noopener noreferrer" >
           https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic</a>
+          </li><br/>
+          <li> <a href = 'https://storage.googleapis.com/kx-live-ih/images/concept_image_of_green_fuel_tank_i.2e16d0ba.fill-800x450.jpg' target = '_blank' rel="noopener noreferrer" >
+          https://storage.googleapis.com/kx-live-ih/images/concept_image_of_green_fuel_tank_i.2e16d0ba.fill-800x450.jpg</a>
           </li>
         </Accordion>
 

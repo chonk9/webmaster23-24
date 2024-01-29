@@ -4,7 +4,7 @@ import SunAnimation from "../Components/sunAnimation.js";
 import CarAnimation from "../Components/carAnimation.js";
 import TextWrap from "../Components/textWrap.js";
 import SolutionHeading from "../Components/solutionHeading.js";
-
+import fuelEff from "../Images/fuel-efficiency.jpg"
 import electricVehicle from "../Images/electric-vehicle.jpg";
 import steeringWheelIcon from "../Images/carSteeringWheel.png";
 
@@ -56,48 +56,29 @@ export default function CleanSolutionsVehicles() {
                     <div className="solution">
                         <SolutionHeading
                             visual={steeringWheelIconComponent}
-                            solutionName="Floor Mats & Accessories"
+                            solutionName="Fuel Conservation"
                         />
                         <TextWrap
                             wrappedSide="Left"
                             wrappedElt={
                                 <>
-                                    <img src={electricVehicle}></img>
+                                    <img src={fuelEff}></img>
                                 </>
                             }
                             textElt={
                                 <>
                                     <p>
-                                        Blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah
+                                        Even if you can't switch to an EV, there are sill ways to be more enviromentally friendly.
+                                        You can use less fuel by driving less or driving more effciently.
+                                        Walking and biking more, carpooling with other people, public transportation, 
+                                        and effcient planning can cut down on driving time.
+                                        
                                     </p>
                                     <p>
-                                        Blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah blah blah blah
-                                        blah blah blah blah blah
+                                        Acceleration and deacceleration costs more fuel than driving at a constant speed. 
+                                        By speeding up slower and less often a lot of fuel can be save here.
+                                        In addition, old parts in a car lessen fuel effciency, getting them checked up will save you fuel.
+                                        Also, leaving your car on idle also uses gas. If you idle your car a lot, the gas usage will add up.
                                     </p>
                                 </>
                             }
