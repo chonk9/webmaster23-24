@@ -30,9 +30,9 @@ export default function CleanSolutionsWaste() {
             <img src={compostBin}></img>
           </>} textElt={<>
             <p>Composting is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
-            The compost that forms is very good for growing plants when done correctly.
-            Food waste makes up <b>24%</b> of US landfills.
-            Composting food would allow this food to be utilized more and reduce emissions, water, and resource usage.
+            The compost produced, when done correctly, is very good fertilizer for growing plants.
+            Food waste makes up <b>24%</b> of US landfills. Which then contributes methane to the atmosphere from decomposition.
+            Composting the food instead would allow this food to be utilized and reduce emissions, water, and resource usage.
             </p>
             <p>
               For more information see <a href='https://www.epa.gov/recycle/composting-home' rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>

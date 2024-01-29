@@ -75,9 +75,9 @@ export default function CleanSolutionsVehicles() {
                                     </p>
                                     <p>
                                         Acceleration and deacceleration costs more fuel than driving at a constant speed. 
-                                        By speeding up slower and less often a lot of fuel can be save here.
-                                        In addition, old parts in a car lessen fuel effciency, getting them checked up will save you fuel.
-                                        Also, leaving your car on idle also uses gas. If you idle your car a lot, the gas usage will add up.
+                                        By accelerating slower and less often a lot of fuel can be saved.
+                                        In addition, poor car maintenance lessens fuel effciency, getting your car checked up will save you fuel in the long run.
+                                        Also, leaving your car on idle also uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
                                     </p>
                                 </>
                             }

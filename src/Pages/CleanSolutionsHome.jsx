@@ -24,7 +24,7 @@ export default function CleanSolutionsHome() {
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
-            <p>Check the map to see if your area incentives for wind power.</p>
+            <p>Check the map to see if your area has incentives for switching to wind power.</p>
           </>}/>
         </div>
         <div className="solution">
@@ -37,7 +37,7 @@ export default function CleanSolutionsHome() {
               however, depending on your latitude, energy generation may fluctuate depending on the season.
               In addition, cloud coverage will affect power generation.</p>
             <p>Energy storage or a more reliable source of energy may be needed to supplement solar power.</p>
-            <p>Some places may give tax credit if you switch to solar so check out the map for more information.</p>
+            <p>Some states may have incentives for switching to solar so check out the map for more information.</p>
           </>}/>
         </div>
 
