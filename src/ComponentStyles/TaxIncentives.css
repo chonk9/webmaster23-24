@@ -16,6 +16,8 @@ table {
 
 .nationalTable a {
   font-size: 0.7rem;
+  width: 100% !important;
+  word-wrap: anywhere;
 }
 
 .nationalTable tr :nth-child(4) {
