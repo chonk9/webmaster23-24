@@ -187,11 +187,11 @@ button:hover {
     transition: color 0.5s, border-bottom 0.1s;
 }
 
-.fun-bold:hover {
+/* .fun-bold:hover {
     border-bottom: 3px solid blue;
     color: blue;
     transition: color 0.5s, border-bottom 0.2s;
-}
+} */
 
 a:has(button) {
     text-decoration: none;
