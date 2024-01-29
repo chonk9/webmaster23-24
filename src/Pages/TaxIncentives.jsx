@@ -12,7 +12,7 @@ const data = [
   {nameOfProgram : "Previously-Owned Clean Vehicle Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/used-clean-vehicle-credit"},
   {nameOfProgram : "Alternative Fuel Vehicle Refueling Property Tax Credit (Personal)", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/alternative-fuel-vehicle-refueling-property-credit"},
   {nameOfProgram : "Residential Renewable Energy Tax Credit", typeCategory : {finIncentive}, incentiveType : "Personal Tax Credit", moreInformation : "https://www.irs.gov/credits-deductions/residential-clean-energy-credit"},
-  {nameOfProgram : "Residential Energy Conservation Subsidy Exclusion (Personal)", typeCategory : {finIncentive}, incentiveType : "Personal Tax Exemption", moreInformation : ""},
+  {nameOfProgram : "Residential Energy Conservation Subsidy Exclusion (Personal)", typeCategory : {finIncentive}, incentiveType : "Personal Tax Exemption", moreInformation : "https://www.govinfo.gov/content/pkg/USCODE-2014-title26/pdf/USCODE-2014-title26-subtitleA-chap1-subchapB-partIII-sec136.pdf"},
   {nameOfProgram : "USDA - High Energy Cost Grant Program", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.rd.usda.gov/programs-services/electric-programs/high-energy-cost-grants"},
   {nameOfProgram : "Weatherization Assistance Program (WAP)", typeCategory : {finIncentive}, incentiveType : "Grant Program", moreInformation : "https://www.energy.gov/scep/wap/weatherization-assistance-program"},
   {nameOfProgram : "Energy-Efficient Mortgages", typeCategory : {finIncentive}, incentiveType : "Loan Program", moreInformation : "https://www.energystar.gov/newhomes/mortgage_lending_programs/energy_efficient_mortgages"},
@@ -37,14 +37,14 @@ export default function TaxIncentives() {
     </div>
     <div id = 'dropdown'>
       <Accordion title = "National Table Dropdown">
-        <div className="nationalTable">
-          <table>
+        <div>
+          <table className = "nationalTable">
             <thead>
               <tr>
                 <th>Name Of Program</th>
                 <th>Type/Category</th>
                 <th>Incentive Type</th>
-                <th>More Information</th>
+                <th className='copium'>More Information</th>
               </tr>
             </thead>
             <tbody>
@@ -54,7 +54,7 @@ export default function TaxIncentives() {
                     <td>{value.nameOfProgram}</td>
                     <td>{finIncentive}</td>
                     <td>{value.incentiveType}</td>
-                    <td>{value.moreInformation}</td>
+                    <td><a href = {value.moreInformation}>{value.moreInformation}</a></td>
                     </tr>
                 );
               })}

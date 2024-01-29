@@ -1,4 +1,5 @@
 import React from 'react'
+import "../ComponentStyles/AboutUs.css"
 
 export default function AboutUs() {
   return(<>
@@ -19,9 +20,9 @@ export default function AboutUs() {
 
     <br></br>
 
-    <h2>Meet the team!</h2>
+    <h2>Team Members</h2>
     
-    <p>Member</p>
+    <p>Members: 2098-005, 2098-006, 2098-038, 2098-039, 2098-055</p>
 
   </>);
 

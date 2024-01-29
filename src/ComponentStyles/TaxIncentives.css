@@ -3,6 +3,14 @@ table {
   height: 200px;
   border-collapse: collapse;
 }
+
+tr {
+  width: 500px;
+}
+
+copium {
+  width: 1rem;
+}
   
 th {
   border-bottom: 1px solid black;
@@ -10,7 +18,7 @@ th {
 }
   
 td {
-  text-align: center;
+  text-align: left;
   border: 2px solid black;
 }
 
@@ -18,3 +26,9 @@ td {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 } 
+
+a {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
