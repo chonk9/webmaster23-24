@@ -14,7 +14,6 @@ export default function CleanSolutionsHome() {
     <h1>Clean Solutions At Home</h1>
     <div className="content">
       <div>
-        <h2 className="page-subheading">Home Systems</h2>
         <div className="solution">
           <SolutionHeading visual={WindAnimation} solutionName="Wind Energy Systems" />
         
