@@ -4,18 +4,35 @@ table {
   border-collapse: collapse;
 }
 
+@media (max-width: 800px) {
+  .nationalTable td, .nationalTable td a {
+    font-size: 0.4rem !important;
+  }
+  
+  .nationalTable th {
+    font-size: 0.5rem !important;
+  }
+}
+
 .nationalTable {
   width: 100%;
   table-layout: fixed;
 }
 
-.nationalTable td {
-  padding: 0.2rem;
+.nationalTable td, .nationalTable td a {
   font-size: 0.7rem;
 }
 
+.nationalTable th {
+  font-size: 0.8rem;
+}
+
+.nationalTable td, .nationalTable th {
+  padding: 0.2rem;
+  overflow-wrap: break-word;
+}
+
 .nationalTable a {
-  font-size: 0.7rem;
   width: 100% !important;
   word-wrap: anywhere;
 }
