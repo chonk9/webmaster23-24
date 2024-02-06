@@ -1,5 +1,5 @@
 import React from 'react'
-import "../ComponentStyles/AboutUs.css"
+import "../css/AboutUs.css"
 
 export default function AboutUs() {
   return(<div class="about-us">

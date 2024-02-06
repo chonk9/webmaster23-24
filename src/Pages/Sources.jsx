@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordion from '../Components/Accordion.js';
-import '../ComponentStyles/sources.css';
+import '../css/sources.css';
 
 export default function AboutUs() {
   return(<>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ComponentStyles/Footer.css';
+import '../css/Footer.css';
 import logo from '../Images/logo.png';
 
 export default function Footer({ currentYear }) {

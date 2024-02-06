@@ -9,7 +9,7 @@ import SolutionHeading from '../Components/solutionHeading.js';
 import compostBin from '../Images/compostbin.jpg'
 import recyclingBin from '../Images/recycling-bin.jpg'
 import electricVehicle from '../Images/electric-vehicle.jpg'
-import '../ComponentStyles/CleanSolutionsWaste.css'
+import '../css/CleanSolutionsWaste.css'
 function recycleIconComponent() {
   return <img src={RecycleIcon} style={{width: '70px'}} />
 }

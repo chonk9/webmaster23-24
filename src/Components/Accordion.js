@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React, { useState, useRef } from 'react';
-import '../ComponentStyles/accordion.css';
+import '../css/accordion.css';
 
 export default function Accordion({ title, children }) {
   const content = useRef();

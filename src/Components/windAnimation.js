@@ -1,4 +1,4 @@
-import '../ComponentStyles/windAnimation.css';
+import '../css/windAnimation.css';
 
 export default function WindAnimation(props) {
     return (<>

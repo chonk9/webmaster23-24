@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, forwardRef } from 'react';
-import '../ComponentStyles/map.css';
+import '../css/map.css';
 // import { reject } from 'bcrypt/promises';
 
 let stateInfo = require('../config/stateInfo.json');

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import leaf from '../Images/leaf.png'
-import '../ComponentStyles/leafReveal.css';
+import '../css/leafReveal.css';
 
 export default function LeafReveal(props) {
     const container = useRef(null);

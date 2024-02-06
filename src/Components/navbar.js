@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { ReactComponent as ChevronDown } from "../ComponentStyles/chevron-down.svg";
+import { ReactComponent as ChevronDown } from "./chevron-down.svg";
 import logo from "../Images/logo.png";
-import "../ComponentStyles/Navbar.css";
+import "../css/Navbar.css";
 import classNames from "classnames";
 import CleanSolutionsHome from "../Pages/CleanSolutionsHome";
 import CleanSolutionsVehicles from "../Pages/CleanSolutionsVehicles";
 import CleanSolutionsWaste from "../Pages/CleanSolutionsWaste";
-import "./yunggravy.css";
 
 export default function Navbar() {
     const [dropdown, setDropdown] = useState(false);

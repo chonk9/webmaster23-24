@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../ComponentStyles/sunAnimation.css';
+import '../css/sunAnimation.css';
 
 export default function SunAnimation(props) {
     const container = useRef(null);

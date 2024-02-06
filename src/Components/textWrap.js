@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../ComponentStyles/textWrap.css";
+import "../css/textWrap.css";
 
 export default function TextWrap(props) {
     let wrappedEltStyle = { float: props.wrappedSide, overflow: "auto" };

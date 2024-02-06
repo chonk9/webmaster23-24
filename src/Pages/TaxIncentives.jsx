@@ -1,7 +1,7 @@
 import React from 'react'
 import Map from '../Components/map';
 import Accordion from '../Components/Accordion.js';
-import "../ComponentStyles/TaxIncentives.css"
+import "../css/TaxIncentives.css"
 
 const finIncentive = "Financial Incentive"
 

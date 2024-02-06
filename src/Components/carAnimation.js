@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../ComponentStyles/carAnimation.css';
+import '../css/carAnimation.css';
 
 export default function CarAnimation(props) {
     const tickContainer = useRef(null);
