@@ -26,7 +26,7 @@
 }
 
 .state-path[data-state="Alaska"] {
-    transform: scale(0.7) translate(22%, 25%);
+    transform: translate(18%, 15%) scale(0.65, 0.95);
 }
 
 .state-path[data-state="Hawaii"] {
