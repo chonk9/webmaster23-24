@@ -82,6 +82,7 @@ ul li {
   .sidebar {
     width: calc(40vw - 36px - 2rem);
   }
+
   .sidebar.active {
     transform: translate(
       calc(100vw - 36px - 2rem - 1px),
@@ -115,7 +116,8 @@ ul li {
 
 .sidebar.active {
   opacity: 1;
-  transform: translateX(70vw);
+  transform: translateX(80vw);
+  width: 230px;
 }
 
 .sidecover {
@@ -125,7 +127,7 @@ ul li {
   transition: transform 0.5s, opacity 0.5s linear;
   transition-delay: 50ms;
   width: calc(36px + 2rem + 10px);
-  height: 150vh;
+  height: 100vh;
   background: #0a652e;
   z-index: 100;
 }
@@ -189,22 +191,6 @@ ul li {
   justify-content: center;
   height: 100%;
   width: auto;
-}
-
-.tint {
-  position: fixed;
-  transform: translate(120vw, 0);
-  background: #050505;
-  height: 140vh;
-  width: 70vw;
-  opacity: 0;
-  z-index: 200;
-  transition: transform 0.7s, opacity 0.5s ease-in-out;
-}
-
-.tint.active-tint {
-  transform: translate(0, 0);
-  opacity: 0.7;
 }
 
 .burger {

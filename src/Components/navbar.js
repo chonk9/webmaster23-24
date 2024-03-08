@@ -17,12 +17,6 @@ export default function Navbar() {
         // Prevents scrolling when sidebar is open
         if (sidebar) {
             window.onscroll = function () { };
-        } else if (!sidebar) {
-            var x = window.scrollX;
-            var y = window.scrollY;
-            window.onscroll = function () {
-                window.scrollTo(x, y);
-            };
         }
         setSidebar(!sidebar);
     }, [sidebar]);
@@ -52,10 +46,10 @@ export default function Navbar() {
     }, [dropdown]);
     return (
         <>
-            <div
+            {/* <div
                 className={classNames("tint", { "active-tint": sidebar })}
                 onClick={toggle}
-            />
+            /> */}
             <div className={classNames("sidebar", { active: sidebar })}>
                 <ul className="sidebar-links">
                     <li>

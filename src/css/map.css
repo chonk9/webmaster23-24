@@ -32,3 +32,7 @@
 .state-path[data-state="Hawaii"] {
     transform: translate(20%, -2%);
 }
+
+/* .state-path[data-state = 'Puerto Rico'] {
+    transform: scale(2, 2);
+} */

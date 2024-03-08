@@ -21,7 +21,7 @@ export default function Home() {
                     Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable for the Earth</span> and <span className="fun-bold">sustainable for your finances</span>.
                 </p>
                 <p>
-                    You probably don't realize how many green options there are for your house, cars, and even your waste!
+                    You probably don't realize how many green options there are for your house, cars, and waste!
                 </p>
                 <Link to='/clean-solutions-home'><button style={{marginTop: '1rem'}}>Learn about our clean solutions</button></Link>
             </>}/>

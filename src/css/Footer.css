@@ -54,10 +54,11 @@ footer a {
 }
 
 .footer-logo-link {
-  height: 100%;
+  height: fit-content;
   width: auto;
   padding-left: 0.4rem;
   padding-top: 0.4rem;
+  color: white;
 }
 
 footer li {
