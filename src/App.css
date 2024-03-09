@@ -91,6 +91,7 @@ p {
     color: rgb(8, 74, 35);
     text-align: left;
     margin-top: 0;
+    overflow-wrap: break-word;
 }
 
 .bold {

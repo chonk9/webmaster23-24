@@ -5,6 +5,7 @@ import RecycleIcon from '../Images/RecycleIcon.png'
 import CompostBin from '../Images/CompostBin.png'
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
+import Cost from '../Components/cost.js'
 
 import compostBin from '../Images/compostbin.jpg'
 import recyclingBin from '../Images/recycling-bin.jpg'
@@ -29,7 +30,7 @@ export default function CleanSolutionsWaste() {
           <TextWrap wrappedSide="right" wrappedElt={<>
             <img src={compostBin}></img>
           </>} textElt={<>
-            <p>Composting is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
+            <p><b>Composting</b> is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
             The compost produced, when done correctly, is very good fertilizer for growing plants.
             Food waste makes up <b>24%</b> of US landfills. Which then contributes methane to the atmosphere from decomposition.
             Composting the food instead would allow this food to be utilized and reduce emissions, water, and resource usage.
@@ -37,6 +38,8 @@ export default function CleanSolutionsWaste() {
             <p>
               For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
             </p>
+
+            <Cost value="20 to 400 (cost of compost bin)"></Cost>
           </>}/>
         </div>
         
@@ -55,6 +58,8 @@ export default function CleanSolutionsWaste() {
               For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
                 and <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
             </p>
+
+            <Cost value="10 to 30 (cost of recycling bin)"></Cost>
           </>}/>
         </div>
       </div>

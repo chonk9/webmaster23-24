@@ -4,6 +4,8 @@ import SunAnimation from '../Components/sunAnimation.js';
 import CarAnimation from '../Components/carAnimation.js';
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
+import Cost from '../Components/cost.js';
+
 import homeTurbine from '../Images/homeTurbine.jpg'
 import solarPanels from '../Images/solarPanels.webp'
 import electricVehicle from '../Images/electric-vehicle.jpg'
@@ -24,6 +26,8 @@ export default function CleanSolutionsHome() {
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
             <p>Check the map to see if your area has incentives for switching to wind power.</p>
+
+            <Cost value="3,000 to 5,000 per kW of power capacity ($15K to $75K total)"></Cost>
           </>}/>
         </div>
         <div className="solution">
@@ -37,6 +41,8 @@ export default function CleanSolutionsHome() {
               In addition, cloud coverage will affect power generation.</p>
             <p>Energy storage or a more reliable source of energy may be needed to supplement solar power.</p>
             <p>Some states may have incentives for switching to solar so check out the map for more information.</p>
+          
+            <Cost value="18,000 to 37,000"></Cost>
           </>}/>
         </div>
 

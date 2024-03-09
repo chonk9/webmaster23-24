@@ -49,6 +49,15 @@ export default function AboutUs() {
           <li><a href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and" target="_blank" rel="noopener noreferrer">
           https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and</a>
           </li><br/>
+          <li><a href="https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/" target="_blank" rel="noopener noreferrer">
+          https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/</a>
+          </li><br/>
+          <li><a href="https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2" target="_blank" rel="noopener noreferrer">
+          https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2</a>
+          </li><br/>
+          <li><a href="https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/" target="_blank" rel="noopener noreferrer">
+          https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/</a>
+          </li><br/>
         </Accordion>
 
         <br/>

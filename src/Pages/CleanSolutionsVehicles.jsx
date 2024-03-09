@@ -4,6 +4,7 @@ import SunAnimation from "../Components/sunAnimation.js";
 import CarAnimation from "../Components/carAnimation.js";
 import TextWrap from "../Components/textWrap.js";
 import SolutionHeading from "../Components/solutionHeading.js";
+import Cost from '../Components/cost.js';
 import fuelEff from "../Images/fuel-efficiency.jpg"
 import electricVehicle from "../Images/electric-vehicle.jpg";
 import steeringWheelIcon from "../Images/carSteeringWheel.png";
@@ -47,6 +48,8 @@ export default function CleanSolutionsVehicles() {
                                         can also gain energy back by recovering
                                         energy from breaking.
                                     </p>
+
+                                    <Cost value="30,000+"></Cost>
                                 </>
                             }
                         />
@@ -79,6 +82,8 @@ export default function CleanSolutionsVehicles() {
                                         In addition, poor car maintenance lessens fuel effciency, getting your car checked up will save you fuel in the long run.
                                         Also, leaving your car on idle also uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
                                     </p>
+
+                                    <Cost value="0 &#8212; You save money on fuel!"></Cost>
                                 </>
                             }
                         />

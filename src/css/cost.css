@@ -1,0 +1,13 @@
+.cost-container {
+    display: flex;
+    gap: 0.8rem;
+    padding: 1rem;
+    padding-top: 0;
+    align-items: center;
+}
+
+.cost-value {
+    text-align: left;
+    height: fit-content;
+    padding-top: 0;
+}
