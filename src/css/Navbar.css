@@ -116,7 +116,7 @@ ul li {
 
 .sidebar.active {
   opacity: 1;
-  transform: translateX(calc(83rem - calc(36px + 2rem + 10px)));
+  transform: translateX(84vw);
   width: 230px;
 }
 
