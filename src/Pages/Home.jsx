@@ -4,15 +4,23 @@ import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
 import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
+import video from '../Videos/bannerVideo.mp4';
 
 export default function Home() {
     useEffect(() => {
         // scroll to the top of page, fixes bug where switching to page retains scroll position
         window.scrollTo(0, 0);
     }, []);
-    return (
-        <div className="home-container">
-            <h1>Welcome to Green Guardians!</h1>
+    
+    return (        
+        <div className="home-container">     
+            <div class="welcome-section bg-video-container">
+                <h1>Welcome to Green Guardians!</h1>
+                <video class="bg-video" autoPlay muted loop>
+                    <source src={video} type="video/mp4" />
+                </video>
+            </div>
+
             <TextWrap wrappedSide="left" wrappedElt={
                 <img src={environmentalHouse1} className="left-side-image" />
             } textElt={<>
