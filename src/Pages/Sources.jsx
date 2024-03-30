@@ -10,17 +10,17 @@ export default function AboutUs() {
       <div id='sources'>
         <br></br>
         <Accordion title='Information'>
+          <Accordion title='General'> 
           <li><a href="https://www.whitehouse.gov/cleanenergy/" target="_blank" rel="noopener noreferrer">
             https://www.whitehouse.gov/cleanenergy/</a>
           </li><br/>
           <li><a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer">
             https://www.dsireusa.org/</a>
           </li><br/>
+          </Accordion>
+          <Accordion title='Property'> 
           <li><a href="https://www.energy.gov/energysaver/planning-home-renewable-energy-systems" target="_blank" rel="noopener noreferrer">
             https://www.energy.gov/energysaver/planning-home-renewable-energy-systems</a>
-          </li><br/>
-          <li><a href="https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200" target="_blank" rel="noopener noreferrer">
-          https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200</a>
           </li><br/>
           <li><a href="https://www.energystar.gov/ABOUT/FEDERAL_TAX_CREDITS" target="_blank" rel="noopener noreferrer">
             https://www.energystar.gov/ABOUT/FEDERAL_TAX_CREDITS</a>
@@ -31,6 +31,25 @@ export default function AboutUs() {
           <li><a href="https://dnr.wisconsin.gov/climatechange/science" target="_blank" rel="noopener noreferrer">
             https://dnr.wisconsin.gov/climatechange/science</a>
           </li><br/>
+          <li><a href="https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/" target="_blank" rel="noopener noreferrer">
+          https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/</a>
+          </li><br/>
+          <li><a href="https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2" target="_blank" rel="noopener noreferrer">
+          https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2</a>
+          </li><br/>
+          </Accordion>
+          <Accordion title='Vehicles'> 
+          <li><a href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and" target="_blank" rel="noopener noreferrer">
+          https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and</a>
+          </li><br/>
+          <li><a href="https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/" target="_blank" rel="noopener noreferrer">
+          https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/</a>
+          </li><br/>
+          <li><a href="https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after" target="_blank" rel="noopener noreferrer">
+          https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after</a>
+          </li><br/>
+          </Accordion>
+          <Accordion title='Waste'> 
           <li><a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" target="_blank" rel="noopener noreferrer">
             https://www.epa.gov/recycle/electronics-donation-and-recycling</a>
           </li><br/>
@@ -46,21 +65,10 @@ export default function AboutUs() {
           <li><a href="https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/" target="_blank" rel="noopener noreferrer">
           https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/</a>
           </li><br/>
-          <li><a href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and" target="_blank" rel="noopener noreferrer">
-          https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and</a>
-          </li><br/>
-          <li><a href="https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/" target="_blank" rel="noopener noreferrer">
-          https://www.energysage.com/about-clean-energy/wind/small-wind-turbines-overview/</a>
-          </li><br/>
-          <li><a href="https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2" target="_blank" rel="noopener noreferrer">
-          https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2</a>
-          </li><br/>
-          <li><a href="https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/" target="_blank" rel="noopener noreferrer">
-          https://www.cars.com/articles/here-are-the-11-cheapest-electric-vehicles-you-can-buy-439849/</a>
-          </li><br/>
+          </Accordion>
+          <br/>
         </Accordion>
 
-        <br/>
 
         <Accordion title='Assets'>
           <li><a href="https://hub.arcgis.com/datasets/1612d351695b467eba75fdf82c10884f/explore" target="_blank" rel="noopener noreferrer">
@@ -86,15 +94,18 @@ export default function AboutUs() {
           </li><br/>
           <li> <a href = 'https://storage.googleapis.com/kx-live-ih/images/concept_image_of_green_fuel_tank_i.2e16d0ba.fill-800x450.jpg' target = '_blank' rel="noopener noreferrer" >
           https://storage.googleapis.com/kx-live-ih/images/concept_image_of_green_fuel_tank_i.2e16d0ba.fill-800x450.jpg</a>
-          </li>
+          </li><br/>
+          <li><a href="https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200" target="_blank" rel="noopener noreferrer">
+          https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200</a>
+          </li><br/>
         </Accordion>
 
-        <br/>
 
         <Accordion title='Webmaster Documentation'>
           <a
             target = '_blank'
             href = 'https://docs.google.com/document/d/1_h7WowiRRRvjDwj-rpYkpdmEklpLRejEt-0l_H5ys-s/edit?usp=sharing'
+            rel="noopener noreferrer"
             >
             Webmaster Documentation
           </a><br/>

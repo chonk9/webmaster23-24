@@ -48,6 +48,13 @@ export default function CleanSolutionsVehicles() {
                                         can also gain energy back by recovering
                                         energy from breaking.
                                     </p>
+                                    <p>
+
+                                        Depending on when you bought your EV, 
+                                        what type of car you bought, and your income,
+                                        you can recieve thousands of dollars of tax credit back.
+                                        The IRS has a resource  <a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
+                                    </p>
 
                                     <Cost value="30,000+"></Cost>
                                 </>
