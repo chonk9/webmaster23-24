@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import WindAnimation from '../Components/windAnimation.js';
 import SunAnimation from '../Components/sunAnimation.js';
 import CarAnimation from '../Components/carAnimation.js';
@@ -25,7 +26,7 @@ export default function CleanSolutionsHome() {
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
-            <p>Check the map to see if your area has incentives for switching to wind power.</p>
+            <p><Link to="/tax-incentives"><b>Check the map</b></Link> to see if your area has incentives for switching to wind power.</p>
 
             <Cost value="3,000 to 5,000 per kW of power capacity ($15K to $75K total)"></Cost>
           </>}/>
@@ -40,7 +41,7 @@ export default function CleanSolutionsHome() {
               however, depending on your latitude, energy generation may fluctuate depending on the season.
               In addition, cloud coverage will affect power generation.</p>
             <p>Energy storage or a more reliable source of energy may be needed to supplement solar power.</p>
-            <p>Some states may have incentives for switching to solar so check out the map for more information.</p>
+            <p>Some states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
           
             <Cost value="18,000 to 37,000"></Cost>
           </>}/>

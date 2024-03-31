@@ -11,7 +11,7 @@ export default function Map() {
 
     const infoPopup = useRef(null);
 
-    return (<div className="map">
+    return (<div className="map" id="map">
         { selectedState !== null &&
             <InfoPopup ref={infoPopup} selectedState={selectedState} selectedCoords={selectedCoords}/>
         }

@@ -49,7 +49,6 @@ export default function CleanSolutionsVehicles() {
                                         energy from breaking.
                                     </p>
                                     <p>
-
                                         Depending on when you bought your EV, 
                                         what type of car you bought, and your income,
                                         you can recieve thousands of dollars of tax credit back.
@@ -77,17 +76,17 @@ export default function CleanSolutionsVehicles() {
                             textElt={
                                 <>
                                     <p>
-                                        Even if you can't switch to an EV, there are sill ways to be more enviromentally friendly.
-                                        You can use less fuel by driving less or driving more effciently.
+                                        Even if you can't switch to an EV, there are still plenty of ways to be more enviromentally friendly.
+                                        You can use less fuel by driving less or driving more efficiently.
                                         Walking and biking more, carpooling with other people, public transportation, 
-                                        and effcient planning can cut down on driving time.
+                                        and efficient planning can cut down on driving time.
                                         
                                     </p>
                                     <p>
                                         Acceleration and deacceleration costs more fuel than driving at a constant speed. 
                                         By accelerating slower and less often a lot of fuel can be saved.
-                                        In addition, poor car maintenance lessens fuel effciency, getting your car checked up will save you fuel in the long run.
-                                        Also, leaving your car on idle also uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
+                                        In addition, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
+                                        Also, leaving your car on idle uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
                                     </p>
 
                                     <Cost value="0 &#8212; You save money on fuel!"></Cost>
