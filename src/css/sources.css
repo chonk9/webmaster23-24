@@ -4,11 +4,11 @@
 }
 #sources .accordion-content .accordion-title{
     list-style-type: none;
-    background-color: rgb(34, 50, 104);
+    background-color: rgb(34, 74, 104);
 }
-/*change the colors if its bad, I just chose blue because of ocean*/
+
 .accordion-content .accordion-content{
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(151, 222, 255);
 }  
 #sources a {
     color: black;
