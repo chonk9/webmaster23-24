@@ -21,7 +21,7 @@ export default function Home() {
                 </video>
             </div>
 
-            <TextWrap wrappedSide="left" wrappedElt={
+            <TextWrap wrappedSide="left" space="2.5vw" wrappedElt={
                 <img src={environmentalHouse1} className="left-side-image" />
             } textElt={<>
                 <span className="side-heading">Clean Solutions</span>
@@ -46,7 +46,7 @@ export default function Home() {
                 }
             />
 
-            <TextWrap wrappedSide="right" wrappedElt={
+            <TextWrap wrappedSide="right" space="2.5vw" wrappedElt={
                 <img src={environmentalHouse2} className="right-side-image" />
             } textElt={<>
                 <span className="side-heading">Getting Started</span>
