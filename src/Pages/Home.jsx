@@ -4,7 +4,7 @@ import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
 import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
-import video from '../Videos/bannerVideo.mp4';
+import video from '../Videos/montage.mp4';
 
 export default function Home() {
     useEffect(() => {

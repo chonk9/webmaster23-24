@@ -109,15 +109,14 @@ ul li {
   position: fixed;
   height: 120%;
   opacity: 0;
-  width: calc(30vw - 36px - 2rem);
+  width: calc(18vw - 36px - 2rem);
   transition: transform 0.5s, opacity 0.5s linear;
   background-clip: content-box;
 }
 
 .sidebar.active {
   opacity: 1;
-  transform: translateX(84vw);
-  width: 230px;
+  transform: translateX(82vw);
 }
 
 .sidecover {
