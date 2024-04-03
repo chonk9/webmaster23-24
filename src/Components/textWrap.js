@@ -5,9 +5,9 @@ export default function TextWrap(props) {
     let wrappedEltStyle = { float: props.wrappedSide, overflow: "auto" };
 
     if (props.wrappedSide.toLowerCase() === "right") {
-        wrappedEltStyle.marginLeft = "1.5vw";
+        wrappedEltStyle.marginLeft = props.space ?? "1.5vw";
     } else {
-        wrappedEltStyle.marginRight = "1.5vw";
+        wrappedEltStyle.marginRight = props.space ?? "1.5vw";
     }
 
     return (

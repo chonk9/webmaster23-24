@@ -32,8 +32,8 @@ export default function CleanSolutionsWaste() {
           </>} textElt={<>
             <p><b>Composting</b> is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
             The compost produced, when done correctly, is very good fertilizer for growing plants.
-            Food waste makes up <b>24%</b> of US landfills, which then contributes methane to the atmosphere from decomposition.
-            Composting the food instead would allow this food to be utilized and reduce emissions, water, and resource usage.
+            Food waste makes up <b>24%</b> of US landfills, which contributes methane to the atmosphere through decomposition.
+            Composting the food instead would allow it to be utilized and reduce emissions, water, and resource usage.
             </p>
             <p>
               For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
@@ -49,10 +49,12 @@ export default function CleanSolutionsWaste() {
             <img src={recyclingBin}></img>
           </>} textElt={<>
             <p>
-              Over a third of the world’s greenhouse gas emissions come from making materials that people use every day. These materials include
-              plastics, glasses, metals, and papers. We can reduce emissions significantly when recycling these items.
-              Electronics require a lot of specialized parts to make and the manufacturing of these materials produces lots of carbon emissions.
-              By recycling them, you save the earth and materials like glass, rare metals, and plastic.
+              Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
+              We can reduce these emissions by a significant amount when recycling them.
+            </p>
+            <p>
+            Electronics require a lot of specialized parts to make, and the manufacturing of the materials produces a lot of carbon emissions.
+              By recycling them, you save many materials such as glass, precious metals, and plastic.
             </p>
             <p>
               For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
