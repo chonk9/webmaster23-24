@@ -21,7 +21,11 @@
 }
 
 .accordion-content {
-    background-color: #efebce;
+    /*Timberwolf: #D6C9C9
+      Beige: #DCE2C8
+
+    */
+    background-color: #DCE2C8;
     text-align: left;
     display: block;
     overflow: hidden;
