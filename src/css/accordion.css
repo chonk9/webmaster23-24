@@ -23,13 +23,13 @@
 .accordion-content {
     /*Timberwolf: #D6C9C9
       Beige: #DCE2C8
-
+      #b1ccb1 is
     */
-    background-color: #DCE2C8;
+    background-color: #b1ccb1;
     text-align: left;
     display: block;
     overflow: hidden;
-    transition: height 0.5s ease-out;
+    transition: height 0.5s ease;
 }
 
 .accordion-content * {
