@@ -9,8 +9,7 @@ export default function AboutUs() {
       {/* <h2 href = 'https://drive.google.com/file/d/1Tpmt1L-KdeBobpTXHE_LaydE_HSHLC8p/view?usp=sharing'>Sources</h2> */}
       <div id='sources'>
         <br></br>
-        <Accordion title='Information'>
-          <Accordion title='General'> 
+          <Accordion title='General Information'> 
           <li><a href="https://www.whitehouse.gov/cleanenergy/" target="_blank" rel="noopener noreferrer">
             https://www.whitehouse.gov/cleanenergy/</a>
           </li><br/>
@@ -18,7 +17,7 @@ export default function AboutUs() {
             https://www.dsireusa.org/</a>
           </li><br/>
           </Accordion>
-          <Accordion title='Property'> 
+          <Accordion title='Property Information'> 
           <li><a href="https://www.energy.gov/energysaver/planning-home-renewable-energy-systems" target="_blank" rel="noopener noreferrer">
             https://www.energy.gov/energysaver/planning-home-renewable-energy-systems</a>
           </li><br/>
@@ -38,7 +37,7 @@ export default function AboutUs() {
           https://www.wsj.com/buyside/personal-finance/solar-panel-costs-7b343ca2</a>
           </li><br/>
           </Accordion>
-          <Accordion title='Vehicles'> 
+          <Accordion title='Vehicle Information'> 
           <li><a href="https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and" target="_blank" rel="noopener noreferrer">
           https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and</a>
           </li><br/>
@@ -49,7 +48,7 @@ export default function AboutUs() {
           https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after</a>
           </li><br/>
           </Accordion>
-          <Accordion title='Waste'> 
+          <Accordion title='Waste Information'> 
           <li><a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" target="_blank" rel="noopener noreferrer">
             https://www.epa.gov/recycle/electronics-donation-and-recycling</a>
           </li><br/>
@@ -67,7 +66,6 @@ export default function AboutUs() {
           </li><br/>
           </Accordion>
           <br/>
-        </Accordion>
 
 
         <Accordion title='Assets'>

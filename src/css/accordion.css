@@ -29,7 +29,7 @@
     text-align: left;
     display: block;
     overflow: hidden;
-    transition: height 0.5s ease;
+    transition: height 0.5s ease-out;
 }
 
 .accordion-content * {
