@@ -62,6 +62,7 @@ a:hover {
 .nav-link-center {
   width: 100%;
   display: flex;
+  /* translate: 15vw; */
   justify-content: center;
 }
 

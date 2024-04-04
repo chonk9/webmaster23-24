@@ -56,6 +56,7 @@ export default function Home() {
                 <p>
                     In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span className="fun-bold">Get started today</span> by learning about your choices.
                 </p>
+                <Link to='/tax-incentives'><button style={{marginTop: '1rem'}}>Learn about tax incentives</button></Link>
             </>}/>
         </div>
     );
