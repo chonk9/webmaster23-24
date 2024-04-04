@@ -33,6 +33,7 @@ export default function LeafReveal(props) {
     }, []);
 
     return (<div className="leaf-reveal" ref={container}>
+        <img className="side-leaf" src={leaf} />
         <div className="leaf-reveal-content">
             {props.content}
         </div>
