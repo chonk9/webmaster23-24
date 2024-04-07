@@ -28,7 +28,8 @@ export default function CleanSolutionsWaste() {
           <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" />
         
           <TextWrap wrappedSide="right" wrappedElt={<>
-            <img src={compostBin}></img>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5Iz-g9G2O4E?si=ELEqzezE1BIjjQnf" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </>} textElt={<>
             <p><b>Composting</b> is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
             The compost produced, when done correctly, is very good fertilizer for growing plants.
