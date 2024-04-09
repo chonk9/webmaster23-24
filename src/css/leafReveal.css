@@ -46,7 +46,7 @@
 
     .leaf-img {
         --width: 25%;
-        --right-shift: -15%;
+        --right-shift: -55%;
     
         width: var(--width);
         position: relative;
@@ -96,12 +96,10 @@
 
 @keyframes shift-leaf {
     0% {
-        left: -25%;
-        top: 0;
+        transform: translate(-100%, 0) rotate(0deg);
     }
     100% {
-        left: var(--right-shift);
-        transform: rotate(20deg);
+        transform: translate(var(--right-shift), -10%) rotate(20deg);
     }
 }
 
