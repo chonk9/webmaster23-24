@@ -125,7 +125,7 @@ export default function Navbar() {
                                     >
                                         <div className="padder">
                                             <ul className="big-header">
-                                                <li>
+                                                {/* <li>
                                                     <a
                                                         href="/clean-solutions-home"
                                                         element={
@@ -135,7 +135,7 @@ export default function Navbar() {
                                                     >
                                                         Property
                                                     </a>
-                                                </li>
+                                                </li> */}
                                                 <li>
                                                     <a
                                                         href="/clean-solutions-vehicles"
@@ -156,6 +156,39 @@ export default function Navbar() {
                                                         className="dropdown-links"
                                                     >
                                                         Waste
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions/solar"
+                                                        element={
+                                                            <CleanSolutionsHome />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Solar
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions/wind"
+                                                        element={
+                                                            <CleanSolutionsHome />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Wind
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions/geothermal"
+                                                        element={
+                                                            <CleanSolutionsHome />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        Geothermal
                                                     </a>
                                                 </li>
                                             </ul>
