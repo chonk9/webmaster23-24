@@ -25,6 +25,11 @@
     padding-left: 0.7rem;
 }
 
+.state-path {
+    --stroke-width: 0.2;
+    stroke-width: var(--stroke-width)
+}
+
 .state-path[data-state="Alaska"] {
     transform: translate(18%, 15%) scale(0.65, 0.95);
 }
@@ -35,6 +40,12 @@
 
 .state-path[data-state="Puerto Rico"], .state-path[data-state="U.S. Virgin Islands"] {
     transform: translate(-45%, -50%) scale(1.35);
+    stroke-width: calc(var(--stroke-width) / 1.35);
+}
+
+.state-path[data-state="District of Columbia"] {
+    transform: scale(4) translate(-73.52%, -60.11%);
+    stroke-width: calc(var(--stroke-width) / 4)
 }
 
 /* .state-path[data-state = 'Puerto Rico'] {
