@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
+import SunAnimation from '../Components/sunAnimation.js';
 
 import solarPanels from '../Images/solarPanels.webp'
 
@@ -12,6 +13,7 @@ export default function CleanSolutionsHome() {
     <div className="content">
       <div>
         <div className="solution">
+          <SolutionHeading visual={SunAnimation} solutionName="Solar Panels" cost={<Cost value="18,000 to 37,000"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={solarPanels}></img>
           </>} textElt={<>
@@ -21,9 +23,7 @@ export default function CleanSolutionsHome() {
             <p> In the long-term, power generation is relatively consistent and relatively are unintrusive as they can easily go onto your roof. 
               However, depending on your latitude, energy generation may fluctuate depending on the season.
               In addition, cloud coverage will affect power generation so energy storage or a backup source of energy may be needed to supplement solar power.</p>
-            <p>Some states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
-          
-            <Cost value="18,000 to 37,000 to install solar panels"></Cost>
+            <p>Many states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
           </>}/>
         </div>
 

@@ -38,6 +38,11 @@ export default function Footer({ currentYear }) {
                 Documentation
               </a>
             </li>
+            <li>
+              <a href='/about-us'>
+                About Us
+              </a>
+            </li>
           </ul>
         </li>
         <li className='sitemap'>
