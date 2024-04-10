@@ -13,6 +13,7 @@ export default function CleanSolutionsHome() {
     <div className="content">
       <div>
         <div className="solution">
+          <SolutionHeading solutionName="LED Lightbulbs" cost={<Cost value="4.75 per lightbulb per year (plus costs of replacing lightbulbs)"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={LED}></img>
           </>} textElt={<>
@@ -20,8 +21,6 @@ export default function CleanSolutionsHome() {
             In addition to being more efficient, they last way longer and they don't suddenly fail in the way incandescent and CFL's do. 
             Rather they experience "Lumen Deprecation" which means that they gradually become dimmer.
             The heat LEDs produce is absorbed into a heat sink which improves their performance and longevity.</p>
-          
-            <Cost value="$4.75 per lightbulb per year plus costs on replacing lightbulbs"></Cost>
           </>}/>
         </div>
 

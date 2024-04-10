@@ -41,7 +41,7 @@ export default function Home() {
                         <p>
                             All US States have many incentives encouraging the use of green energy systems!
                         </p>
-                        <Link to='/tax-incentives'><button style={{display: 'block', margin: 'auto'}}>See your state's Tax Incentives</button></Link>
+                        <Link to='/tax-incentives'><button style={{display: 'block', margin: 'auto'}}>See your state's tax incentives</button></Link>
                     </>
                 }
             />

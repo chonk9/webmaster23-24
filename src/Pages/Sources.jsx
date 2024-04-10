@@ -66,7 +66,9 @@ export default function AboutUs() {
           </li><br/>
           </Accordion>
           <Accordion title='Geothermal Information'>
-            
+            <li><a href="https://www.forbes.com/home-improvement/hvac/geothermal-heating-cooling-systems-cost/" target="_blank" rel="noopener noreferrer">
+            https://www.forbes.com/home-improvement/hvac/geothermal-heating-cooling-systems-cost/</a>
+            </li><br/>
           </Accordion>
           <br/>
 
