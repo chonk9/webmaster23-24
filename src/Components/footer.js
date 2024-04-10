@@ -14,7 +14,7 @@ export default function Footer({ currentYear }) {
           width='100'
           style={{verticalAlign: 'middle'}}
         />
-        Green Guardians
+        <span className="footer-site-name">Green Guardians</span>
       </a>
       <ul className='sitemap-container'>
         <li className='sitemap'>
@@ -68,47 +68,52 @@ export default function Footer({ currentYear }) {
             </li>
           </ul>
         </li>
-        <li className='sitemap'>
-          <p className="bold">Contact Us!</p>
-          <ul>
+      </ul>
+      <div className='footer-right'>
+        <ul>
+          <li className='sitemap'>
+            <p className="bold">Contact Us!</p>
+            <ul>
+              <li>
+                <a
+                  target='_blank'
+                  href='https://twitter.com/GreenGuardians5'
+                  rel='noreferrer'
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  target = '_blank'
+                  href = "mailto: greenguardians2024@gmail.com">
+                    Email
+                  </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sitemap">
+            <p className="bold">Usage</p>
+            <ul>
             <li>
               <a
                 target='_blank'
-                href='https://twitter.com/GreenGuardians5'
+                href='https://drive.google.com/file/d/1PzRVzHxgXCes--c3eZtT6DuMnAQdI5NP/view?usp=sharing'
                 rel='noreferrer'
               >
-                Twitter
+                Terms of Use
               </a>
             </li>
             <li>
               <a
-                target = '_blank'
-                href = "mailto: greenguardians2024@gmail.com">
-                  Email
-                </a>
+                href='https://drive.google.com/file/d/1GUqEs_yySuHH8o3znXPNBcVc737uHF1R/view?usp=sharing'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Privacy Policy
+              </a>
             </li>
-          </ul>
-        </li>
-      </ul>
-      <div className='footer-right'>
-        <ul>
-          <li>
-            <a
-              target='_blank'
-              href='https://drive.google.com/file/d/1PzRVzHxgXCes--c3eZtT6DuMnAQdI5NP/view?usp=sharing'
-              rel='noreferrer'
-            >
-              Terms of Use
-            </a>
-          </li>
-          <li>
-            <a
-              href='https://drive.google.com/file/d/1GUqEs_yySuHH8o3znXPNBcVc737uHF1R/view?usp=sharing'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Privacy Policy
-            </a>
+            </ul>
           </li>
           <li className='copyright'>
             <p2>© Green Guardians</p2>
