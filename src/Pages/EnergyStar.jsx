@@ -42,7 +42,8 @@ export default function CleanSolutionsHome() {
             <p>
             Industrial Plants-Provides resources to help industrial buildings meet Energy Star standards.
             </p>
-          
+            <br/>
+            For more information go to <a href='https://www.energystar.gov/' target="_blank" rel='noreferer'><b>https://www.energystar.gov/</b></a>
           </>}/>
         </div>
 

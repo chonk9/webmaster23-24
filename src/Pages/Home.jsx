@@ -25,7 +25,7 @@ export default function Home(props) {
                 </video>
             </div>
 
-            <TextWrap wrappedSide="left" space="2.5vw" wrappedElt={
+            <TextWrap wrappedSide="left" space="3.5vw" wrappedElt={
                 <img src={environmentalHouse1} className="left-side-image" />
             } textElt={<>
                 <span className="side-heading">Clean Solutions</span>
@@ -33,7 +33,10 @@ export default function Home(props) {
                     Here at Green Guardians, our mission is to help you make your life <span className="fun-bold">sustainable for the Earth</span> and <span className="fun-bold">sustainable for your finances</span>.
                 </p>
                 <p>
-                    You probably don't realize how many green options there are for your house, cars, and waste!
+                    You probably don't realize how many green options there are for <span className="fun-bold">every aspect of your life</span>, from your vehicles to your waste.
+                </p>
+                <p>
+                    We hope you'll adopt some of our green solutions to help <span className="fun-bold">keep the world green for everyone</span>.
                 </p>
                 <button style={{marginTop: '1rem'}} className="dropdown-control" onClick={exploreCleanSolutions}>Learn about our clean solutions</button>
             </>}/>
@@ -50,7 +53,7 @@ export default function Home(props) {
                 }
             />
 
-            <TextWrap wrappedSide="right" space="2.5vw" wrappedElt={
+            <TextWrap wrappedSide="right" space="3.5vw" wrappedElt={
                 <img src={environmentalHouse2} className="right-side-image" />
             } textElt={<>
                 <span className="side-heading">Getting Started</span>
@@ -60,7 +63,6 @@ export default function Home(props) {
                 <p>
                     In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span className="fun-bold">Get started today</span> by learning about your choices.
                 </p>
-                <Link to='/tax-incentives'><button style={{marginTop: '1rem'}}>Learn about tax incentives</button></Link>
             </>}/>
         </div>
     );

@@ -90,6 +90,13 @@ export default function Footer({ currentYear }) {
                     Email
                   </a>
               </li>
+              <li>
+                <a
+                  target = '_blank'
+                  href = "https://www.youtube.com/@GreenGuardians-2024">
+                    YouTube
+                  </a>
+              </li>
             </ul>
           </li>
           <li class="sitemap">
