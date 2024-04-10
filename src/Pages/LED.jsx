@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
+import ledBulb from '../Images/led-bulb.png';
 
 import LED from '../Images/LED.jpg'
 
+function ledIconComponent() {
+  return <img src={ledBulb} style={{width: '70px'}} />
+}
 
 export default function CleanSolutionsHome() {
   return (<>
@@ -13,7 +17,7 @@ export default function CleanSolutionsHome() {
     <div className="content">
       <div>
         <div className="solution">
-          <SolutionHeading solutionName="LED Lightbulbs" cost={<Cost value="4.75 per lightbulb per year (plus costs of replacing lightbulbs)"></Cost>} />
+          <SolutionHeading visual={ledIconComponent} solutionName="LED Lightbulbs" cost={<Cost value="4.75 per lightbulb per year (plus costs of replacing lightbulbs)"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={LED}></img>
           </>} textElt={<>

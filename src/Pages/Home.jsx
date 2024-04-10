@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
@@ -6,11 +6,15 @@ import environmentalHouse2 from "../Images/greenhome.jpg"
 import TextWrap from "../Components/textWrap";
 import video from '../Videos/montage.mp4';
 
-export default function Home() {
+export default function Home(props) {
     useEffect(() => {
         // scroll to the top of page, fixes bug where switching to page retains scroll position
         window.scrollTo(0, 0);
     }, []);
+
+    function exploreCleanSolutions() {
+        props.setDropdownRef.current(true);
+    }
     
     return (        
         <div className="home-container">     
@@ -31,7 +35,7 @@ export default function Home() {
                 <p>
                     You probably don't realize how many green options there are for your house, cars, and waste!
                 </p>
-                <Link to='/clean-solutions-home'><button style={{marginTop: '1rem'}}>Learn about our clean solutions</button></Link>
+                <button style={{marginTop: '1rem'}} className="dropdown-control" onClick={exploreCleanSolutions}>Learn about our clean solutions</button>
             </>}/>
 
             <LeafReveal

@@ -15,11 +15,12 @@ import LED from './Pages/LED'
 import Star from './Pages/EnergyStar'
 import Error from './Pages/404'
 import {Route, Routes} from "react-router-dom";
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
 function App() {
   const { pathname } = useLocation();
+  let setDropdownRef = useRef(() => {});
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,13 +28,13 @@ function App() {
 
   return (  
     <>
-      <Navbar />
+      <Navbar setDropdownRef={setDropdownRef} />
       <div className = "container">
         <Routes>
-          <Route path = "/" element = {<Home />} />
-          <Route path = "/clean-solutions-home" element = {< CleanSolutionsHome />} />
-          <Route path = "/clean-solutions-vehicles" element = {< CleanSolutionsVehicles />} />
-          <Route path = "/clean-solutions-waste" element = {< CleanSolutionsWaste />} />
+          <Route path = "/" element = {<Home setDropdownRef={setDropdownRef} />} />
+          <Route path = "/clean-solutions/home" element = {< CleanSolutionsHome />} />
+          <Route path = "/clean-solutions/vehicles" element = {< CleanSolutionsVehicles />} />
+          <Route path = "/clean-solutions/waste" element = {< CleanSolutionsWaste />} />
           <Route path = "/tax-incentives" element = {< TaxIncentives />} />
           <Route path = "/about-us" element = {<AboutUs />} />
           <Route path = "/sources" element = {<Sources />} />

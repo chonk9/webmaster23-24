@@ -7,12 +7,14 @@ import CleanSolutionsHome from "../Pages/CleanSolutionsHome";
 import CleanSolutionsVehicles from "../Pages/CleanSolutionsVehicles";
 import CleanSolutionsWaste from "../Pages/CleanSolutionsWaste";
 
-export default function Navbar() {
+export default function Navbar(props) {
     const [dropdown, setDropdown] = useState(false);
     const [sidebar, setSidebar] = useState(false);
     const contentRef = useRef();
     const btnRef = useRef();
     const toggleDropdown = () => setDropdown(!dropdown);
+    props.setDropdownRef.current = setDropdown;
+
     const toggle = useCallback(() => {
         // Prevents scrolling when sidebar is open
         if (sidebar) {
@@ -31,9 +33,11 @@ export default function Navbar() {
             document.removeEventListener("keydown", keyPress, false);
         };
     }, [toggle, sidebar]);
+
     useEffect(() => {
         // Closes dropdown when clicking outside of it
         const closeDropdown = (e) => {
+            if (e.target.classList.contains('dropdown-control')) return;
             if (
                 e.target &&
                 !e.target.contains(btnRef.current) &&
@@ -41,7 +45,9 @@ export default function Navbar() {
             )
                 setDropdown(false);
         };
+
         document.body.addEventListener("click", closeDropdown);
+        
         return () => document.body.removeEventListener("click", closeDropdown);
     }, [dropdown]);
     return (
@@ -141,7 +147,7 @@ export default function Navbar() {
                                                 </li> */}
                                                 <li>
                                                     <a
-                                                        href="/clean-solutions-vehicles"
+                                                        href="/clean-solutions/vehicles"
                                                         element={
                                                             <CleanSolutionsVehicles />
                                                         }
@@ -152,7 +158,7 @@ export default function Navbar() {
                                                 </li>
                                                 <li>
                                                     <a
-                                                        href="/clean-solutions-waste"
+                                                        href="/clean-solutions/waste"
                                                         element={
                                                             <CleanSolutionsWaste />
                                                         }

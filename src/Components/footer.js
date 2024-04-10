@@ -44,13 +44,22 @@ export default function Footer({ currentYear }) {
           <p className="bold">Solutions</p>
           <ul>
             <li>
-              <a href='/clean-solutions-home'>Home Solutions</a>
+              <a href='/clean-solutions/vehicles'>Vehicular Solutions</a>
             </li>
             <li>
-              <a href='/clean-solutions-vehicles'>Vehicular Solutions</a>
+              <a href='/clean-solutions/waste'>Waste Solutions</a>
             </li>
             <li>
-              <a href='/clean-solutions-waste'>Waste Solutions</a>
+              <a href='/clean-solutions/solar'>Solar Solutions</a>
+            </li>
+            <li>
+              <a href='/clean-solutions/wind'>Wind Solutions</a>
+            </li>
+            <li>
+              <a href='/clean-solutions/geothermal'>Geothermal Solutions</a>
+            </li>
+            <li>
+              <a href='/clean-solutions/led'>LED Solutions</a>
             </li>
           </ul>
         </li>

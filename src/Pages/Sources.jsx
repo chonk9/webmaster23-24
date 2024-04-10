@@ -17,7 +17,7 @@ export default function AboutUs() {
             https://www.dsireusa.org/</a>
           </li><br/>
           </Accordion>
-          <Accordion title='Property Information'> 
+          <Accordion title='Property Information (Wind + Solar)'> 
           <li><a href="https://www.energy.gov/energysaver/planning-home-renewable-energy-systems" target="_blank" rel="noopener noreferrer">
             https://www.energy.gov/energysaver/planning-home-renewable-energy-systems</a>
           </li><br/>
@@ -100,6 +100,9 @@ export default function AboutUs() {
           </li><br/>
           <li><a href="https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200" target="_blank" rel="noopener noreferrer">
           https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200</a>
+          </li><br/>
+          <li><a href="https://www.flaticon.com/free-icon/led-bulb_899422" target="_blank" rel="noopener noreferrer">
+          https://www.flaticon.com/free-icon/led-bulb_899422</a>
           </li><br/>
         </Accordion>
 
