@@ -25,7 +25,7 @@ export default function CleanSolutionsWaste() {
     <div className="content">
       <div>
         <div className="solution">
-          <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" />
+          <SolutionHeading visual={compostIconComponent} solutionName="Compost Bins" cost={<Cost value="20 to 400 (cost of compost bin)"></Cost>} />
         
           <TextWrap wrappedSide="right" wrappedElt={<>
             <iframe className="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/5Iz-g9G2O4E?si=ELEqzezE1BIjjQnf" title="YouTube video player" 
@@ -39,13 +39,11 @@ export default function CleanSolutionsWaste() {
             <p>
               For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
             </p>
-
-            <Cost value="20 to 400 (cost of compost bin)"></Cost>
           </>}/>
         </div>
         
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" />
+          <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" cost={<Cost value="10 to 30 (cost of recycling bin) + cost of recycling services in your area"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={recyclingBin}></img>
           </>} textElt={<>
@@ -61,8 +59,6 @@ export default function CleanSolutionsWaste() {
               For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
                 and <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
             </p>
-
-            <Cost value="10 to 30 (cost of recycling bin) + cost of recycling services in your area"></Cost>
           </>}/>
         </div>
       </div>

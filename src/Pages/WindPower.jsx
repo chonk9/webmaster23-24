@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
+import WindAnimation from '../Components/windAnimation.js';
 
 import windTurbine from '../Images/windFarm.jpg'
 
@@ -12,6 +13,7 @@ export default function CleanSolutionsHome() {
     <div className="content">
       <div>
         <div className="solution">
+        <SolutionHeading visual={WindAnimation} solutionName="Wind Power" cost={<Cost value="3,000 to 5,000 per kW of power capacity ($15K to $75K total)"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={windTurbine}></img>
           </>} textElt={<>

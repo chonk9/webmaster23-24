@@ -67,6 +67,12 @@ h2 {
     font-size: 1.5rem;
 }
 
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: green;
+}
+
 path.no-fill {
     fill: none;
 }
