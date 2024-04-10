@@ -22,7 +22,7 @@ export default function CleanSolutionsHome() {
           <TextWrap wrappedSide="right" wrappedElt={<>
             <img src={homeTurbine}></img>
           </>} textElt={<>
-            <p><b>Wind power</b> is created by converting the energy in wind to useable energy. 
+            <p><b>Wind power</b> is created by converting the energy in wind to usable energy. 
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
@@ -43,7 +43,7 @@ export default function CleanSolutionsHome() {
             <p>Energy storage or a more reliable source of energy may be needed to supplement solar power.</p>
             <p>Some states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
           
-            <Cost value="18,000 to 37,000"></Cost>
+            <Cost value="18,000 to 37,000 to install solar panels"></Cost>
           </>}/>
         </div>
 

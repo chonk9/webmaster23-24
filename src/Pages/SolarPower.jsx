@@ -23,7 +23,7 @@ export default function CleanSolutionsHome() {
               In addition, cloud coverage will affect power generation so energy storage or a backup source of energy may be needed to supplement solar power.</p>
             <p>Some states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
           
-            <Cost value="18,000 to 37,000"></Cost>
+            <Cost value="18,000 to 37,000 to install solar panels"></Cost>
           </>}/>
         </div>
 
