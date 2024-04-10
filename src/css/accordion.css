@@ -1,6 +1,6 @@
 .accordion {
     list-style-type: none;
-    background-color: #3c803c;
+    background-color: #0a652e;
 }
 
 .accordion-title {
@@ -23,7 +23,8 @@
 .accordion-content {
     /*Timberwolf: #D6C9C9
       Beige: #DCE2C8
-      #b1ccb1 is
+      #b1ccb1
+      
     */
     background-color: #b1ccb1;
     text-align: left;
