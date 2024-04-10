@@ -12,7 +12,7 @@ export default function CleanSolutionsHome() {
         <div className="solution">
           <TextWrap wrappedSide="left" wrappedElt={<>
           </>} textElt={<>
-            <p>The page you were looking for was not found.</p>
+            <p style={{width: 'fit-content', margin: 'auto', marginBottom: '2rem'}}>The page you were looking for was not found.</p>
             <Link to="/"><b>Back to Home</b></Link>
           
           </>}/>
