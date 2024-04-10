@@ -23,7 +23,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={CarAnimation}
                             solutionName="Electric Vehicles"
-                        />
+                            cost={<Cost value="20 to 400 (cost of compost bin)"></Cost>} />
                         <TextWrap
                             wrappedSide="Right"
                             wrappedElt={
@@ -54,8 +54,6 @@ export default function CleanSolutionsVehicles() {
                                         you can receive thousands of dollars of tax credit back.
                                         The IRS has a resource  <a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
                                     </p>
-
-                                    <Cost value="40000+ (on average) for a new EV"></Cost>
                                 </>
                             }
                         />
@@ -65,6 +63,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={steeringWheelIconComponent}
                             solutionName="Fuel Conservation"
+                            cost = {<Cost value="0 &#8212; You save money on fuel!"></Cost>}
                         />
                         <TextWrap
                             wrappedSide="Left"
@@ -89,7 +88,6 @@ export default function CleanSolutionsVehicles() {
                                         Also, leaving your car on idle uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
                                     </p>
 
-                                    <Cost value="0 &#8212; You save money on fuel!"></Cost>
                                 </>
                             }
                         />
