@@ -104,7 +104,7 @@ function State(props) {
         document.addEventListener('mousedown', clickListener);
     }
 
-    return (<path className="state-path" data-state={props.name} d={props.path} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={onClick} fill={(isHovering || isSelected) ? '#3e853d' : '#3fa13d'} strokeWidth="0.1" stroke="black"/>)
+    return (<path className="state-path" data-state={props.name} d={props.path} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={onClick} fill={(isHovering || isSelected) ? '#3e853d' : '#3fa13d'} strokeWidth="0.2" stroke="black"/>)
 }
 
 function StatePaths(props) {

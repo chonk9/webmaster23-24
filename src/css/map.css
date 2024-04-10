@@ -33,6 +33,10 @@
     transform: translate(20%, -2%);
 }
 
+.state-path[data-state="Puerto Rico"], .state-path[data-state="U.S. Virgin Islands"] {
+    transform: translate(-45%, -50%) scale(1.35);
+}
+
 /* .state-path[data-state = 'Puerto Rico'] {
     transform: scale(2, 2);
 } */
