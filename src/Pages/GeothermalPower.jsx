@@ -41,6 +41,7 @@ export default function CleanSolutionsHome() {
               for a possible open loop system.
               Lastly, land availability is important as it decides which type of geothermal energy loop to use.
             </p>
+            <p>Some states have incentives for adopting geothermal, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>
           
           </>}/>
         </div>

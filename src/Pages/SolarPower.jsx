@@ -1,15 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import WindAnimation from '../Components/windAnimation.js';
-import SunAnimation from '../Components/sunAnimation.js';
-import CarAnimation from '../Components/carAnimation.js';
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
 
-import homeTurbine from '../Images/homeTurbine.jpg'
 import solarPanels from '../Images/solarPanels.webp'
-import electricVehicle from '../Images/electric-vehicle.jpg'
 
 export default function CleanSolutionsHome() {
   return (<>

@@ -191,6 +191,17 @@ export default function Navbar() {
                                                         Geothermal
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a
+                                                        href="/clean-solutions/LED"
+                                                        element={
+                                                            <CleanSolutionsHome />
+                                                        }
+                                                        className="dropdown-links"
+                                                    >
+                                                        LED Lights
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>

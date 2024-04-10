@@ -11,6 +11,7 @@ import Sources from './Pages/Sources';
 import SolarPower from './Pages/SolarPower'
 import WindPower from './Pages/WindPower'
 import GeothermalPower from './Pages/GeothermalPower'
+import LED from './Pages/LED'
 import {Route, Routes} from "react-router-dom";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -37,6 +38,7 @@ function App() {
           <Route path = "/clean-solutions/solar" element = {<SolarPower/>}/>
           <Route path = "/clean-solutions/wind" element = {<WindPower/>}/>
           <Route path = "/clean-solutions/geothermal" element = {<GeothermalPower/>}/>
+          <Route path = "/clean-solutions/LED" element = {<LED/>}/>
         </Routes> 
       </div>
 
