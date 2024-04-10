@@ -92,6 +92,22 @@ ul li {
   }
 }
 
+@media screen and (max-width: 700px) {
+
+  img.logo {
+    display: none;
+  }
+
+  .sitemap-container {
+    padding-left: 0;
+  }
+
+  button.burger {
+    display: none;
+  }
+
+}
+
 .sidebar-links {
   list-style: none;
   font-size: 1.5rem;

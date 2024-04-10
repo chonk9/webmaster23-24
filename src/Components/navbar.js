@@ -52,10 +52,6 @@ export default function Navbar(props) {
     }, [dropdown]);
     return (
         <>
-            {/* <div
-                className={classNames("tint", { "active-tint": sidebar })}
-                onClick={toggle}
-            /> */}
             <div className={classNames("sidebar", { active: sidebar })}>
                 <ul className="sidebar-links">
                     <li>

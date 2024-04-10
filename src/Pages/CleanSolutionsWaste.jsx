@@ -45,7 +45,8 @@ export default function CleanSolutionsWaste() {
         <div className="solution">
           <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Bins" cost={<Cost value="10 to 30 (cost of recycling bin) + cost of recycling services in your area"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
-            <img src={recyclingBin}></img>
+            <iframe className = 'youtube-video' width="560" height="315" src="https://www.youtube.com/embed/nl4HCnIoFJs?si=Daw_E7f0g50LdYe4" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </>} textElt={<>
             <p>
               Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
