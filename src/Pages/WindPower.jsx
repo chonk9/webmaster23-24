@@ -21,7 +21,9 @@ export default function CleanSolutionsHome() {
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>
-            <p>Personal wind turbines to power individual houses are becoming increasingly popular because they are effective alternatives to solar panels. These turbines take up little space on your property and may generate a significant fraction of the power you use in a day.
+            <p>Personal wind turbines to power individual houses are becoming increasingly popular because they are effective alternatives to solar panels. 
+              These turbines take up little space on your property and may generate a significant fraction of the power you use in a day.
+              In addition, you can always petition your local or state government to adopt wind power.
             </p>
           
           </>}/>
