@@ -65,6 +65,9 @@ export default function AboutUs() {
           https://www.lawnstarter.com/blog/lawn-care-2/composting-101-how-to-start-your-first-compost-pile/</a>
           </li><br/>
           </Accordion>
+          <Accordion title='Geothermal Information'>
+            
+          </Accordion>
           <br/>
 
 
