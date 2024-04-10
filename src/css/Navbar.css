@@ -106,7 +106,7 @@ ul li {
     display: none;
   }
 
-  .navBody {
+  .nav-link-center {
     overflow: auto;
     white-space: nowrap;
   }
