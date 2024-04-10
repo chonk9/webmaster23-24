@@ -98,7 +98,7 @@ export default function Footer({ currentYear }) {
           </li>
           <li>
             <a
-              href='https://drive.google.com/file/d/1m4CfLg5RNU-1KcHG6czoMFThQESgLDOz/view?usp=sharing'
+              href='https://drive.google.com/file/d/1GUqEs_yySuHH8o3znXPNBcVc737uHF1R/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
