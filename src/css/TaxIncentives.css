@@ -87,8 +87,12 @@ td {
   margin-bottom: 0.5rem;
 }
 
-a {
+.national-table-dropdown a {
   font-size: 1em;
   text-decoration: none;
-  color: green;
+  color: rgb(3, 81, 51);
+}
+
+.national-table-dropdown a:hover {
+  color: rgb(1, 37, 24);
 }

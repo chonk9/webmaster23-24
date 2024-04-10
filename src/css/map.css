@@ -26,9 +26,15 @@
 }
 
 .state-path {
-    --stroke-width: 0.2;
+    --stroke-width: 0.25;
     transform: translate(-52%, -60%) scale(1.5);
     stroke-width: calc(var(--stroke-width) / 1.5);
+    transition: fill 0.15s;
+}
+
+.state-path.selected {
+    /* Styling for selected states */
+    /* Color change in map.js */
 }
 
 .state-path[data-state="Alaska"] {

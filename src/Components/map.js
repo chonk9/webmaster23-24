@@ -86,6 +86,7 @@ function State(props) {
 
     function onClick(e) {
         setIsSelected(true);
+        e.target.classList.add('selected');
         props.setSelectedState(props.name);
         props.setSelectedCoords([e.pageX, e.pageY]);
 
@@ -94,6 +95,7 @@ function State(props) {
                 document.removeEventListener('mousedown', clickListener);
             } else if (!props.infoPopup.current.contains(clickEvent.target)) {
                 setIsSelected(false);
+                e.target.classList.remove('selected');
                 props.setSelectedState(null);
                 props.setSelectedCoords(null);
 

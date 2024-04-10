@@ -23,6 +23,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={CarAnimation}
                             solutionName="Electric Vehicles"
+                            cost={<Cost value="30,000+"></Cost>}
                         />
                         <TextWrap
                             wrappedSide="Right"
@@ -54,8 +55,6 @@ export default function CleanSolutionsVehicles() {
                                         you can receive thousands of dollars of tax credit back.
                                         The IRS has a resource  <a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
                                     </p>
-
-                                    <Cost value="30,000+"></Cost>
                                 </>
                             }
                         />
@@ -65,6 +64,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={steeringWheelIconComponent}
                             solutionName="Fuel Conservation"
+                            cost={<Cost value="0 &#8212; You save money on fuel!"></Cost>}
                         />
                         <TextWrap
                             wrappedSide="Left"
@@ -88,8 +88,6 @@ export default function CleanSolutionsVehicles() {
                                         In addition, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
                                         Also, leaving your car on idle uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
                                     </p>
-
-                                    <Cost value="0 &#8212; You save money on fuel!"></Cost>
                                 </>
                             }
                         />
