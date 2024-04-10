@@ -92,9 +92,24 @@ ul li {
   }
 }
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 580px) {
   img.logo {
+    display: none;
+  }
+
+  .name-of-company, .logo-link {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navBody * {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  button.burger {
     display: none;
   }
 
@@ -102,15 +117,10 @@ ul li {
     padding-left: 0;
   }
 
-  button.burger {
-    display: none;
+  .nav-links {
+    column-gap: 0.6rem;
+    margin-right: auto;
   }
-
-  .navBody {
-    overflow: auto;
-    white-space: nowrap;
-  }
-
 }
 
 .sidebar-links {
@@ -177,6 +187,7 @@ ul li {
   .nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 1;
     padding: 20px;
   }
@@ -261,7 +272,7 @@ ul li {
 }
 
 .dropdown-content {
-  width: 150px;
+  width: fit-content;
   height: 0;
   overflow: hidden;
   position: absolute;
