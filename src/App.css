@@ -101,6 +101,12 @@ path.no-fill {
     margin: 2.5vw;
 }
 
+@media screen and (max-width: 450px) {
+    :root {
+        font-size: 16px !important;
+    }
+}
+
 p {
     font-weight: 400;
     color: rgb(8, 74, 35);
