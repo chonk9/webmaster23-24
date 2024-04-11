@@ -101,7 +101,7 @@ export default function Navbar(props) {
                                     <a href="/tax-incentives">Incentives</a>
                                 </li>
                                 <li>
-                                    <a href="/EnergyStar">EnergyStar</a>
+                                    <a href="/EnergyStar">Energy Star</a>
                                 </li>
                                 <li>
                                     <div className="dropdown">
