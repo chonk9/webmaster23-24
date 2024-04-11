@@ -26,7 +26,7 @@ export default function AboutUs() {
       which are caused by our world's changing climate. Soon, our air will be unbreathable. But this can all stop if we start working to 
       use more clean energy practices. We can start to reverse the damage that's been done. We can start to heal the planet. But it doesn't take one person. 
       It takes all of us. And we here at Green Guardians are optimistic about our future. We're all about clean energy. It's going to be a big part of our future,
-      abd we're here to help you navigate. 
+      and we're here to help you navigate. 
       <br></br>
       <br></br>
       <br></br>
@@ -35,7 +35,7 @@ export default function AboutUs() {
 
     <br></br>
 
-    <h2>Made with ReactJS.</h2>
+    <h2>Made with ReactJS for the 2023-2024 TSA Webmaster Competition</h2>
 
     <br></br>
 
