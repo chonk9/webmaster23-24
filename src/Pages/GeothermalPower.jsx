@@ -5,7 +5,11 @@ import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
 
 import geotherm from '../Images/geothermal.jpg'
+import geothermImg from '../Images/geothermal.png'
 
+function geoIconComponent() {
+  return <img src={geothermImg} style={{width: '70px'}} />
+}
 
 export default function CleanSolutionsGeothermal() {
   return (<>
@@ -13,7 +17,7 @@ export default function CleanSolutionsGeothermal() {
     <div className="content">
       <div>
         <div className="solution">
-          <SolutionHeading solutionName="Geothermal Power" cost={<Cost value="17,000 to 32,000"></Cost>} />
+          <SolutionHeading visual={geoIconComponent} solutionName="Geothermal Power" cost={<Cost value="17,000 to 32,000"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={geotherm} height="auto" width="100"></img>
           </>} textElt={<>
