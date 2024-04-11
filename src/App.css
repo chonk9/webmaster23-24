@@ -107,6 +107,16 @@ path.no-fill {
     }
 }
 
+@media screen and (min-width: 2000px) {
+    :root {
+        font-size: 32px !important;
+    }
+
+    .home-container .wrapped-elt {
+        width: 40% !important;
+    }
+}
+
 p {
     font-weight: 400;
     color: rgb(8, 74, 35);
