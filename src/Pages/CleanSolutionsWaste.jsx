@@ -39,11 +39,11 @@ export default function CleanSolutionsWaste() {
               We can reduce these emissions by a significant amount by employing the Waste Management Hierarchy.
               The EPA has developed this Hierarchy (seen on the left) to help show the public that all waste management methods 
               should be used and that one method is not universal. The methods shown on the top are the most preferred and are 
-              best for the environment, while ones seen at the bottom aren't as efficient.
+              best for the environment, while ones seen at the bottom aren't as nearly as efficient.
             </p>
             <br/>
             <p>
-              The hierarchy can be seen here at
+              The hierarchy can also be seen here at
               <a href='https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy' target="_blank" rel='noreferer'><b> https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy</b></a>
             </p>
           </>}/>
@@ -53,12 +53,12 @@ export default function CleanSolutionsWaste() {
           <TextWrap wrappedSide="left" wrappedElt={<>
           </>} textElt={<>
             <p>
-              Using only as much as you need prevents the materials and effort spent on making products from being wasted. 
+              Using only as much as you need prevents materials and effort spent on making products from being wasted. 
               This can be done by many ways such as using products for longer, buying in bulk to reduce packing materials, 
               or by buying products from businesses that use eco-friendly packaging. Reusing products also helps toward 
-              lessening your enviromental impact. You can help by donating or using donated goods. Buying secondhand is 
+              lessening your environmental impact. You can help by donating or using donated goods. Buying secondhand is 
               also a good option. Both of these methods are fully able to either prevent wasting of materials, or recover the 
-              full usage of the materials spent, saving both the earth and your pocket.
+              full usage of the materials spent, saving both the Earth and your pocket.
             </p>
             <br/>
             <p>
@@ -76,8 +76,8 @@ export default function CleanSolutionsWaste() {
             <p>
             After reducing and reusing, recycling is the next best option. While some materials and greenhouse gases would be 
             emitted while being recycled, the materials gain a new life in the form of a new product. Many local areas/developments 
-            have programs to provide recycling services. While these services do cost money, it's relatively inexpensive. 
-            It is important to not that not everything is able to be fully recycled, but recycling still is able to save loads 
+            have programs to provide recycling services. While these services do cost money, it's relatively inexpensive and very eco-friendly. 
+            It is important to not that not everything is able to be fully recycled, but recycling still is able to save lots 
             of materials from piling up in our landfills.
             </p>
             <br/>
@@ -96,12 +96,12 @@ export default function CleanSolutionsWaste() {
               Electronics require a lot of specialized parts to make, and the manufacturing of electronics produces a lot of carbon 
               emissions. By recycling electronics like phones and computers, you save many materials that include precious metals and 
               plastics. Electronics that aren't properly recycled end up in landfills, where the batteries can corrode, leading to 
-              massive pollution in our land. The lithium ion batteries must also be properly disposed of, or there is a risk of fire. 
+              massive pollution in our land. The lithium ion batteries must also be properly disposed of, or there is a risk of fire being started. 
             </p>
             <p>
-              The best way to save these materials in the first place is to not buy more electronics than you need. You can update 
-              software or repair your devices rather than buy new electronics. If you have to buy a new electronic, make sure to 
-              prepare your old device for recycling. This can be done by wiping all personal information on the device and removing 
+              The best way to save these materials is to not buy more electronics than you need. You can update 
+              software or repair your devices instead of immediately buying new electronics. If you have to buy a new device, make sure to 
+              properly prepare your old device for recycling. This can be done by wiping all personal information on the device and removing 
               the battery if possible. Your township of residence should have instructions on how to recycle old devices. 
             </p>
             <p>
@@ -118,7 +118,7 @@ export default function CleanSolutionsWaste() {
           </>} textElt={<>
             <p><b>Composting</b> is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
             The compost produced, when done correctly, is a great fertilizer. Food waste makes up <b>24%</b> of US landfills, which 
-            contributes methane to the atmosphere. Composting food and waste instead would allow it to be utilized, reducing emissions, water, and waste.
+            contributes lots of methane to the atmosphere. Composting food and waste instead would allow it to be utilized, reducing emissions, water, and waste.
             </p>
             <p>
               For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
