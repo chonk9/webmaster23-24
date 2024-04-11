@@ -55,8 +55,8 @@ export default function Sources() {
     "https://renewablepedia.com/wp-content/uploads/geothermal-energy-1-300x200.jpg",
     "https://cdn.thewirecutter.com/wp-content/media/2024/02/smartledlightbulbs-2048px-07782-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=980&dpr=2",
     "https://www.flaticon.com/free-icon/geothermal_2675029",
-    "https://www.flaticon.com/free-icon/bin_2602735"
-
+    "https://www.flaticon.com/free-icon/bin_2602735",
+    "https://www.freepik.com/icon/incineration_10703747"
   ];
   return(<>
     <h1>Works Cited</h1>

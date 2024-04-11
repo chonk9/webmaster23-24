@@ -3,6 +3,7 @@ import WindAnimation from '../Components/windAnimation.js';
 import SunAnimation from '../Components/sunAnimation.js';
 import RecycleIcon from '../Images/RecycleIcon.png'
 import CompostBin from '../Images/CompostBin.png'
+import EnergyIcon from '../Images/energy.png';
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js'
@@ -12,13 +13,19 @@ import Cost from '../Components/cost.js'
 // import electricVehicle from '../Images/electric-vehicle.jpg'
 import bin from '../Images/bin.png'
 import triangle from '../Images/wastemanagement.png'
+
 import '../css/CleanSolutionsWaste.css'
+
 function recycleIconComponent() {
   return <img src={RecycleIcon} style={{width: '70px'}} />
 }
 
 function compostIconComponent() {
   return <img src={CompostBin} style={{width: '70px'}} />
+}
+
+function energyIconComponent() {
+  return <img src={EnergyIcon} style={{height: '85px'}} />
 }
 
 function trashIconComponent() {
@@ -126,7 +133,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={trashIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
+          <SolutionHeading visual={energyIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
