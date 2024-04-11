@@ -17,15 +17,15 @@ export default function CleanSolutionsHome() {
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={homeTurbine}></img>
           </>} textElt={<>
-            <p><b>Wind power</b> is created by converting the energy in wind to useable energy. 
-            This can be done by using sails, windmills, and more recently, wind turbines.</p>
+            <p><b>Wind power</b> is created by using wind to generage useable energy. 
+            This can be done by using sails, windmills and wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
-              and energy storage to create a reliable stream of energy.</p>
-            <p>Personal wind turbines to power individual houses are becoming increasingly popular because they are effective alternatives to solar panels. 
-              These turbines take up little space on your property and may generate a significant fraction of the power you use in a day.
-              In addition, you can always petition your local or state government to adopt wind power.
+              and/or energy storage to create a reliable stream of energy.</p>
+            <p>Personal wind turbines to power individual houses are becoming increasingly popular because they are effective 
+              alternatives to solar panels, which can be expensive. These turbines take up little space on your property and 
+              may generate a significant fraction of the power you use in a day. In addition, you can always petition your 
+              local or state government to adopt wind power.
             </p>
-          
           </>}/>
         </div>
 

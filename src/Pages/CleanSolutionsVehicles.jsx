@@ -23,7 +23,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={CarAnimation}
                             solutionName="Electric Vehicles"
-                            cost={<Cost value="20 to 400 (cost of compost bin)"></Cost>} />
+                            cost={<Cost value="40000+ on average for an EV, but you can get up to 7500 in tax credit"></Cost>} />
                         <TextWrap
                             wrappedSide="Right"
                             wrappedElt={
@@ -36,15 +36,15 @@ export default function CleanSolutionsVehicles() {
                                     <p>
                                         <b>Electric Vehicles or 'EVs'</b> use
                                         electricity as a power source. This can
-                                        be done with solar panels, by converting
-                                        fuel into energy with fuel cells or
-                                        generators, or with a charged battery.
+                                        be done with solar panels by converting
+                                        fuel into energy with fuel cells, 
+                                        generators, or a charged battery.
                                     </p>
                                     <p>
                                         The advantage with EVs is that they can
                                         get energy from a variety of sources
                                         instead of just fossil fuels like with
-                                        traditional vehicles. In addition, EVs
+                                        traditional gas-powered vehicles. In addition, EVs
                                         can also gain energy back by recovering
                                         energy from breaking.
                                     </p>
@@ -82,12 +82,12 @@ export default function CleanSolutionsVehicles() {
                                         
                                     </p>
                                     <p>
-                                        Acceleration and deacceleration costs more fuel than driving at a constant speed. 
-                                        By accelerating slower and less often a lot of fuel can be saved.
-                                        In addition, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
-                                        Also, leaving your car on idle uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.
+                                        Accelerating and decelerating costs more fuel than driving at a constant speed, so accelerating slower and less 
+                                        often can save you fuel which saves the Earth.
+                                        Additionally, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
+                                        Also, leaving your car on idly will waste all the gas. Try turning off your car's engine when you're parked
+                                        or waiting for someone. 
                                     </p>
-
                                 </>
                             }
                         />
