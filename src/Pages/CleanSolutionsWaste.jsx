@@ -84,7 +84,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Electronics" />
+          <SolutionHeading visual={recycleIconComponent} solutionName="Recycling Electronics" cost={<Cost value="0, but you save lots of valuable materials from the trash"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
@@ -122,7 +122,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Energy Recovery" />
+          <SolutionHeading visual={recycleIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
@@ -139,7 +139,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Treatment and Disposal" />
+          <SolutionHeading visual={recycleIconComponent} solutionName="Treatment and Disposal" cost={<Cost value="Possibly increased maintenance costs but better for the Earth in the long run"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
