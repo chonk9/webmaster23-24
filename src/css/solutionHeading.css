@@ -1,0 +1,19 @@
+@media screen and (max-width: 530px) {
+    .solution-heading {
+        flex-direction: column;
+    }
+
+    .cost-super-container {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .cost-container .cost-symbol {
+        font-size: 2.4rem !important;
+    }
+
+    .cost-container .cost-value {
+        font-size: 0.9rem !important;
+        margin-top: 0.4rem !important;
+    }
+}

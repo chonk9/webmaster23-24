@@ -23,8 +23,8 @@ export default function CleanSolutionsWind() {
               and/or energy storage to create a reliable stream of energy.</p>
             <p>Personal wind turbines to power individual houses are becoming increasingly popular because they are effective 
               alternatives to solar panels, which can be expensive. These turbines take up little space on your property and 
-              may generate a significant fraction of the power you use in a day. In addition, you can always petition your 
-              local or state government to adopt wind power.
+              may generate a significant fraction of the power you use in a day. In addition, you can petition for your 
+              local or state government to adopt wind power on a larger scale.
             </p>
           </>}/>
         </div>

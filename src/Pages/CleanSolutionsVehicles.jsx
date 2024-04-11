@@ -23,7 +23,7 @@ export default function CleanSolutionsVehicles() {
                         <SolutionHeading
                             visual={CarAnimation}
                             solutionName="Electric Vehicles"
-                            cost={<Cost value="40000+ on average for an EV, but you can get up to 7500 in tax credit"></Cost>} />
+                            cost={<Cost value="40,000+ on average for an EV, but you can get up to 7500 in tax credit"></Cost>} />
                         <TextWrap
                             wrappedSide="Right"
                             wrappedElt={
