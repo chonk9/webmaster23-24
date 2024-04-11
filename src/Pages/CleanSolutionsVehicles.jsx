@@ -52,7 +52,7 @@ export default function CleanSolutionsVehicles() {
                                         Depending on when you bought your EV, 
                                         what type of car you bought, and your income,
                                         you can receive thousands of dollars of tax credit back.
-                                        The IRS has a resource  <a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
+                                        The IRS has a resource  <a href="https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
                                     </p>
                                 </>
                             }
