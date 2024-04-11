@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import LeafReveal from "../Components/leafReveal";
 import environmentalHouse1 from "../Images/environmentalHouse.jpg";
-import environmentalHouse2 from "../Images/greenhome.jpg"
+import environmentalHouse2 from "../Images/turbinedPaneledHouse.jpg"
 import TextWrap from "../Components/textWrap";
 import video from '../Videos/montage.mp4';
 
