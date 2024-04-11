@@ -4,9 +4,6 @@ import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
 import ledBulb from '../Images/led-lamp.png';
-
-import LED from '../Images/LED.jpg'
-
 function ledIconComponent() {
   return <img src={ledBulb} style={{width: '70px'}} />
 }
