@@ -77,16 +77,15 @@ export default function CleanSolutionsVehicles() {
                                     <p>
                                         Even if you can't switch to an EV, there are still plenty of ways to be more environmentally friendly.
                                         You can use less fuel by driving less or driving more efficiently.
-                                        Walking and biking more, carpooling with other people, public transportation, 
+                                        Walking and biking more, carpooling with other people, public transportation 
                                         and efficient planning can cut down on driving time.
                                         
                                     </p>
                                     <p>
                                         Accelerating and decelerating costs more fuel than driving at a constant speed, so accelerating slower and less 
-                                        often can save you fuel which saves the Earth.
-                                        Additionally, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
-                                        Also, leaving your car on idly will waste all the gas. Try turning off your car's engine when you're parked
-                                        or waiting for someone. 
+                                        often can save you fuel, also saving the Earth. Additionally, poor car maintenance lessens fuel efficiency, so 
+                                        getting your car checked up will save you fuel in the long run. Also, leaving your car on idly will waste gas, so 
+                                        try turning off your car's engine when you're parked or waiting for someone. 
                                     </p>
                                 </>
                             }
