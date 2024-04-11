@@ -12,7 +12,7 @@ export default function AboutUs() {
       storms to be more intense, more droughts and heat waves to occur, and sea levels to increase, displacing many people.
     </p>
     <p>
-      In the 2015 Paris Agreement, the world agreed on trying to keep temperature increase under 2.0 °C {"\n"}(3.8 °F).
+      In the 2015 Paris Agreement, the world agreed to try to keep temperature increase under 2.0 °C {"\n"}(3.8 °F).
       However, even if everyone abides by the Paris Agreement, global warming would still reach about 2.7 °C (4.9 °F) by 2100.
       If we want to reach this goal, we would need to halve emissions by the end of this decade and reach net zero emissions by 2050.
     </p>

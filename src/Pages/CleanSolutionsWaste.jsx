@@ -69,8 +69,8 @@ export default function CleanSolutionsWaste() {
             <p>
             After reducing and reusing, recycling is the next best option. 
             While some materials and greenhouse gases would be used/emitted, the materials gain a new life in the form of a new product.
-            Many local areas have programs to give recycling bins and guides to help you know what is able to be recycled.
-            While not everything is able to be fully recycled, recycling still is able to save loads of materials and greenhouse gases.
+            Many local areas have programs to give recycling bins and guides to help you know what can be recycled.
+            While not everything can be fully recycled, recycling still can save loads of materials and greenhouse gases.
             </p>
             <br/>
             <p>
@@ -116,7 +116,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Energy Recovery" />
+          <SolutionHeading visual={compostIconComponent} solutionName="Energy Recovery" />
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
@@ -131,7 +131,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Treatment and Disposal" />
+          <SolutionHeading visual={compostIconComponent} solutionName="Treatment and Disposal" />
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
