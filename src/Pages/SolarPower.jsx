@@ -15,7 +15,8 @@ export default function CleanSolutionsSolar() {
         <div className="solution">
           <SolutionHeading visual={SunAnimation} solutionName="Solar Panels" cost={<Cost value="18,000 to 37,000 to install solar panels"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
-            <img src={solarPanels}></img>
+            <iframe className= 'youtube-video' width="560" height="315" src="https://www.youtube.com/embed/WUVxi2bQDCE?si=DAG2tu8BUPKWsQ8X" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </>} textElt={<>
             <p><b>Solar power</b> converts sunlight into energy. This source of energy is practically infinite and doesn't 
             generate greenhouse gases beyond the making the solar panels. The carbon footprint made when creating them is expected 
