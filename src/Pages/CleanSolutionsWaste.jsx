@@ -7,9 +7,10 @@ import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js'
 
-import compostBin from '../Images/compostbin.jpg'
-import recyclingBin from '../Images/recycling-bin.jpg'
-import electricVehicle from '../Images/electric-vehicle.jpg'
+// import compostBin from '../Images/compostbin.jpg'
+// import recyclingBin from '../Images/recycling-bin.jpg'
+// import electricVehicle from '../Images/electric-vehicle.jpg'
+import bin from '../Images/bin.png'
 import triangle from '../Images/wastemanagement.png'
 import '../css/CleanSolutionsWaste.css'
 function recycleIconComponent() {
@@ -20,6 +21,9 @@ function compostIconComponent() {
   return <img src={CompostBin} style={{width: '70px'}} />
 }
 
+function trashIconComponent() {
+  return <img src={bin} style={{width: '70px'}} />
+}
 export default function CleanSolutionsWaste() {
   return (<>
     <h1>Clean Solutions For Waste</h1>
@@ -122,7 +126,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
+          <SolutionHeading visual={trashIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
@@ -139,7 +143,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={recycleIconComponent} solutionName="Treatment and Disposal" cost={<Cost value="Possibly increased maintenance costs but better for the Earth in the long run"></Cost>}/>
+          <SolutionHeading visual={trashIconComponent} solutionName="Treatment and Disposal" cost={<Cost value="Possibly increased maintenance costs but better for the Earth in the long run"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
