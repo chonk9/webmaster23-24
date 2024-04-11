@@ -34,7 +34,7 @@ export default function CleanSolutionsWaste() {
               Over a third of the world’s greenhouse gas emissions come from making materials that people use every day.
               We can reduce these emissions by a significant amount by using the Waste Management Hierarchy.
               The EPA has developed this Hierarchy seen on the left to help show the public that all waste management methods should be used and that one method is not universal.
-              The methods at the top are the most preferred and are the best for the enviroment.
+              The methods at the top are the most preferred and are the best for the environment.
             </p>
             <br/>
             <p>
@@ -49,9 +49,9 @@ export default function CleanSolutionsWaste() {
           </>} textElt={<>
             <p>
               Lessening usage prevents the materials and effort spent on making the products in the first place. 
-              This can be done by many ways such as using products for longer, buying in bulk to reduce packing materials, or by buying products from businesses that are reducing materials spent on manufacturing.
-              Reusing products also helps a lot toward lessening your enviromental impact. You can help by donating or using donated goods. Buying secondhand is also a good option.
-              Both of these methods are fully able to either prevent or recover the full useage of the materials spent.
+              This can be done in many ways such as using products for longer, buying in bulk to reduce packing materials, or in buying products from businesses that are reducing materials spent on manufacturing.
+              Reusing products also helps a lot toward lessening your environmental impact. You can help by donating or using donated goods. Buying secondhand is also a good option.
+              Both of these methods are fully able to either prevent or recover the full use of the materials spent.
             </p>
             <br/>
             <p>
@@ -106,7 +106,7 @@ export default function CleanSolutionsWaste() {
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </>} textElt={<>
             <p><b>Composting</b> is the controlled decomposition of organic materials by using bacteria and other microorganisms. 
-            The compost produced, when done correctly, is very good fertilizer for growing plants.
+            The compost produced, when done correctly, is a very good fertilizer for growing plants.
             Food waste makes up <b>24%</b> of US landfills, which contributes methane to the atmosphere through decomposition.
             Composting the food instead would allow it to be utilized and reduce emissions, water, and resource usage.
             </p>
@@ -121,9 +121,9 @@ export default function CleanSolutionsWaste() {
             
           </>} textElt={<>
             <p>
-            Energy recovery is the conversion of non-recyclable waste into useable energy through a variety of processes, including combustion, gasification, pyrolization, anaerobic digestion.
+            Energy recovery is the conversion of non-recyclable waste into usable energy through a variety of processes, including combustion, gasification, pyrolization, and anaerobic digestion.
             Converting these materials into energy generates energy and reduces carbon emissions by offsetting the need for energy from nonrenewable sources and also reduces the potential greenhouse gases these materials could generate while decomposing. 
-            After energy is recovered the ashes are sent to a land fill.
+            After energy is recovered the ashes are sent to a landfill.
             </p>
             <p>
               For more detailed information and statistics go to <a href='https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw' target="_blank" rel='noreferer'><b>https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw </b></a>
@@ -136,7 +136,7 @@ export default function CleanSolutionsWaste() {
             
           </>} textElt={<>
             <p>
-            Some types of waste and be treated to reduce their impact on the enviroment. These treatments could be incinerating, anaerobic digesting, or even shredding the waste.
+            Some types of waste and be treated to reduce their impact on the environment. These treatments could be incinerating, anaerobic digesting, or even shredding the waste.
             Next, the waste is then thrown into landfills. Landfills are not just places for garbage to be thrown into. Modern maintained landfills are made with regulations and requirements for waste disposal.
             These are not like the open pits of the past. These landfills can collect methane to use for energy, and when full, can be converted to useable land for things like parks and other outdoor areas.
             </p>

@@ -7,7 +7,7 @@ import SunAnimation from '../Components/sunAnimation.js';
 
 import solarPanels from '../Images/solarPanels.webp'
 
-export default function CleanSolutionsHome() {
+export default function CleanSolutionsSolar() {
   return (<>
     <h1>Solar Power</h1>
     <div className="content">
@@ -21,7 +21,7 @@ export default function CleanSolutionsHome() {
             The carbon footprint made when creating them is expected to go down as recycled materials and cleaner manufacturing are being used by more and more manufacturers of solar panels.
             You can also save lots of money by switching to solar energy!
               </p>
-            <p> In the long-term, power generation is relatively consistent and relatively are unintrusive as they can easily go onto your roof. 
+            <p> In the long-term, power generation is relatively consistent and relatively unintrusive as they can easily go onto your roof. 
               However, depending on your latitude, energy generation may fluctuate depending on the season.
               In addition, cloud coverage will affect power generation so energy storage or a backup source of energy may be needed to supplement solar power.</p>
             <p>Many states have incentives for switching to solar, so <Link to="/tax-incentives"><b>check out the map</b></Link> for more cost information.</p>

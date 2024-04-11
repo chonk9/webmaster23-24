@@ -7,7 +7,7 @@ import WindAnimation from '../Components/windAnimation.js';
 
 import homeTurbine from '../Images/homeTurbine.jpg'
 
-export default function CleanSolutionsHome() {
+export default function CleanSolutionsWind() {
   return (<>
     <h1>Wind Power</h1>
     <div className="content">
@@ -17,7 +17,7 @@ export default function CleanSolutionsHome() {
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={homeTurbine}></img>
           </>} textElt={<>
-            <p><b>Wind power</b> is created by converting the energy in wind to useable energy. 
+            <p><b>Wind power</b> is created by converting the energy in wind to usable energy. 
             This can be done by using sails, windmills, and more recently, wind turbines.</p>
             <p>Wind power is very sustainable but inconsistent and requires other sources of energy 
               and energy storage to create a reliable stream of energy.</p>

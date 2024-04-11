@@ -41,7 +41,7 @@ export default function CleanSolutionsVehicles() {
                                         generators, or with a charged battery.
                                     </p>
                                     <p>
-                                        The advantage with EVs is that they can
+                                        The advantage of EVs is that they can
                                         get energy from a variety of sources
                                         instead of just fossil fuels like with
                                         traditional vehicles. In addition, EVs
@@ -75,14 +75,14 @@ export default function CleanSolutionsVehicles() {
                             textElt={
                                 <>
                                     <p>
-                                        Even if you can't switch to an EV, there are still plenty of ways to be more enviromentally friendly.
+                                        Even if you can't switch to an EV, there are still plenty of ways to be more environmentally friendly.
                                         You can use less fuel by driving less or driving more efficiently.
                                         Walking and biking more, carpooling with other people, public transportation, 
                                         and efficient planning can cut down on driving time.
                                         
                                     </p>
                                     <p>
-                                        Acceleration and deacceleration costs more fuel than driving at a constant speed. 
+                                        Acceleration and deceleration costs more fuel than driving at a constant speed. 
                                         By accelerating slower and less often a lot of fuel can be saved.
                                         In addition, poor car maintenance lessens fuel efficiency, so getting your car checked up will save you fuel in the long run.
                                         Also, leaving your car on idle uses gas. If you idle your car a lot, the gas usage will add up. Try idling your car less often.

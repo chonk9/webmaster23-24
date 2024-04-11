@@ -2,7 +2,7 @@ import React from 'react'
 import Accordion from '../Components/Accordion.js';
 import '../css/sources.css';
 
-export default function AboutUs() {
+export default function Sources() {
   const sources=[
     "https://www.whitehouse.gov/cleanenergy/",
     "https://www.dsireusa.org/",
