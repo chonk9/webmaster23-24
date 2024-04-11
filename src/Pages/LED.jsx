@@ -21,7 +21,7 @@ export default function CleanSolutionsLed() {
           </>} textElt={<>
             <p><b>LED</b> lightbulbs waste less energy on producing UV rays and heat,, which produces light up to 90% more 
             efficiently than your typical incandescent light bulbs. In addition to being more efficient, they last way longer and
-            don't suddenly fail in the way incandescent and compact fluorescent lightbulbs do. Instead, they experience "Lumen Deprecation" which 
+            don't suddenly fail in the way incandescent and compact fluorescent lightbulbs do. Instead, they experience "lumen deprecation" which 
             means that they gradually become dimmer. The thermal energy LEDs produce is absorbed into a heat sink which improves 
             their performance and longevity.</p>
           </>}/>
