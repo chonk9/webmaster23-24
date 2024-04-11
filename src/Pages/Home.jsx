@@ -61,7 +61,10 @@ export default function Home(props) {
                     One of the biggest sources of hesitation for people when planning home green energy initiatives is <span className="fun-bold">the cost</span>.
                 </p>
                 <p>
-                    In reality, you don't need to empty your wallet to make cost-effective changes to your house. <span className="fun-bold">Get started today</span> by learning about your choices.
+                    In reality, you don't need to empty your wallet to make cost-effective changes to your house. In fact, there are many green choices that can <span className="fun-bold">reduce your spendings</span>.
+                </p>
+                <p>
+                Get started today by learning about your choices.
                 </p>
             </>}/>
         </div>
