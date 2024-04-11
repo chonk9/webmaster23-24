@@ -1,8 +1,7 @@
 import React from 'react';
-import WindAnimation from '../Components/windAnimation.js';
-import SunAnimation from '../Components/sunAnimation.js';
 import RecycleIcon from '../Images/RecycleIcon.png'
 import CompostBin from '../Images/CompostBin.png'
+import EnergyIcon from '../Images/energy.png';
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js'
@@ -12,13 +11,19 @@ import Cost from '../Components/cost.js'
 // import electricVehicle from '../Images/electric-vehicle.jpg'
 import bin from '../Images/bin.png'
 import triangle from '../Images/wastemanagement.png'
+
 import '../css/CleanSolutionsWaste.css'
+
 function recycleIconComponent() {
   return <img src={RecycleIcon} style={{width: '70px'}} />
 }
 
 function compostIconComponent() {
   return <img src={CompostBin} style={{width: '70px'}} />
+}
+
+function energyIconComponent() {
+  return <img src={EnergyIcon} style={{height: '85px'}} />
 }
 
 function trashIconComponent() {
@@ -44,7 +49,7 @@ export default function CleanSolutionsWaste() {
             <br/>
             <p>
               The hierarchy can also be seen here at
-              <a href='https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy' target="_blank" rel='noreferer'><b> https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy</b></a>
+              <a href='https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy' target="_blank" rel='noreferrer'><b> https://www.epa.gov/smm/sustainable-materials-management-non-hazardous-materials-and-waste-management-hierarchy</b></a>
             </p>
           </>}/>
         </div>
@@ -63,7 +68,7 @@ export default function CleanSolutionsWaste() {
             <br/>
             <p>
               For additional information go to 
-              <a href='https://www.epa.gov/recycle/reducing-and-reusing-basics' target="_blank" rel='noreferer'><b> https://www.epa.gov/recycle/reducing-and-reusing-basics</b></a>
+              <a href='https://www.epa.gov/recycle/reducing-and-reusing-basics' target="_blank" rel='noreferrer'><b> https://www.epa.gov/recycle/reducing-and-reusing-basics</b></a>
             </p>
           </>}/>
         </div>
@@ -83,7 +88,7 @@ export default function CleanSolutionsWaste() {
             <br/>
             <p>
               For more information go to 
-              <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' target="_blank" rel='noreferer'><b> https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
+              <a href='https://www.epa.gov/recycle/recycling-basics-and-benefits' target="_blank" rel='noreferrer'><b> https://www.epa.gov/recycle/recycling-basics-and-benefits</b></a>
             </p>
           </>}/>
         </div>
@@ -105,7 +110,7 @@ export default function CleanSolutionsWaste() {
               the battery if possible. Your township of residence should have instructions on how to recycle old devices. 
             </p>
             <p>
-              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
+              For more information go to <a href='https://www.epa.gov/recycle/electronics-donation-and-recycling' target="_blank" rel='noreferrer'><b>https://www.epa.gov/recycle/electronics-donation-and-recycling </b></a>
             </p>
           </>}/>
         </div>
@@ -121,12 +126,12 @@ export default function CleanSolutionsWaste() {
             contributes lots of methane to the atmosphere. Composting food and waste instead would allow it to be utilized, reducing emissions, water, and waste.
             </p>
             <p>
-              For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferer'><b>https://www.epa.gov/recycle/composting-home</b></a>
+              For more information see <a href='https://www.epa.gov/recycle/composting-home' target="_blank" rel='noreferrer'><b>https://www.epa.gov/recycle/composting-home</b></a>
             </p>
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={trashIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
+          <SolutionHeading visual={energyIconComponent} solutionName="Energy Recovery" cost={<Cost value="0 and you also get cheaper energy"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
@@ -138,7 +143,7 @@ export default function CleanSolutionsWaste() {
             the ashes are processed down even more so they can break down safely in the landfills.
             </p>
             <p>
-              For more detailed information and statistics go to <a href='https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw' target="_blank" rel='noreferer'><b>https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw </b></a>
+              For more detailed information and statistics go to <a href='https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw' target="_blank" rel='noreferrer'><b>https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw </b></a>
             </p>
           </>}/>
         </div>
@@ -155,7 +160,7 @@ export default function CleanSolutionsWaste() {
             to use for energy, and when full, can be converted to useable land for things like parks and other recreational areas.
             </p>
             <p>
-              If you want to learn more about modern landfills go to <a href='https://www.epa.gov/landfills' target="_blank" rel='noreferer'><b>https://www.epa.gov/landfills </b></a>
+              If you want to learn more about modern landfills go to <a href='https://www.epa.gov/landfills' target="_blank" rel='noreferrer'><b>https://www.epa.gov/landfills </b></a>
             </p>
           </>}/>
         </div>
