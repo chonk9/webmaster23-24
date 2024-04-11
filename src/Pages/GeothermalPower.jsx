@@ -17,7 +17,7 @@ export default function CleanSolutionsGeothermal() {
     <div className="content">
       <div>
         <div className="solution">
-          <SolutionHeading visual={geoIconComponent} solutionName="Geothermal Power" cost={<Cost value="17,000 to 32,000"></Cost>} />
+          <SolutionHeading visual={geoIconComponent} solutionName="Geothermal Power" cost={<Cost value="Average of 17,000 to 32,000 to install geothermal power system"></Cost>} />
           <TextWrap wrappedSide="left" wrappedElt={<>
             <img src={geotherm} height="auto" width="100"></img>
           </>} textElt={<>

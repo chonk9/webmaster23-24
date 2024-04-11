@@ -148,7 +148,7 @@ export default function CleanSolutionsWaste() {
           </>}/>
         </div>
         <div className="solution">
-          <SolutionHeading visual={trashIconComponent} solutionName="Treatment and Disposal" cost={<Cost value="Possibly increased maintenance costs but better for the Earth in the long run"></Cost>}/>
+          <SolutionHeading visual={trashIconComponent} solutionName="Treatment and Disposal" cost={<Cost value="Increased maintenance costs but better for the Earth in the long run"></Cost>}/>
           <TextWrap wrappedSide="right" wrappedElt={<>
             
           </>} textElt={<>
