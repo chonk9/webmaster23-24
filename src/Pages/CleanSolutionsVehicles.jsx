@@ -41,7 +41,7 @@ export default function CleanSolutionsVehicles() {
                                         generators, or a charged battery.
                                     </p>
                                     <p>
-                                        The advantage with EVs is that they can
+                                        The advantage of EVs is that they can
                                         get energy from a variety of sources
                                         instead of just fossil fuels like with
                                         traditional gas-powered vehicles. In addition, EVs
@@ -52,7 +52,7 @@ export default function CleanSolutionsVehicles() {
                                         Depending on when you bought your EV, 
                                         what type of car you bought, and your income,
                                         you can receive thousands of dollars of tax credit back.
-                                        The IRS has a resource  <a href="https://www.dsireusa.org/" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
+                                        The IRS has a resource  <a href="https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after" target="_blank" rel="noopener noreferrer"><b>here</b></a> for more detailed information.
                                     </p>
                                 </>
                             }
@@ -75,7 +75,7 @@ export default function CleanSolutionsVehicles() {
                             textElt={
                                 <>
                                     <p>
-                                        Even if you can't switch to an EV, there are still plenty of ways to be more enviromentally friendly.
+                                        Even if you can't switch to an EV, there are still plenty of ways to be more environmentally friendly.
                                         You can use less fuel by driving less or driving more efficiently.
                                         Walking and biking more, carpooling with other people, public transportation, 
                                         and efficient planning can cut down on driving time.

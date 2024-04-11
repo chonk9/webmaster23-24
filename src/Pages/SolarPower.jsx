@@ -7,7 +7,7 @@ import SunAnimation from '../Components/sunAnimation.js';
 
 import solarPanels from '../Images/solarPanels.webp'
 
-export default function CleanSolutionsHome() {
+export default function CleanSolutionsSolar() {
   return (<>
     <h1>Solar Power</h1>
     <div className="content">

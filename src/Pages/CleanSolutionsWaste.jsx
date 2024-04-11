@@ -35,7 +35,7 @@ export default function CleanSolutionsWaste() {
               We can reduce these emissions by a significant amount by employing the Waste Management Hierarchy.
               The EPA has developed this Hierarchy (seen on the left) to help show the public that all waste management methods 
               should be used and that one method is not universal. The methods shown on the top are the most preferred and are 
-              best for the enviroment, while ones seen at the bottom aren't as efficient.
+              best for the environment, while ones seen at the bottom aren't as efficient.
             </p>
             <br/>
             <p>
