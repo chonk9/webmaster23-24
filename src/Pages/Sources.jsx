@@ -51,7 +51,7 @@ export default function Sources() {
     "https://amazingarchitecture.com/articles/how-to-make-your-home-more-energy-efficient-and-futuristic",
     "https://storage.googleapis.com/kx-live-ih/images/concept_image_of_green_fuel_tank_i.2e16d0ba.fill-800x450.jpg",
     "https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200",
-    "https://www.flaticon.com/free-icon/led-bulb_899422",
+    "https://www.flaticon.com/free-icon/led-lamp_735338",
     "https://renewablepedia.com/wp-content/uploads/geothermal-energy-1-300x200.jpg",
     "https://cdn.thewirecutter.com/wp-content/media/2024/02/smartledlightbulbs-2048px-07782-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=980&dpr=2"
 

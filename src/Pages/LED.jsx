@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import TextWrap from '../Components/textWrap.js';
 import SolutionHeading from '../Components/solutionHeading.js';
 import Cost from '../Components/cost.js';
-import ledBulb from '../Images/led-bulb.png';
+import ledBulb from '../Images/led-lamp.png';
 
 import LED from '../Images/LED.jpg'
 
