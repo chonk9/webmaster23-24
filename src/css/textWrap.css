@@ -1,7 +1,11 @@
 @media (max-width: 600px) {
     .wrapped-elt {        
-        width: 95% !important;
+        width: 100% !important;
         margin-bottom: 1rem;
+    }
+
+    .home-container .wrapped-elt {
+        width: 95% !important;
     }
 
     .wrapped-elt[data-wrap-direction="left"] {
