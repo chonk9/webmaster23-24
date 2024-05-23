@@ -40,8 +40,8 @@ export default function AboutUs() {
     <br></br>
 
     <h2>Team Members</h2>
-    <p>Team ID: 2098-901</p>  
-    <p>Members: 2098-003, 2098-005, 2098-006</p>
+    <p>Team ID: 2284-1</p>  
+    <p>Members: 958694, 716189, 824992</p>
 
   </div>);
 
